@@ -1,0 +1,993 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="review-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id><journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id><journal-id journal-id-type="publisher-id">ijms</journal-id><journal-title-group><journal-title>International Journal of Molecular Sciences</journal-title></journal-title-group><issn pub-type="epub">1422-0067</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">37047273</article-id><article-id pub-id-type="pmc">10094409</article-id><article-id pub-id-type="doi">10.3390/ijms24076301</article-id><article-id pub-id-type="publisher-id">ijms-24-06301</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Chitinase Signature in the Plasticity of Neurodegenerative Diseases</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6709-4537</contrib-id><name><surname>Russo</surname><given-names>Cristina</given-names></name><xref rid="af1-ijms-24-06301" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9728-3542</contrib-id><name><surname>Valle</surname><given-names>Maria Stella</given-names></name><xref rid="af2-ijms-24-06301" ref-type="aff">2</xref><xref rid="c1-ijms-24-06301" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0180-4695</contrib-id><name><surname>Casabona</surname><given-names>Antonino</given-names></name><xref rid="af2-ijms-24-06301" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5171-7963</contrib-id><name><surname>Malaguarnera</surname><given-names>Lucia</given-names></name><xref rid="af1-ijms-24-06301" ref-type="aff">1</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Michetti</surname><given-names>Fabrizio</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-ijms-24-06301"><label>1</label>Section of Pathology, Department of Biomedical and Biotechnological Sciences, School of Medicine, University of Catania, 95123 Catania, Italy</aff><aff id="af2-ijms-24-06301"><label>2</label>Laboratory of Neuro-Biomechanics, Section of Physiology, Department of Biomedical and Biotechnological Sciences, School of Medicine, University of Catania, 95123 Catania, Italy</aff><author-notes><corresp id="c1-ijms-24-06301"><label>*</label>Correspondence: <email>m.valle@unict.it</email></corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>3</month><year>2023</year></pub-date><pub-date pub-type="collection"><month>4</month><year>2023</year></pub-date><volume>24</volume><issue>7</issue><elocation-id>6301</elocation-id><history><date date-type="received"><day>27</day><month>2</month><year>2023</year></date><date date-type="rev-recd"><day>23</day><month>3</month><year>2023</year></date><date date-type="accepted"><day>24</day><month>3</month><year>2023</year></date></history><permissions><copyright-statement>&#x000a9; 2023 by the authors.</copyright-statement><copyright-year>2023</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Several reports have pointed out that Chitinases are expressed and secreted by various cell types of central nervous system (CNS), including activated microglia and astrocytes. These cells play a key role in neuroinflammation and in the pathogenesis of many neurodegenerative disorders. Increased levels of Chitinases, in particular Chitotriosidase (CHIT-1) and chitinase-3-like protein 1 (CHI3L1), have been found increased in several neurodegenerative disorders. Although having important biological roles in inflammation, to date, the molecular mechanisms of Chitinase involvement in the pathogenesis of neurodegenerative disorders is not well-elucidated. Several studies showed that some Chitinases could be assumed as markers for diagnosis, prognosis, activity, and severity of a disease and therefore can be helpful in the choice of treatment. However, some studies showed controversial results. This review will discuss the potential of Chitinases in the pathogenesis of some neurodegenerative disorders, such as Alzheimer&#x02019;s disease, Parkinson&#x02019;s disease, amyotrophic lateral sclerosis, and multiple sclerosis, to understand their role as distinctive biomarkers of neuronal cell activity during neuroinflammatory processes. Knowledge of the role of Chitinases in neuronal cell activation could allow for the development of new methodologies for downregulating neuroinflammation and consequently for diminishing negative neurological disease outcomes.</p></abstract><kwd-group><kwd>Alzheimer&#x02019;s disease</kwd><kwd>Parkinson&#x02019;s disease</kwd><kwd>amyotrophic lateral sclerosis</kwd><kwd>multiple sclerosis</kwd><kwd>glycohydrolase family 18</kwd><kwd>neuroinflammation</kwd><kwd>Chitotriosidase</kwd><kwd>chitinase-3-like 1</kwd></kwd-group><funding-group><award-group><funding-source>PNRR: &#x0201c;Health Extended Alliance for Innovative Therapies, Advanced Lab-research, and Integrated Approaches of Precision&#x0201d;</funding-source><award-id>E63C22002080006</award-id></award-group><funding-statement>This research was founded by PNRR: &#x0201c;Health Extended Alliance for Innovative Therapies, Advanced Lab-research, and Integrated Approaches of Precision&#x0201d; CUP: E63C22002080006.</funding-statement></funding-group></article-meta></front><body><sec sec-type="intro" id="sec1-ijms-24-06301"><title>1. Introduction</title><p>Neurodegenerative disorders (NDDs) include various pathological conditions, such as Alzheimer&#x02019;s disease (AD), Parkinson&#x02019;s disease (PD), dementia with Lewy bodies (DLB), amyotrophic lateral sclerosis (ALS), and multiple sclerosis (MS) [<xref rid="B1-ijms-24-06301" ref-type="bibr">1</xref>]. NDDs can be classified as pyramidal and extrapyramidal movement disorders that cause either increased movements or reduced or slow movements [<xref rid="B2-ijms-24-06301" ref-type="bibr">2</xref>]. In these different NDDS, there is a specific contribution of glial dysfunction, causing cognitive, psychomotor, and behavioral impairment, as in physiological conditions, glia are key factors in protecting the brain, furnishing nutrients and structural support for neurons in the central nervous system (CNS). Various factors encompassing genetic predisposition as well as environmental and metabolic factors contribute to NDD progression. Moreover, oxidative stress, mitochondrial dysfunction, calcium (Ca<sup>2+</sup>) influx, glutamate toxicity, proteolytic stress, protein aggregation, neuroinflammation, and neuronal death are the main molecular and cellular abnormalities associated with NDDs as a whole [<xref rid="B3-ijms-24-06301" ref-type="bibr">3</xref>]. In many NDD microglia activations, synaptic and glial dysfunctions are the initial pathological event. Therefore, synaptic and glial dysfunctions and changes of networks between these cells characterize NDDs [<xref rid="B4-ijms-24-06301" ref-type="bibr">4</xref>]. An accurate assessment of synaptic damage and glial dysfunction is indispensable to identify the physiopathology of neurodegeneration, to track disease evolution, and to obtain prognostic data. The diagnosis of neurodegenerative disorders is frequently hard because of the paucity of diagnostic tools, common pathological indicators, and comorbidities. Chitinases have been differently associated with neurologic disorder physiopathology hallmarks. Mammalian Chitinases belong mainly to the glycohydrolase family 18 [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. These enzymes hydrolyze the glycosidic bond of chitin, an important structural constituent of fungi, nematodes, and arthropods [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. Chitin is composed of linear &#x003b2;-1,4-linked <italic toggle="yes">N</italic>-acetylglucosamine (GlcNAc) units. Since many plants and animals employ Chitinases in their immune defense against chitin-containing pathogens, Chitinases are ubiquitous in nature [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. The human genome encodes several Chitinase enzymes, able to degrade chitin encountered through consumption of breathing. Chitinases participate in nutrition, parasitism, morphogenesis, and immunity [<xref rid="B6-ijms-24-06301" ref-type="bibr">6</xref>]. In humans, Chitinases have been distinguished in endochitinases, exochitinases, and chitobiases. These three classes are grouped on the basis of their catalytically active sites and action. Chitinases include members both with and without glycohydrolase enzymatic activity against chitin. Chitotriosidase (CHIT-1) and chitinase acid [<xref rid="B7-ijms-24-06301" ref-type="bibr">7</xref>] are true Chitinases possessing chitinolytic activity to degrade chitin [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. Inactive Chitinases lacking enzymatic activity, totally or partially, are termed chitinase-like proteins (CLP) or chilectins (ChiLs) [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. Nevertheless, these groups of enzymes have well-maintained active-site carbohydrate binding and, therefore, are involved in several regulatory functions [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. To date, four ChiLs have been identified in humans, termed chitinase-3-like 1 (CHI3L1), chitinase-3-like 2 (CHI3L2), oviductal glycoprotein 1 (OVGP1), and chitinase domain-containing protein-1 or stabilin-1 [<xref rid="B6-ijms-24-06301" ref-type="bibr">6</xref>]. They are deficient in chitin-hydrolyzing activity but possess cytokine-like and growth factor-like properties. CHI3L1 (also known as YKL40, or human cartilage glycoprotein-39, HC-gp39), shows enzymatic activity despite the retention and conservation of the substrate-binding cleft of the Chitinases [<xref rid="B6-ijms-24-06301" ref-type="bibr">6</xref>]. ChiLs are involved in various processes such as tissue remodeling and injury [<xref rid="B8-ijms-24-06301" ref-type="bibr">8</xref>]. The human Chitinase family has been extensively exanimated due to their excessive secretion into the serum or overexpression in tissues that are chronically inflamed [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. Elevated levels of true Chitinases have been reported in a variety of diseases including infections, chronic inflammation, degenerative disorders, and cancer [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>]. Active true Chitinase mammalian ChiLs are involved in immunomodulation, a pathological condition with an inflammatory pathogenesis [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>,<xref rid="B6-ijms-24-06301" ref-type="bibr">6</xref>,<xref rid="B9-ijms-24-06301" ref-type="bibr">9</xref>,<xref rid="B10-ijms-24-06301" ref-type="bibr">10</xref>]. Several investigations detected the dynamic changes of Chitinases in cerebrospinal fluid (CSF) as an expression of microglia activation and synaptic and glial dysfunctions, possibly related to cognitive impairment. CHIT-1 and CHI3L1 have been the most investigated from the clinical and biological perspectives of a variety of inflammation-prone brain diseases. Among the Chitinase family, they have been recognized as markers of neuroinflammation in a variety of neurological diseases [<xref rid="B11-ijms-24-06301" ref-type="bibr">11</xref>,<xref rid="B12-ijms-24-06301" ref-type="bibr">12</xref>,<xref rid="B13-ijms-24-06301" ref-type="bibr">13</xref>]. Nevertheless, another Chitinase, CHI3L2, has been involved in neuroinflammation pathogenesis of neurodegenerative diseases [<xref rid="B14-ijms-24-06301" ref-type="bibr">14</xref>,<xref rid="B15-ijms-24-06301" ref-type="bibr">15</xref>]. In this review, we summarize the available data on Chitinase expression patterns as well as on their contribution in glial cells and plasticity and other less well-characterized roles. Moreover, we propose a mechanism for their involvement in synaptic damage and neurodegeneration and assess their potential as CSF biomarkers for neurodegenerative diseases.</p></sec><sec id="sec2-ijms-24-06301"><title>2. Chitin and Chitinase Induction in Alzheimer&#x02019;s Disease (AD)</title><p>AD is one of the most common neurodegenerative diseases worldwide [<xref rid="B16-ijms-24-06301" ref-type="bibr">16</xref>]. It is a progressive neurodegenerative condition resulting in the regression of intellectual capabilities, memory loss, and spatial disorientation due to neuronal cell damage in higher brain centers [<xref rid="B16-ijms-24-06301" ref-type="bibr">16</xref>]. The pathogenesis of AD mainly includes deposition of amyloid-beta (A&#x003b2;) protein and deposition of neurofibrillary tangles (NFTs) of tau proteins, which increase inflammatory response with accumulation of reactive oxygen species (ROS). Moreover, hormonal disorders, genetic predisposition, mitochondrial dysfunction, lack of neurotropic factors, metal ion dynamic equilibrium disorder, calcium toxicity, and acetylcholine (ACh) deficiency [<xref rid="B17-ijms-24-06301" ref-type="bibr">17</xref>] contribute to the development of AD [<xref rid="B16-ijms-24-06301" ref-type="bibr">16</xref>]. Originally, it was thought that chitin was absent in vertebrates, including humans. Only in the last decade has chitin been recognized as an element present also in humans. Basically, the increase of light chitin debris takes place in subjects with low Chitinase activity, as a result of peripheral fungal infections, or when rapid synthesis of hyaluronan occurs. Some studies have shown that chitin, being toxic for neurons, can also be involved in AD pathogenesis. Chitin is an insoluble molecule and a substrate for glycan&#x02013;protein interactions. In the brain, chitin could facilitate nucleation of amyloid proteins resulting in AD onset [<xref rid="B18-ijms-24-06301" ref-type="bibr">18</xref>]. In fact, elevated levels of chitin have been found in plasma, in CSF cells, and in CNS cells of AD patients [<xref rid="B19-ijms-24-06301" ref-type="bibr">19</xref>]. When introduced, chitin has been found to exert both pro-inflammatory and anti-inflammatory effects, which are based on the size of the molecule [<xref rid="B20-ijms-24-06301" ref-type="bibr">20</xref>]. Chitin molecules larger than 70 &#x000b5;m are named big chitin (BC) and are inert to the inflammatory response [<xref rid="B21-ijms-24-06301" ref-type="bibr">21</xref>]. Nevertheless, if chitin molecules get degraded by mammalian Chitinase, they can generate small chitin (SC) and intermediate chitin (IC) molecules of a size minor than 40 &#x000b5;m and between 40 and 70 &#x000b5;m, respectively. SC induces an anti-inflammatory response via the production of interleukin 10 (IL-10) (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B21-ijms-24-06301" ref-type="bibr">21</xref>]. IL-10, being an anti-inflammatory cytokine, inhibits the immune response. Its binding with its own receptors IL-10R1 and IL-10R2, triggering the JAK/STAT signaling pathway causes inhibition of pro-inflammatory cytokine production and phagocytosis inhibition [<xref rid="B22-ijms-24-06301" ref-type="bibr">22</xref>,<xref rid="B23-ijms-24-06301" ref-type="bibr">23</xref>]. Whereas IC stimulates a pro-inflammatory response via Toll&#x02013;like receptor 2 (TLR2)- and nuclear factor &#x003ba;-light chain of enhancer-activated B cell (NF-&#x003ba;B)-dependent pathways for tumor necrosis factor (TNF) production (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B21-ijms-24-06301" ref-type="bibr">21</xref>]. A feature in the brain of AD patients is the presence of activated microglia and astroglia, releasing pro-inflammatory cytokines and chemokines [<xref rid="B24-ijms-24-06301" ref-type="bibr">24</xref>]. The neuroinflammatory hypothesis of AD suggests that A&#x003b2;-induced microglia activation, and the consequent phagocytosis, lysosomal impairment, and NLR Family Pyrin Domain Containing 3 (NLRP3) inflammasome activation, affect microglia-induced neurotoxicity. It has been demonstrated that microglial cells are able to engulf chitin debris [<xref rid="B24-ijms-24-06301" ref-type="bibr">24</xref>]. Next to their activation, both microglia and neurons produce GlcNAc polymers in the extracellular space that trigger neurotoxicity (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B25-ijms-24-06301" ref-type="bibr">25</xref>]. It is also conceivable the amassing of IC adds a new element in microglia activation and neurotoxicity. Therefore, deposits of chitin in the brain of AD patients strongly indicate their contribution in eliciting the expression of Chitinases and the subsequent neuroinflammation in the pathogenesis of AD [<xref rid="B11-ijms-24-06301" ref-type="bibr">11</xref>].</p></sec><sec id="sec3-ijms-24-06301"><title>3. Chitinases and Activated Microglia in Neuroinflammation</title><p>Subsequent to the onset of AD, the massive formation of amyloid plaques and intracellular neurofibrillary tangles enclosing a misfolded phosphorylated tau protein induces synaptic dysfunction followed by axonal impairment and cognitive changes. While this protein-related process is ongoing, the immune system is highly responsive [<xref rid="B26-ijms-24-06301" ref-type="bibr">26</xref>].</p><p>Misfolded and aggregated proteins, conceivably including IC, binding to pattern recognition receptors on microglia and astroglia [<xref rid="B21-ijms-24-06301" ref-type="bibr">21</xref>,<xref rid="B24-ijms-24-06301" ref-type="bibr">24</xref>,<xref rid="B25-ijms-24-06301" ref-type="bibr">25</xref>], trigger neuroinflammatory response characterized by the release of inflammatory mediators, which contribute to the process of neurodegeneration and to disease progression [<xref rid="B21-ijms-24-06301" ref-type="bibr">21</xref>,<xref rid="B26-ijms-24-06301" ref-type="bibr">26</xref>,<xref rid="B27-ijms-24-06301" ref-type="bibr">27</xref>,<xref rid="B28-ijms-24-06301" ref-type="bibr">28</xref>].</p><p>Microglia are immunomodulatory cells playing a significant role in immune surveillance of the CNS. In the course of neuroinflammation, specific pro-inflammatory factors stimulate microglia. Microglia have phagocytic activity to remove infectious agents, neurofibrillary plaques, and damaged neurons. Microglia are generally considered the primary innate immune cells of the CNS. In response to many types of damage, microglia first change their morphology from ramified to amoeboid form, and then they migrate to the damaged cells and clear the debris of the dead cells by phagocytosis. Microglia recognize damaging stimuli and react by producing inflammatory cytokines and several chemokines [<xref rid="B29-ijms-24-06301" ref-type="bibr">29</xref>]. By promoting the release of pro-inflammatory cytokines, microglia are involved in the innate response providing a rapid control of invading pathogens and influencing T and B cell activation. In the immune response, microglial cells act in different ways releasing pro-inflammatory molecules and acting as antigen-presenting cells.</p><p>Additionally, microglia control the interaction between neurons and astrocytes for the restoration and reorganization of damaged synapses. Microglia polarize in two different phenotypes: cytotoxic M1, pro-inflammatory, and cytoprotective M2 [<xref rid="B30-ijms-24-06301" ref-type="bibr">30</xref>]. After the induction of TLR, microglia activation leads to proinflammatory mediator release such as TNF-&#x003b1;, interferon-gamma (IFN-&#x003b3;), IL-1(IL-1&#x003b2;), IL-6, and IL-12. These cytokines increase oxidative stress and nitrogen free radicals [<xref rid="B30-ijms-24-06301" ref-type="bibr">30</xref>], and they also promote neuroinflammation, which is the major pathological feature of neurodegenerative diseases [<xref rid="B29-ijms-24-06301" ref-type="bibr">29</xref>]. In contrast, IL-4 and IL-10 promote the M2 phenotype (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>). M2 microglial cells reduce brain inflammation, inhibiting M1 cytokines and other inflammatory mediators and exerting regenerative functions to restore homeostasis [<xref rid="B31-ijms-24-06301" ref-type="bibr">31</xref>].</p><p>It has recently been reported that microglia display an overlapping functional state, shifting from one to the other depending on the activated pathways. Other phenotypes of microglia, such as M2a-like microglia, M2b and M2c, have been identified to be able to express both pro-inflammatory and anti-inflammatory markers [<xref rid="B31-ijms-24-06301" ref-type="bibr">31</xref>]. In particular, the M2b phenotype, producing both inflammatory and restorative markers, would constitute an intermediate state. Whereas M2a-like microglia, stimulated with IL-4 and IL-13, induce arginase, chitinase 3-like 3 (or Ym1) gene, and CD206 [<xref rid="B32-ijms-24-06301" ref-type="bibr">32</xref>]. These data suggest to deepen the role of CH3L3 in activated microglia during AD.</p><p>M2c suppresses the immune response upon IL-10, induces tissue remodeling, and restoration producing the transforming growth factor beta (TGF-&#x003b2;), CD206, and CD163 [<xref rid="B33-ijms-24-06301" ref-type="bibr">33</xref>], followed by the resolution of the neuroinflammation. Thus, the M1-polarized phenotype promotes neuronal damage, whereas the M2-polarized phenotype is immunosuppressive and neuroprotective (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B33-ijms-24-06301" ref-type="bibr">33</xref>].</p><p>Disturbance of microglial functional polarization is implicated in the pathogenesis of a wide variety of CNS disorders, including MS, stroke, AD, and other neurodegenerative diseases [<xref rid="B30-ijms-24-06301" ref-type="bibr">30</xref>].</p></sec><sec id="sec4-ijms-24-06301"><title>4. CHIT-1 and AD</title><p>Neurons and microglia exposed to GlcNAc and uridine diphosphate (UDP)-GlcNAc are able to form GlcNAc polymers, which display a significant neurotoxicity in vitro. The exposure of hippocampal cultures to the GlcNAc polymers induces synaptic impairment with decreased levels of syntaxin and synaptophysin. Hippocampal slices treated with GlcNAc/UDP-GlcNAc showed a clear reduction of long-term potentiation of excitatory synapses [<xref rid="B25-ijms-24-06301" ref-type="bibr">25</xref>]. The increased levels of CHIT-1 expression and activity in microglia may be dependent on GlcNAc polymers. CHIT-1 is one of the most important active enzymes able to degrade chitin polymers [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>], CHIT-1 is produced, stored, and secreted by activated macrophages; hence, it is highly involved in the development of the immune response and inflammatory processes [<xref rid="B6-ijms-24-06301" ref-type="bibr">6</xref>].</p><p>Its enzymatic activity increases in a number of diseases associated with macrophage activation [<xref rid="B5-ijms-24-06301" ref-type="bibr">5</xref>], such as Type 2 diabetes mellitus [<xref rid="B9-ijms-24-06301" ref-type="bibr">9</xref>], atherosclerosis, and steatosis [<xref rid="B34-ijms-24-06301" ref-type="bibr">34</xref>]. Several reports have shown that CHIT-1 activity is markedly elevated in AD [<xref rid="B11-ijms-24-06301" ref-type="bibr">11</xref>,<xref rid="B35-ijms-24-06301" ref-type="bibr">35</xref>,<xref rid="B36-ijms-24-06301" ref-type="bibr">36</xref>].</p><p>It was previously reported that O<sub>2</sub><sup>&#x02212;</sup> generation and cytokine production in macrophages of peripheral blood of AD and cerebrovascular dementia patients promote CHIT-1 activity. A massive production of ROS induces increased levels of lipid peroxidation that accelerated A&#x003b2; deposition in a transgenic mouse model of AD [<xref rid="B11-ijms-24-06301" ref-type="bibr">11</xref>]. Nevertheless, to date, the data showing possible implications of CHIT-1 in the pathogenesis of AD are contradictory. These conflicting data may be related to the different stages of the disease. In fact, it has been observed that in clinically advanced stages of the disease, the levels of CHIT-1 activity did not show significant differences compared with controls [<xref rid="B37-ijms-24-06301" ref-type="bibr">37</xref>]. In contrast, Mattsson et al. [<xref rid="B38-ijms-24-06301" ref-type="bibr">38</xref>] found higher CHIT-1 levels in CSF samples of the AD group, when compared with controls and patients with stable mild cognitive impairment (sMCI) [<xref rid="B38-ijms-24-06301" ref-type="bibr">38</xref>]. In rat models of AD, Yu et al. [<xref rid="B39-ijms-24-06301" ref-type="bibr">39</xref>] reported that CHIT-1 exerts potential protection through microglial polarization and reduction of &#x003b2;-amyloid (A&#x003b2;) oligomers [<xref rid="B39-ijms-24-06301" ref-type="bibr">39</xref>]. They demonstrated that CHIT-1 promotes brain inflammation via the HDAC3/NF-&#x003ba;B p65 pathway, contributing to improvement of cognitive impairment and AD progression (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref> and <xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>) [<xref rid="B39-ijms-24-06301" ref-type="bibr">39</xref>].</p></sec><sec id="sec5-ijms-24-06301"><title>5. CHI3L1 and AD</title><p>As mentioned before, CHI3L1 belongs to chitinase-like lectins [<xref rid="B40-ijms-24-06301" ref-type="bibr">40</xref>], which are related to the glycohydrolase family 18. CHI3L1 has no enzymatic activity because of a substitution of the catalytic glutamic acid residue with leucine [<xref rid="B41-ijms-24-06301" ref-type="bibr">41</xref>]. CHI3L1 is produced by a large quantity of cells, including neutrophils, monocytes/macrophages, monocyte-derived dendritic cells, osteoclasts, chondrocytes, fibroblasts, endothelial cells, and vascular smooth muscle cells [<xref rid="B40-ijms-24-06301" ref-type="bibr">40</xref>,<xref rid="B42-ijms-24-06301" ref-type="bibr">42</xref>]. The elevated level of CHI3L1 in inflammation sites influences its ability to regulate cell proliferation, adhesion, migration, and activation of the extracellular matrix assembly. Moreover, CHI3L1, inducing inflammatory mediators, including Chemokine ligand 2 (CCL2), Chemokine (C-X-C motif) ligand 2 (CXCL2), and marrow matrix metalloproteinase 9 (MMP-9), acts as a pro-inflammatory biomarker (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B43-ijms-24-06301" ref-type="bibr">43</xref>,<xref rid="B44-ijms-24-06301" ref-type="bibr">44</xref>]. Induction of CHI3L1 has been reported in patients suffering from a large number of diseases, especially inflammation-related illnesses [<xref rid="B44-ijms-24-06301" ref-type="bibr">44</xref>], and autoimmune disorders [<xref rid="B6-ijms-24-06301" ref-type="bibr">6</xref>]. Elevated plasma levels of CHI3L1 have been found in atherosclerosis, coronary artery disease, and neurodegenerative conditions. Variations of CHI3L1 levels have been recognized between AD patients and healthy elderly subjects [<xref rid="B45-ijms-24-06301" ref-type="bibr">45</xref>]. CHI3L1 concentrations result as consistently high in the dementia phase of AD [<xref rid="B46-ijms-24-06301" ref-type="bibr">46</xref>,<xref rid="B47-ijms-24-06301" ref-type="bibr">47</xref>,<xref rid="B48-ijms-24-06301" ref-type="bibr">48</xref>]. It has been also reported that higher CHI3L1 levels mainly reflect a response to both total tau and phosphorylated tau levels in the pre-dementia AD group. Therefore, CHI3L1 is an important parameter to detect early pathophysiological changes in connection with the neurodegenerative process [<xref rid="B49-ijms-24-06301" ref-type="bibr">49</xref>]. However, in the literature, discordant observations are often reported. Gispert et al. [<xref rid="B50-ijms-24-06301" ref-type="bibr">50</xref>], investigating CSF CHI3L1 levels between normal, preclinical, and mild dementia, reported that CSF CHI3L1 is associated with a cerebral structural signature distinct from that linked to phosphorylated tau neurodegeneration at the earliest stages of cognitive decline due to AD [<xref rid="B49-ijms-24-06301" ref-type="bibr">49</xref>]. Other studies reported no significant differences in CSF CHI3L1 levels between sMCI and MCI-AD patients [<xref rid="B51-ijms-24-06301" ref-type="bibr">51</xref>] and between AD and MCI patients. Others found higher CHI3L1 levels in MCI and AD patients compared to controls, suggesting that this protein could have a strong importance in detecting cognitively normal individuals from MCI and AD patients. In addition, it has been suggested that CHI3L1 levels may be associated with disease progression [<xref rid="B52-ijms-24-06301" ref-type="bibr">52</xref>]. Nevertheless, a study demonstrated increased CHI3L1 CSF levels in AD patients compared with MCI patients who developed vascular dementia, but not in MCI-AD patients (<xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>). Moreover, in AD patients with a significant correlation between time points of cortical damage, total tau and CHI3L1 levels were constant [<xref rid="B53-ijms-24-06301" ref-type="bibr">53</xref>]. In another investigation in MCI and AD patients was observed a nonlinear association between gray matter volume and CHI3L1 levels in inferior and lateral temporal areas spreading to the supramarginal gyrus, insula, inferior frontal cortex, and cerebellum [<xref rid="B54-ijms-24-06301" ref-type="bibr">54</xref>]. Additionally, in AD patients, CHI3L1 levels were also associated with decreased cortical thickness [<xref rid="B55-ijms-24-06301" ref-type="bibr">55</xref>].</p><p>One of the neuropathological features of AD is the crucial role played by microglial cells. Since microglia express various pro-inflammatory cytokines at molecular and cellular levels, they are crucial for the immune response in the brain. In brain tissue, CHI3L1 is expressed in microglia, infiltrating macrophages and astrocytes [<xref rid="B56-ijms-24-06301" ref-type="bibr">56</xref>]. The higher CHI3L1 levels in the CSF and in the plasma of AD patients compared with healthy controls reflect the inflammatory evolution of the disease. The expression of CHI3L1 is modulated by pro-inflammatory cytokines, including IL-6, IFN-&#x003b3;, IL-1&#x003b2;, and TNF-&#x003b1; [<xref rid="B10-ijms-24-06301" ref-type="bibr">10</xref>] Its regulation by IL-6 and TNF-&#x003b1; requires sustained activation of NF-&#x003ba;B. Additionally, CHI3L1 activates the protein kinase B and phosphoinositide-3 kinase signaling pathways and exerts an anti-apoptotic function [<xref rid="B57-ijms-24-06301" ref-type="bibr">57</xref>]. CHI3L1 induces IL-4R&#x003b1; expression and phosphorylation of STAT6, affecting microglial M2 polarization. In fact, in a knockdown model, it has been observed that CHI3L1 decreases the expression level of IL-4R&#x003b1;, phospho-JAK1, phospho-JAK3, and phospho-STAT6 blocking microglial M2 polarization (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B58-ijms-24-06301" ref-type="bibr">58</xref>]. In contrast, it has been found that CHI3L1 immuno-reactivity is mainly expressed in astrocytes than microglial cells in the frontal cortex of AD patients [<xref rid="B59-ijms-24-06301" ref-type="bibr">59</xref>]. Reactive astrocytes are involved in the pathophysiology of AD [<xref rid="B60-ijms-24-06301" ref-type="bibr">60</xref>] and are among the most important cellular mediators in the neuroinflammatory response observed in AD [<xref rid="B16-ijms-24-06301" ref-type="bibr">16</xref>]. Transcriptomic analyses proved that reactive astrocytes can gain multiple molecular phenotypes in AD, suggesting that they respond differently to AD-related brain processes [<xref rid="B47-ijms-24-06301" ref-type="bibr">47</xref>]. Reactive astrocyte CHI3L1 levels are consistently elevated in the dementia phase of AD [<xref rid="B48-ijms-24-06301" ref-type="bibr">48</xref>]. Post-mortem investigations show that both A&#x003b2; and tau pathologies are linked with astrocyte reactivity [<xref rid="B61-ijms-24-06301" ref-type="bibr">61</xref>]. Moreover, CHI3L1 levels have been strictly related to the levels of CSF inflammation-related proteins [<xref rid="B48-ijms-24-06301" ref-type="bibr">48</xref>]. Reactive astrocytes overexpress CHI3L1, which is released into the extracellular compartment, and so, they can be measured in the CSF. Therefore, CHI3L1 is increasingly recognized as a reactive astrocyte biomarker in AD [<xref rid="B47-ijms-24-06301" ref-type="bibr">47</xref>,<xref rid="B48-ijms-24-06301" ref-type="bibr">48</xref>]. CHI3L1 mediates the effects of A&#x003b2; and tau pathologies on hippocampal atrophy and cognitive impairment. It has been demonstrated that, in CSF, the CHI3L1 levels were linked with tau accumulation&#x02014;but not A&#x003b2;&#x02014;in brain regions typically affected by AD-related tau pathology. This result suggests that CHI3L1 levels in the CSF mirror an astrocyte response to tau tangles accumulation in AD [<xref rid="B49-ijms-24-06301" ref-type="bibr">49</xref>]. Indeed, post-mortem investigations showed astrocyte overexpression of CHI3L1 in AD and other tauopathies [<xref rid="B55-ijms-24-06301" ref-type="bibr">55</xref>], (e.g., Pick&#x02019;s disease, corticobasal degeneration, and progressive supranuclear palsy) [<xref rid="B62-ijms-24-06301" ref-type="bibr">62</xref>]. More recently, it was reported that in the brain of AD patients CHI3L1 is co-localized with glial fibrillary acidic protein (GFAP) (an astrocyte marker) [<xref rid="B63-ijms-24-06301" ref-type="bibr">63</xref>]. CSF CHI3L1 levels correlate with other AD-related inflammatory markers, such as IL-8 [<xref rid="B64-ijms-24-06301" ref-type="bibr">64</xref>] and CXCL1 [<xref rid="B65-ijms-24-06301" ref-type="bibr">65</xref>], suggesting that CHI3L1, activating the innate immune response, can be directly involved in the inflammatory response [<xref rid="B47-ijms-24-06301" ref-type="bibr">47</xref>]. In addition, CHI3L1 has been linked with neuroinflammatory proteins associated with AD progression, such as metalloproteinase-10 (MMP-10) [<xref rid="B66-ijms-24-06301" ref-type="bibr">66</xref>], CX3CL1 [<xref rid="B67-ijms-24-06301" ref-type="bibr">67</xref>], eukaryotic translation initiation factor 4E-binding protein 1 (also known as 4E-BP1) [<xref rid="B68-ijms-24-06301" ref-type="bibr">68</xref>], and CSF-1 (<xref rid="ijms-24-06301-f001" ref-type="fig">Figure 1</xref>) [<xref rid="B69-ijms-24-06301" ref-type="bibr">69</xref>]. In conclusion, the increased CHI3L1 levels in the CSF of AD patients demonstrate their significant role in neuroinflammation and in the pathophysiology of the disease. CHI3L1 levels may be important for the evaluation of cerebral inflammatory activity in AD patients, being increased in the CSF of MCI-AD patients compared with stable MCI, CHI3L1 could be used as a reliable biomarker for the prognosis of MCI and the likelihood of progression to AD (<xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>) [<xref rid="B70-ijms-24-06301" ref-type="bibr">70</xref>].</p></sec><sec id="sec6-ijms-24-06301"><title>6. Chitinases, Parkinson&#x02019;s Disease (PD), and Dementia with Lewy Bodies (DLB)</title><p>PD is the second most common neurodegenerative disease worldwide adversely affecting quality of life. It is a complex and progressive disease characterized by a variety of clinical manifestations including tremors, rigidity, bradykinesia, postural instability, confusion, and depression [<xref rid="B71-ijms-24-06301" ref-type="bibr">71</xref>]. The pathological features of PD are the significant loss of dopaminergic neurons in the substantia nigra pars compacta and the presence of intraneuronal proteinaceous cytoplasmic inclusions named Lewy bodies. The increase of Lewy bodies in nerve cells causes another neurodegenerative disorder, dementia with Lewy bodies (DLB) [<xref rid="B72-ijms-24-06301" ref-type="bibr">72</xref>].</p><p>The progressive neuronal loss and PD and of DLB symptoms have been linked to &#x003b1;-synuclein (&#x003b1;Syn) aggregates, which result in axonal and neuronal damage [<xref rid="B73-ijms-24-06301" ref-type="bibr">73</xref>].</p><p>Other than &#x003b1;Syn aggregate detection, other pathophysiological events are involved in neurodegeneration. PD and AD exert common neurodegenerative processes [<xref rid="B74-ijms-24-06301" ref-type="bibr">74</xref>]. A great percentage of PD patients displays cognitive decline or even dementia during the disease course and an AD-like pathology with the presence of A&#x003b2; plaques and tau protein-containing neurofibrillary tangles [<xref rid="B75-ijms-24-06301" ref-type="bibr">75</xref>]. The &#x003b1;Syn aggregates spreading through the brain, induced by A&#x003b2; deposits and phosphorylated tau, can lead to neuronal loss and correlate with cognitive and motor decline [<xref rid="B75-ijms-24-06301" ref-type="bibr">75</xref>]. Moreover, &#x003b1;Syn aggregates interact with several cells of the immune system including microglia [<xref rid="B76-ijms-24-06301" ref-type="bibr">76</xref>], triggering neuroinflammation. In PD, microglial activation is involved in the initiation and progression of the disease through secretion of pro-inflammatory cytokines and reactive oxygen species [<xref rid="B77-ijms-24-06301" ref-type="bibr">77</xref>]. As PD progresses, through the PET assay, an early inflammation in the brainstem before cortical spreading is detected. In the initial stages of PD, an elevated microglial activation appears to be widespread in the substantia nigra [<xref rid="B78-ijms-24-06301" ref-type="bibr">78</xref>]. Although CHI3L1 is involved in synaptic degeneration, glial activation, inflammation, and AD co-pathology, its CSF levels do not differ significantly between PD patients and healthy controls [<xref rid="B79-ijms-24-06301" ref-type="bibr">79</xref>]. To explain this result, it has been hypothesized that the neurodegeneration in PD initially involves a smaller number of neurons than AD. Hence, neuroinflammation and synaptic impairment may not be widespread enough to induce CHI3L1 CSF.</p><p>Nevertheless, the level of CHI3L1 increases in PD groups showing MCI, suggesting that CHI3L1 CSF levels correlate to glial response, axonal damage, and worse cognitive performance. These data outline the importance of the use of ongoing follow-ups to predict cognitive decline in PD [<xref rid="B79-ijms-24-06301" ref-type="bibr">79</xref>]. As seen in AD, astrocytes play an important role in neurodegeneration of PD too [<xref rid="B80-ijms-24-06301" ref-type="bibr">80</xref>]. Astrocytes participate in innate immune responses in the CNS and may also play a role in adaptive immunity [<xref rid="B81-ijms-24-06301" ref-type="bibr">81</xref>]. &#x003b1;Syn aggregates released by neurons can be internalized by adjacent astrocytes, forming glial inclusion bodies, which can induce changes in gene expression of astroglia, activating an immune response that facilitates neurodegeneration [<xref rid="B82-ijms-24-06301" ref-type="bibr">82</xref>,<xref rid="B83-ijms-24-06301" ref-type="bibr">83</xref>]. In addition to the direct effect of &#x003b1;Syn on microglia, astrocytes can mediate microglial activation. This implies that astrocytes control the timing of microglial activation, leading to accelerated neuronal damage and disease progression [<xref rid="B84-ijms-24-06301" ref-type="bibr">84</xref>]. Glial inflammatory responses are related to the extent of deposition of &#x003b1;Syn aggregates. &#x003b1;Syn induces Lewy-like inclusion bodies and apoptotic changes in receiving neurons. Therefore, excess of neuronal &#x003b1;Syn is transferred and accumulated in glia, becoming an important stimulus of astroglial inflammatory responses that induces the formation of pathological inclusions and degenerative changes [<xref rid="B85-ijms-24-06301" ref-type="bibr">85</xref>]. Besides inflammatory changes, &#x003b1;Syn accumulation in astrocytes causes autophagy defects, resulting in more inclusions [<xref rid="B86-ijms-24-06301" ref-type="bibr">86</xref>]. Studies on the correlation between &#x003b1;Syn aggregates and CHI3L1 production are limited. In an investigation of Morenas-Rodr&#x000ed;guez et al. [<xref rid="B87-ijms-24-06301" ref-type="bibr">87</xref>], it was found that the glial marker CHI3L1 was not increased in CSF in the prodromal phase and in the later stages of dementia with Lewy bodies (DLB). In contrast, CHI3L1 levels increased in CSF of DLB patients only in the presence of AD co-morbidity [<xref rid="B87-ijms-24-06301" ref-type="bibr">87</xref>]. These findings were in agreement with other findings in PD and DLB [<xref rid="B88-ijms-24-06301" ref-type="bibr">88</xref>]. The unchanged levels of CSF CHI3L1 in synucleinopathies suggest a failure of astroglial activation following &#x003b1;Syn amassing. The difference between &#x003b1;Syn and tau-related neurodegenerative dementias shows that CHI3L1 is strictly involved in tau-related disorders. Therefore, the results for which CHI3L1 levels correlate with total tau and phosphorylated tau levels in DLB groups, suggest that DLB in combination with AD comorbidities promotes astrocytic activation in response to pathologic proteins [<xref rid="B87-ijms-24-06301" ref-type="bibr">87</xref>]. Moreover, it is possible that the &#x003b1;Syn inclusions in astrocytes of DLB may influence the astrocytic response toward neurodegeneration compared to tauopathies such as AD and frontotemporal lobar degeneration (FTLD) [<xref rid="B89-ijms-24-06301" ref-type="bibr">89</xref>]. CSF CHI3L1 was also unchanged in prodromal DLB, demonstrating that this glial marker does not change early in the course of the disease (<xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>). In the same study, the CHI3L1 level of CSF was investigated in DLB and prodromal DLB (prodDLB) patients compared with AD patients. Levels of CHI3L1 between DLB and prodDLB patients showed no significant differences. DLB and prodDLB patients had lower CHI3L1 levels than AD patients. However, CHI3L1, as well as phosphorylated tau and phosphorylated tau/A&#x003b2; and total tau/A&#x003b2; combinations, have a predictive value of cognitive decline in PD during follow-up, as revealed by correlating CSF levels with cognitive measurements. Therefore, DLB and AD show different models of glial activation markers in the CSF [<xref rid="B90-ijms-24-06301" ref-type="bibr">90</xref>].</p><p>CHI3L1 is only increased in DLB when there is an underlying AD pathology and, contrary to AD, levels of CHI3L1 are not elevated in prodromal stages. Together, these findings suggest a different glial activation model between DLB and AD. This finding needs further studies to clarify CHI3L1 involvement in synaptic degeneration and glial activation, as well as its differential role in the innate immune response in DLB and its impact on pathogenesis and disease progression.</p></sec><sec id="sec7-ijms-24-06301"><title>7. Chitinases and Amyotrophic Lateral Sclerosis (ALS)</title><p>ALS is a devastating and incurable neurodegenerative disorder, in which the selective neurodegeneration and loss of the upper and lower motor neurons causes spasticity and progressive disability. Prognosis is poor, and death comes within 3&#x02013;5 years, mainly caused by respiratory failure. A wide clinical variety of ALS with numerous subtypes and a broad phenotypic heterogeneity has been identified [<xref rid="B91-ijms-24-06301" ref-type="bibr">91</xref>]. Likewise, the early symptoms differ significantly between patients ranging from foot drop to dysarthria. Several subjects present behavioral alterations and cognitive impairment. Some ALS patients meet the criteria for frontotemporal dementia (FTD) [<xref rid="B92-ijms-24-06301" ref-type="bibr">92</xref>]. The disease may be genetic, familial ALS, or sporadic (SALS). ALS is characterized by reactive gliosis and neuroinflammatory activation that lead to disease progression. It has been postulated that ALS is triggered mainly by genetic risk factors and to a lesser extent by environmental determinants [<xref rid="B93-ijms-24-06301" ref-type="bibr">93</xref>]. Environmental factors include smoking, exaggerated physical activity, and recurrent head injury [<xref rid="B94-ijms-24-06301" ref-type="bibr">94</xref>]. The main pathological hallmark of ALS is the neuronal inclusion of TAR DNA-binding protein 43 (TDP-43) in the brain and spinal cord of patients [<xref rid="B95-ijms-24-06301" ref-type="bibr">95</xref>]. Cytoplasmic TDP-43 aggregation generates neurotoxicity through dysregulation of nuclear RNA processing, and a sequence of aberrant processes, such as atypical stress granule formation, mitochondrial dysfunction, altered translation, proteasomal dysfunction, cellular stress, and reduced autophagy [<xref rid="B96-ijms-24-06301" ref-type="bibr">96</xref>]. The pathogenesis of TDP-43 mutation in ALS has been observed in various animal models such as mice [<xref rid="B97-ijms-24-06301" ref-type="bibr">97</xref>], rats [<xref rid="B98-ijms-24-06301" ref-type="bibr">98</xref>], and monkeys [<xref rid="B99-ijms-24-06301" ref-type="bibr">99</xref>], as well as cultured human motor neurons differentiated from reprogrammed stem cells [<xref rid="B100-ijms-24-06301" ref-type="bibr">100</xref>]. TDP-43 proteinopathies have also been observed in patients with ALS or frontotemporal lobar degeneration (FTLD) without pathogenic mutation of TDP-43 [<xref rid="B101-ijms-24-06301" ref-type="bibr">101</xref>]. Altered TDP-43 expression may unbalance the pathways resulting in severe outcomes, including neuronal death [<xref rid="B102-ijms-24-06301" ref-type="bibr">102</xref>]. Astrocytes may play an important role in TDP-43 pathogenesis. In response to TDP-43 mutation, neurotoxic effects generate changes in the expression of astrocytic receptors and transporters; the coupling of gap junctions; the release and metabolism of astrocytic transmitters; and production of chemokines, cytokines, and free radicals [<xref rid="B103-ijms-24-06301" ref-type="bibr">103</xref>]. Overexpression of TDP-43 promotes activation of astrocytes and microglia in the spinal cord. Besides TDP-43, there are several other commonly known ALS genes, such as C9ORF72 and superoxide dismutase 1, fused in sarcoma [<xref rid="B104-ijms-24-06301" ref-type="bibr">104</xref>]. Reactive astrocytes are able to secrete the neurotoxic factor Lipocalin 2 (Lcn2) [<xref rid="B103-ijms-24-06301" ref-type="bibr">103</xref>]. Lcn2 is a lipocalin sensitizing neurons to A&#x003b2;-toxicity, exerting selective neurotoxicity [<xref rid="B103-ijms-24-06301" ref-type="bibr">103</xref>,<xref rid="B105-ijms-24-06301" ref-type="bibr">105</xref>].</p><p>Neuroinflammation, featured by glial cell activation and activation of other cells of the innate and adaptive immune system, is a key component of the non-cell autonomous neurodegeneration in ALS [<xref rid="B106-ijms-24-06301" ref-type="bibr">106</xref>]. Among the numerous inflammatory markers that have been detected in ALS Chitinases, CHIT-1, CHI3L1, and CHI3L2 are those which demonstrated better efficiency at diagnostic and prognostic levels [<xref rid="B107-ijms-24-06301" ref-type="bibr">107</xref>]. Cross-sectional analysis showed elevated CSF levels and CHI3L1 and CHI3L2 concentrations, as well as CHIT-1 levels and activity in symptomatic ALS compared with both at-risk subjects and healthy controls [<xref rid="B14-ijms-24-06301" ref-type="bibr">14</xref>,<xref rid="B108-ijms-24-06301" ref-type="bibr">108</xref>]. Longitudinal studies delineate the chronological profile of Chitinase response in ALS. There is a gradual rise in CSF CHIT-1 protein in at-risk subjects during the pre-symptomatic period, followed by a rapid increase in CHIT-1 levels and activity between the late pre-symptomatic and early symptomatic stages of the disease among phenoconverters, followed by a progressive increase in CHIT-1 levels during the symptomatic period [<xref rid="B109-ijms-24-06301" ref-type="bibr">109</xref>]. Particularly, the increase in CHIT-1 levels in at-risk individuals over time was greater than would be estimated for age based on cross-sectional analysis of the association between CHIT-1 and age [<xref rid="B109-ijms-24-06301" ref-type="bibr">109</xref>]. Studies on frontotemporal dementia, ALS, and AD patients reported that CHIT-1 expression reflects microglial activity and is associated with the rate of disease progression in ALS [<xref rid="B110-ijms-24-06301" ref-type="bibr">110</xref>]. Since CHIT-1 is primarily expressed by myeloid lineage cells, this evidence suggests that microglia are rather quiescent in the period previous to transition to symptomatic ALS. Changes in the levels of CHIT-1 protein and activity during the transition of the pathological manifestation reflect a late pre-symptomatic or early post-symptomatic occurrence. Nevertheless, it has not yet been clarified how the timing of the peri-symptomatic increase in CHIT-1 protein and activity are correlated with the increased expression of TDP-43. It remains undefined whether increased CHIT-1 reflects a &#x0201c;physiological&#x0201d; response to cytoplasmic TDP-43 aggregation, or whether increased microglial activity and CHIT-1 overexpression are events preceding neurodegeneration. Nevertheless, it has been found that homozygous carriers of the CHIT-1 polymorphism, which generate the reduction of CHIT-1 expression, do not exhibit decreased ALS severity, indicating that CHIT-1 is a neuroinflammatory marker rather than being actively involved in ALS pathogenesis (<xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>) [<xref rid="B110-ijms-24-06301" ref-type="bibr">110</xref>,<xref rid="B111-ijms-24-06301" ref-type="bibr">111</xref>].</p><p>Astrocyte activity increases rapidly in the peri-symptomatic period of ALS before decreasing over the course of the symptomatic period. Reactive astrocytes are the cells preferentially producing CHI3L1 as demonstrated by histopathological analysis in ALS [<xref rid="B112-ijms-24-06301" ref-type="bibr">112</xref>], in which it was observed that CHI3L1, but not CHIT-1 or CHI3L2, is a marker more closely associated with clinical features of central dysfunction denoted by upper motor neurons. This result supports the idea that CHI3L1 has a prognostic value for cognitive and behavioral impairments in patients with ALS [<xref rid="B14-ijms-24-06301" ref-type="bibr">14</xref>,<xref rid="B112-ijms-24-06301" ref-type="bibr">112</xref>]. In addition, CHI3L1 was found expressed in the anterior horn of the spinal cord in patients with sporadic ALS [<xref rid="B113-ijms-24-06301" ref-type="bibr">113</xref>]. CHI3L1 and CHI3L2 expressions have been found to be significantly increased in the motor cortex of sporadic ALS patients compared with neurologically healthy controls, and their expression levels were correlated with the survival time from date of onset [<xref rid="B14-ijms-24-06301" ref-type="bibr">14</xref>,<xref rid="B108-ijms-24-06301" ref-type="bibr">108</xref>]. In addition, CSF CHI3L1 levels correlate significantly with biomarkers of neurodegeneration such as the neurofilament light chain and the phosphorylated neurofilament heavy chain protein [<xref rid="B114-ijms-24-06301" ref-type="bibr">114</xref>].</p><p>CHI3L1 displays an immunoreactivity limited to glial fibrillary acidic protein (GFAP) -positive astrocytes in the frontal cortex and spinal cord of patients with ALS [<xref rid="B113-ijms-24-06301" ref-type="bibr">113</xref>]. It has been reported that CHIT-1, CHI3L1, and CHI3L2 levels can differentiate patients with ALS from ALS mimics, which are patients affected by motor weakness without ALS [<xref rid="B14-ijms-24-06301" ref-type="bibr">14</xref>]. The increased CSF levels of CHIT-1, CHI3L1, and CHI3L2 correlate with disease progression grades of ALS patients. In particular, CSF levels of CHIT-1 and CHI3L1 predict a shorter survival [<xref rid="B107-ijms-24-06301" ref-type="bibr">107</xref>]. CHIT-1 is primarily expressed by cells of myeloid lineage, and CHI3L1 is produced by reactive astrocytes and microglia [<xref rid="B115-ijms-24-06301" ref-type="bibr">115</xref>]. It has been found that CHIT-1 immunostaining co-localizes with the microglial marker Iba1 and phagocytic activity marker CD68 in the spinal cord of patients with ALS (<xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>) [<xref rid="B116-ijms-24-06301" ref-type="bibr">116</xref>].</p><p>Overall, these investigations validate that Chitinases, regarded as valuable candidates for evaluating the course of ALS, can be promising new targets as pharmacodynamic biomarkers for neuroinflammation-focused ALS therapy [<xref rid="B12-ijms-24-06301" ref-type="bibr">12</xref>,<xref rid="B115-ijms-24-06301" ref-type="bibr">115</xref>].</p></sec><sec id="sec8-ijms-24-06301"><title>8. Chitinases and Multiple Sclerosis (MS) </title><p>MS is an autoimmune-mediated demyelinating disease of the CNS. It is the most common neurodegenerative disease affecting young adults [<xref rid="B117-ijms-24-06301" ref-type="bibr">117</xref>]. Usually, symptoms consist of fatigue, depression, and failure of motor and cognitive functions, as well as visual, bowel, and bladder dysfunctions [<xref rid="B118-ijms-24-06301" ref-type="bibr">118</xref>]. Subjects with primary progressive multiple sclerosis experience the aggravation of neurological function, progressive disability, and worsening physical and psychosocial quality of life [<xref rid="B119-ijms-24-06301" ref-type="bibr">119</xref>].</p><p>MS patients can experience a long-term benign course to a highly active disease. Several patients present a widely variable disease course featured by relapse periods (rapid disability with worsening symptom) followed by periods of remission (long-term benign course). For many people, relapsing-remitting MS (RRMS) precedes secondary progressive MS, in which disability gets steadily worse. MS onset has been recognized as a multifaceted interplay of genetic, environmental, and lifestyle risk factors [<xref rid="B120-ijms-24-06301" ref-type="bibr">120</xref>]. The environmental and lifestyle risk factors for MS onset include cigarette smoking [<xref rid="B121-ijms-24-06301" ref-type="bibr">121</xref>], youth obesity [<xref rid="B122-ijms-24-06301" ref-type="bibr">122</xref>], and Epstein&#x02013;Barr virus infection [<xref rid="B123-ijms-24-06301" ref-type="bibr">123</xref>].</p><p>To date, molecular alterations driving MS susceptibility have not been fully resolved. Important factors of pathophysiology of MS embrace a massive migration of leukocytes into the CNS parenchyma due to the impairment of blood&#x02013;brain barrier (BBB) integrity, which generates the inflammatory response, oligodendrocyte death, demyelination, gliosis, and neurodegeneration [<xref rid="B124-ijms-24-06301" ref-type="bibr">124</xref>]. Both microglia and astrocyte dysfunctions can be involved in MS pathology. Microglia and astrocyte accumulate at sites of active demyelination and neurodegeneration in the brain of MS and are believed to play a central role in the process of the disease. In the early stages of demyelination and neurodegeneration, active lesions contain microglia with a pro-inflammatory phenotype, expressing molecules involved in phagocytosis, oxidative damage, in the presentation of the antigen, and in the co-stimulation of T cells. In the subsequent stages, microglia in active lesions take in the intermediate phenotype between pro- and anti-inflammatory activation [<xref rid="B125-ijms-24-06301" ref-type="bibr">125</xref>] Astrocytes promote leukocyte recruitment and produce B cell-activating factors when proximal to lesion area, exacerbating leukocyte activation [<xref rid="B126-ijms-24-06301" ref-type="bibr">126</xref>]. Hence, they participate directly in the innate immune response, contributing to early MS onset. In addition, astrocytes take on an active state and phagocytose myelin during the earliest stages of lesion formation. Astrocytes are able to activate and form an astroglial scar within chronic silent late-stage lesions [<xref rid="B126-ijms-24-06301" ref-type="bibr">126</xref>]. On the other hand, inflammation impairs astrocytes, further contributing to injury by deferring microglia and oligodendrocyte progenitor recruitment to the lesion level, and finally impeding myelin debris removal and demyelination [<xref rid="B127-ijms-24-06301" ref-type="bibr">127</xref>]. Astrocytes can disconnect from the vasculature in MS, as evidenced by reduced GFAP immunoreactivity around blood vessels [<xref rid="B126-ijms-24-06301" ref-type="bibr">126</xref>].</p><p>Chitinase expression exactly reflects microglia and astrocyte dysfunctions. CHI3L1 has attracted growing attention as a biomarker of neuroinflammation and microglial activation and reactive astrocytes, two signs both particularly evident and relevant in MS pathogenesis [<xref rid="B128-ijms-24-06301" ref-type="bibr">128</xref>]. The role of CHI3L1 as a candidate biomarker of clinical conversion to MS and development of disability was initially reported by Comabella et al. [<xref rid="B129-ijms-24-06301" ref-type="bibr">129</xref>].</p><p>It has been shown that CSF and serum CHI3L1 levels increase with the disease stage and clinically isolated syndrome and that CHI3L1 converted more rapidly to RRMS patients. In contrast, it was found that CSF CHI3L2 levels were lower in progressive MS (PMS) than in RRMS patients (<xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>) [<xref rid="B130-ijms-24-06301" ref-type="bibr">130</xref>,<xref rid="B131-ijms-24-06301" ref-type="bibr">131</xref>]. Hence, the CSF CHI3L1/CHI3L2 ratio might help to define the MS disease stage and have a prognostic value in clinically isolated syndrome (CIS) [<xref rid="B130-ijms-24-06301" ref-type="bibr">130</xref>].</p><p>More recent cross-sectional studies have demonstrated a significant association between CHI3L1 levels in CSF and Expanded Disability Status Scale, suggesting that there were high levels of CHI3L1 in the CSF of MS patients, and there was a significant correlation between CHI3L1 and oligoclonal bands. Therefore, CHI3L1 has been considered a promising diagnostic marker of MS [<xref rid="B132-ijms-24-06301" ref-type="bibr">132</xref>].</p><p>So far, only few investigations have indicated CHIT-1 as a prognostic factor for early identification of patients presenting with CIS at high risk for conversion to MS or to recognized RRMS patients at high risk for progression [<xref rid="B133-ijms-24-06301" ref-type="bibr">133</xref>,<xref rid="B134-ijms-24-06301" ref-type="bibr">134</xref>].</p></sec><sec sec-type="conclusions" id="sec9-ijms-24-06301"><title>9. Conclusions</title><p>From the many experimental reports, it has been established that Chitinases are molecules that can be used as biomarkers to monitor the progress of the different stages of neurodegenerative diseases characterized by neuroinflammation, microglia activation, and astrocytes. The common denominator in the degenerative pathologies analyzed in this review is the activation of microglia and astrocytes resulting from the accumulation of molecular aggregates of various nature, such as &#x003b2;-amyloid plaques and tau protein-containing neurofibrillary tangles, GlcNAc polymers, observed in AD, &#x003b1;Syn aggregates in PD, and DLB and TDP-43 in ALS (<xref rid="ijms-24-06301-f002" ref-type="fig">Figure 2</xref>). Therefore, the accumulation of Chitinases in neurodegenerative diseases, here examined, may have a deeper molecular significance. We still have no critical knowledge of the molecular pathways in the expression of Chitinase in brain cells, nor is the nature of molecular aggregates that induce their activation fully known. Among the identified proteins that play a role in the activation of microglia or astrocytes, such as tau or &#x003b1;Syn proteins, it is not excluded that accumulation of intermediate chitin can play a not inconsiderable role in the activation of neuronal cells and in neuroinflammation. Therefore, through the analysis conducted in this review, we are only able to understand a small fraction of the overall picture known so far. Maintaining balance in the plasticity of the cells of the nervous system is mandatory to delay the devastating aspects of the pathologies under consideration. Acquiring a greater understanding of the mechanisms by which Chitinases are regulated can provide new tools to modulate their action.</p></sec><sec id="sec10-ijms-24-06301"><title>10. Future Prospects</title><p>Studies on the mechanisms of action and the signal pathways used by Chitinase are necessary to improve understanding the intermediate chitin accumulation role and the Chitinase action, in the nervous system under physiological and pathological conditions. The results gathered could be beneficial not only for early diagnosis of neurodegenerative diseases, but also for valid treatments in order to preserve patients from the risk of severe cognitive decline.</p></sec></body><back><ack><title>Acknowledgments</title><p>We wish to thank the Scientific Bureau of the University of Catania for language support.</p></ack><fn-group><fn><p><bold>Disclaimer/Publisher&#x02019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p></fn></fn-group><notes><title>Author Contributions</title><p>C.R.: literature research, original draft preparation; M.S.V.: literature research, writing, revising, and editing; A.C.: literature research and editing; L.M.: revising and editing, funding acquisition. All authors have read and agreed to the published version of the manuscript.</p></notes><notes><title>Informed Consent Statement</title><p>Not applicable.</p></notes><notes notes-type="data-availability"><title>Data Availability Statement</title><p>References for this review were identified through searches of Pubmed for articles published from 1997 to 2023.</p></notes><notes notes-type="COI-statement"><title>Conflicts of Interest</title><p>The authors declare to not have any potential conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-ijms-24-06301"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gitler</surname><given-names>A.D.</given-names></name>
+<name><surname>Dhillon</surname><given-names>P.</given-names></name>
+<name><surname>Shorter</surname><given-names>J.</given-names></name>
+</person-group><article-title>Neurodegenerative disease: Models, mechanisms, and a new hope</article-title><source>Dis. Model Mech.</source><year>2017</year><volume>10</volume><fpage>499</fpage><lpage>502</lpage><pub-id pub-id-type="doi">10.1242/dmm.030205</pub-id><pub-id pub-id-type="pmid">28468935</pub-id></element-citation></ref><ref id="B2-ijms-24-06301"><label>2.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dugger</surname><given-names>B.N.</given-names></name>
+<name><surname>Dickson</surname><given-names>D.W.</given-names></name>
+</person-group><article-title>Pathology of Neurodegenerative Diseases</article-title><source>Cold Spring Harb. Perspect. Biol.</source><year>2017</year><volume>9</volume><fpage>028035</fpage><pub-id pub-id-type="doi">10.1101/cshperspect.a028035</pub-id></element-citation></ref><ref id="B3-ijms-24-06301"><label>3.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dharshini</surname><given-names>S.A.P.</given-names></name>
+<name><surname>Jemimah</surname><given-names>S.</given-names></name>
+<name><surname>Taguchi</surname><given-names>Y.H.</given-names></name>
+<name><surname>Gromiha</surname><given-names>M.M.</given-names></name>
+</person-group><article-title>Exploring Common Therapeutic Targets for Neurodegenerative Disorders Using Transcriptome Study</article-title><source>Front. Genet.</source><year>2021</year><volume>12</volume><fpage>639160</fpage><pub-id pub-id-type="doi">10.3389/fgene.2021.639160</pub-id><pub-id pub-id-type="pmid">33815473</pub-id></element-citation></ref><ref id="B4-ijms-24-06301"><label>4.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kovacs</surname><given-names>G.G.</given-names></name>
+</person-group><article-title>Pathology of Neurodegenerative Diseases</article-title><source>J. Clin. Pathol.</source><year>2019</year><volume>72</volume><fpage>725</fpage><lpage>735</lpage><pub-id pub-id-type="doi">10.1136/jclinpath-2019-205952</pub-id><pub-id pub-id-type="pmid">31395625</pub-id></element-citation></ref><ref id="B5-ijms-24-06301"><label>5.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>Chitotriosidase: The yin and yang</article-title><source>Cell. Mol. Life Sci.</source><year>2006</year><volume>63</volume><fpage>3018</fpage><lpage>3029</lpage><pub-id pub-id-type="doi">10.1007/s00018-006-6269-2</pub-id><pub-id pub-id-type="pmid">17075695</pub-id></element-citation></ref><ref id="B6-ijms-24-06301"><label>6.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Di Rosa</surname><given-names>M.</given-names></name>
+<name><surname>Distefano</surname><given-names>G.</given-names></name>
+<name><surname>Zorena</surname><given-names>K.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>Chitinases and immunity: Ancestral molecules with new functions</article-title><source>Immunobiology</source><year>2016</year><volume>221</volume><fpage>399</fpage><lpage>411</lpage><pub-id pub-id-type="doi">10.1016/j.imbio.2015.11.014</pub-id><pub-id pub-id-type="pmid">26686909</pub-id></element-citation></ref><ref id="B7-ijms-24-06301"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Di Rosa</surname><given-names>M.</given-names></name>
+<name><surname>De Gregorio</surname><given-names>C.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>G.</given-names></name>
+<name><surname>Tuttobene</surname><given-names>M.</given-names></name>
+<name><surname>Biazzo</surname><given-names>F.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>Evaluation of AMCase and CHIT-1 expression in monocyte macrophages lineage</article-title><source>Mol. Cell. Biochem.</source><year>2013</year><volume>374</volume><fpage>73</fpage><lpage>80</lpage><pub-id pub-id-type="doi">10.1007/s11010-012-1506-5</pub-id><pub-id pub-id-type="pmid">23129258</pub-id></element-citation></ref><ref id="B8-ijms-24-06301"><label>8.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>T.</given-names></name>
+<name><surname>Su</surname><given-names>Z.</given-names></name>
+<name><surname>Li</surname><given-names>Y.</given-names></name>
+<name><surname>Zhang</surname><given-names>X.</given-names></name>
+<name><surname>You</surname><given-names>Q.</given-names></name>
+</person-group><article-title>Chitinase-3 like-protein-1 function and its role in diseases</article-title><source>Signal Transduct. Target Ther.</source><year>2020</year><volume>5</volume><fpage>201</fpage><pub-id pub-id-type="doi">10.1038/s41392-020-00303-7</pub-id><pub-id pub-id-type="pmid">32929074</pub-id></element-citation></ref><ref id="B9-ijms-24-06301"><label>9.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Di Rosa</surname><given-names>M.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>Chitotriosidase: A New Inflammatory Marker in Diabetic Complications</article-title><source>Pathobiology</source><year>2016</year><volume>83</volume><fpage>211</fpage><lpage>219</lpage><pub-id pub-id-type="doi">10.1159/000443932</pub-id><pub-id pub-id-type="pmid">27116685</pub-id></element-citation></ref><ref id="B10-ijms-24-06301"><label>10.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Di Rosa</surname><given-names>M.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>Chitinase 3 Like-1: An Emerging Molecule Involved in Diabetes and Diabetic Complications</article-title><source>Pathobiology</source><year>2016</year><volume>83</volume><fpage>228</fpage><lpage>242</lpage><pub-id pub-id-type="doi">10.1159/000444855</pub-id><pub-id pub-id-type="pmid">27189062</pub-id></element-citation></ref><ref id="B11-ijms-24-06301"><label>11.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Di Rosa</surname><given-names>M.</given-names></name>
+<name><surname>Dell&#x02019;Ombra</surname><given-names>N.</given-names></name>
+<name><surname>Zambito</surname><given-names>A.M.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>M.</given-names></name>
+<name><surname>Nicoletti</surname><given-names>F.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>Chitotriosidase and inflammatory mediator levels in Alzheimer&#x02019;s disease and cerebrovascular dementia</article-title><source>Eur. J. Neurosci.</source><year>2006</year><volume>23</volume><fpage>2648</fpage><lpage>2656</lpage><pub-id pub-id-type="doi">10.1111/j.1460-9568.2006.04780.x</pub-id><pub-id pub-id-type="pmid">16817867</pub-id></element-citation></ref><ref id="B12-ijms-24-06301"><label>12.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Steinacker</surname><given-names>P.</given-names></name>
+<name><surname>Verde</surname><given-names>F.</given-names></name>
+<name><surname>Fang</surname><given-names>L.</given-names></name>
+<name><surname>Feneberg</surname><given-names>E.</given-names></name>
+<name><surname>Oeckl</surname><given-names>P.</given-names></name>
+<name><surname>Roeber</surname><given-names>S.</given-names></name>
+<name><surname>Anderl-Straub</surname><given-names>S.</given-names></name>
+<name><surname>Danek</surname><given-names>A.</given-names></name>
+<name><surname>Diehl-Schmid</surname><given-names>J.</given-names></name>
+<name><surname>Fassbender</surname><given-names>K.</given-names></name>
+<etal/>
+</person-group><article-title>Chitotriosidase (CHIT1) is increased in microglia and macrophages in spinal cordof amyotrophic lateral sclerosis and cerebrospinal fluid levels correlate with disease severity and progression</article-title><source>J. Neurol. Neurosurg. Psychiatry</source><year>2018</year><volume>89</volume><fpage>239</fpage><lpage>247</lpage><pub-id pub-id-type="doi">10.1136/jnnp-2017-317138</pub-id><pub-id pub-id-type="pmid">29142138</pub-id></element-citation></ref><ref id="B13-ijms-24-06301"><label>13.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pinteac</surname><given-names>R.</given-names></name>
+<name><surname>Montalban</surname><given-names>X.</given-names></name>
+<name><surname>Comabella</surname><given-names>M.</given-names></name>
+</person-group><article-title>Chitinases and chitinase-like proteins as biomarkers in neurologic disorders</article-title><source>Neurol. Neuroimmunol. Neuroinflamm.</source><year>2020</year><volume>8</volume><fpage>e921</fpage><pub-id pub-id-type="doi">10.1212/NXI.0000000000000921</pub-id><pub-id pub-id-type="pmid">33293459</pub-id></element-citation></ref><ref id="B14-ijms-24-06301"><label>14.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Thompson</surname><given-names>A.G.</given-names></name>
+<name><surname>Gray</surname><given-names>E.</given-names></name>
+<name><surname>Bampton</surname><given-names>A.</given-names></name>
+<name><surname>Raciborska</surname><given-names>D.</given-names></name>
+<name><surname>Talbot</surname><given-names>K.</given-names></name>
+<name><surname>Turner</surname><given-names>M.R.</given-names></name>
+</person-group><article-title>CSF chitinase proteins in amyotrophic lateral sclerosis</article-title><source>J. Neurol. Neurosurg. Psychiatry</source><year>2019</year><volume>90</volume><fpage>1215</fpage><lpage>1220</lpage><pub-id pub-id-type="doi">10.1136/jnnp-2019-320442</pub-id><pub-id pub-id-type="pmid">31123140</pub-id></element-citation></ref><ref id="B15-ijms-24-06301"><label>15.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Petr&#x0017e;alka</surname><given-names>M.</given-names></name>
+<name><surname>Meluz&#x000ed;nov&#x000e1;</surname><given-names>E.</given-names></name>
+<name><surname>Libert&#x000ed;nov&#x000e1;</surname><given-names>J.</given-names></name>
+<name><surname>Moj&#x0017e;i&#x00161;ov&#x000e1;</surname><given-names>H.</given-names></name>
+<name><surname>Hanzalov&#x000e1;</surname><given-names>J.</given-names></name>
+<name><surname>Ro&#x0010d;kov&#x000e1;</surname><given-names>P.</given-names></name>
+<name><surname>Eli&#x00161;&#x000e1;k</surname><given-names>M.</given-names></name>
+<name><surname>Kmetonyov&#x000e1;</surname><given-names>S.</given-names></name>
+<name><surname>&#x00160;anda</surname><given-names>J.</given-names></name>
+<name><surname>Sobek</surname><given-names>O.</given-names></name>
+<etal/>
+</person-group><article-title>IL-2; IL-6 and chitinase 3-like 2 might predict early relapse activity in multiple sclerosis</article-title><source>PLoS ONE</source><year>2022</year><volume>17</volume><elocation-id>e0270607</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0270607</pub-id><pub-id pub-id-type="pmid">35759479</pub-id></element-citation></ref><ref id="B16-ijms-24-06301"><label>16.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kumar</surname><given-names>A.</given-names></name>
+<name><surname>Singh</surname><given-names>A.</given-names></name>
+<name><surname>Ekavali</surname></name>
+</person-group><article-title>A review on Alzheimer&#x02019;s disease pathophysiology and its management: An update</article-title><source>Pharmacol. Rep.</source><year>2015</year><volume>67</volume><fpage>195</fpage><lpage>203</lpage><pub-id pub-id-type="doi">10.1016/j.pharep.2014.09.004</pub-id><pub-id pub-id-type="pmid">25712639</pub-id></element-citation></ref><ref id="B17-ijms-24-06301"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Farhat</surname><given-names>S.M.</given-names></name>
+<name><surname>Ahmed</surname><given-names>T.</given-names></name>
+</person-group><article-title>Neuroprotective and Neurotoxic Implications of &#x003b1;7 Nicotinic Acetylcholine Receptor and A&#x003b2; Interaction: Therapeutic Options in Alzheimer&#x02019;s Disease</article-title><source>Curr. Drug Targets</source><year>2017</year><volume>18</volume><fpage>1537</fpage><lpage>1544</lpage><pub-id pub-id-type="doi">10.2174/1389450117666161005145143</pub-id><pub-id pub-id-type="pmid">27719660</pub-id></element-citation></ref><ref id="B18-ijms-24-06301"><label>18.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Castellani</surname><given-names>R.J.</given-names></name>
+<name><surname>Siedlak</surname><given-names>S.L.</given-names></name>
+<name><surname>Fortino</surname><given-names>A.E.</given-names></name>
+<name><surname>Perry</surname><given-names>G.</given-names></name>
+<name><surname>Ghetti</surname><given-names>B.</given-names></name>
+<name><surname>Smith</surname><given-names>M.A.</given-names></name>
+</person-group><article-title>Chitin- like polysaccharides in Alzheimer&#x02019;s disease brains</article-title><source>Curr. Alzheimer Res.</source><year>2005</year><volume>2</volume><fpage>419</fpage><lpage>423</lpage><pub-id pub-id-type="doi">10.2174/156720505774330555</pub-id><pub-id pub-id-type="pmid">16248847</pub-id></element-citation></ref><ref id="B19-ijms-24-06301"><label>19.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Castellani</surname><given-names>R.J.</given-names></name>
+<name><surname>Perry</surname><given-names>G.</given-names></name>
+<name><surname>Smith</surname><given-names>M.A.</given-names></name>
+</person-group><article-title>The role of novel chitin-like polysaccharides in Alzheimer disease</article-title><source>Neurotox. Res.</source><year>2007</year><volume>12</volume><fpage>269</fpage><lpage>274</lpage><pub-id pub-id-type="doi">10.1007/BF03033910</pub-id><pub-id pub-id-type="pmid">18201954</pub-id></element-citation></ref><ref id="B20-ijms-24-06301"><label>20.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>C.G.</given-names></name>
+<name><surname>Da Silva</surname><given-names>C.A.</given-names></name>
+<name><surname>Cruz</surname><given-names>C.S.D.</given-names></name>
+<name><surname>Ahangari</surname><given-names>F.</given-names></name>
+<name><surname>Ma</surname><given-names>B.</given-names></name>
+<name><surname>Kang</surname><given-names>M.J.</given-names></name>
+<name><surname>He</surname><given-names>C.H.</given-names></name>
+<name><surname>Takyar</surname><given-names>S.</given-names></name>
+<name><surname>Elias</surname><given-names>J.A.</given-names></name>
+</person-group><article-title>Role of chitin and chitinase/chitinase-like proteins in inflammation, tissue remodeling, and injury</article-title><source>Ann. Rev. Physiol.</source><year>2011</year><volume>73</volume><fpage>479</fpage><lpage>501</lpage><pub-id pub-id-type="doi">10.1146/annurev-physiol-012110-142250</pub-id><pub-id pub-id-type="pmid">21054166</pub-id></element-citation></ref><ref id="B21-ijms-24-06301"><label>21.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Da Silva</surname><given-names>C.A.</given-names></name>
+<name><surname>Chalouni</surname><given-names>C.</given-names></name>
+<name><surname>Williams</surname><given-names>A.</given-names></name>
+<name><surname>Hartl</surname><given-names>D.</given-names></name>
+<name><surname>Lee</surname><given-names>C.G.</given-names></name>
+<name><surname>Elias</surname><given-names>J.A.</given-names></name>
+</person-group><article-title>Role of chitin and chitinase/chitinase-like proteins in inflammation, tissue remodeling, and injury</article-title><source>J. Immunol.</source><year>2009</year><volume>182</volume><fpage>3573</fpage><lpage>3582</lpage><pub-id pub-id-type="doi">10.4049/jimmunol.0802113</pub-id><pub-id pub-id-type="pmid">19265136</pub-id></element-citation></ref><ref id="B22-ijms-24-06301"><label>22.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Iyer</surname><given-names>S.S.</given-names></name>
+<name><surname>Cheng</surname><given-names>G.</given-names></name>
+</person-group><article-title>Role of interleukin 10 transcriptional regulation in inflammation and autoimmune disease</article-title><source>Crit. Rev. Immunol.</source><year>2012</year><volume>32</volume><fpage>23</fpage><lpage>63</lpage><pub-id pub-id-type="doi">10.1615/CritRevImmunol.v32.i1.30</pub-id><pub-id pub-id-type="pmid">22428854</pub-id></element-citation></ref><ref id="B23-ijms-24-06301"><label>23.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wills-Karp</surname><given-names>M.</given-names></name>
+<name><surname>Nathan</surname><given-names>A.</given-names></name>
+<name><surname>Page</surname><given-names>K.</given-names></name>
+<name><surname>Karp</surname><given-names>C.L.</given-names></name>
+</person-group><article-title>New insights into innate immune mechanisms underlying allergenicity</article-title><source>Mucosal. Immunol.</source><year>2010</year><volume>3</volume><fpage>104</fpage><lpage>110</lpage><pub-id pub-id-type="doi">10.1038/mi.2009.138</pub-id><pub-id pub-id-type="pmid">20032970</pub-id></element-citation></ref><ref id="B24-ijms-24-06301"><label>24.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hansen</surname><given-names>D.V.</given-names></name>
+<name><surname>Hanson</surname><given-names>J.E.</given-names></name>
+<name><surname>Sheng</surname><given-names>M.</given-names></name>
+</person-group><article-title>Microglia in Alzheimer&#x02019;s disease</article-title><source>J. Cell Biol.</source><year>2018</year><volume>217</volume><fpage>459</fpage><lpage>472</lpage><pub-id pub-id-type="doi">10.1083/jcb.201709069</pub-id><pub-id pub-id-type="pmid">29196460</pub-id></element-citation></ref><ref id="B25-ijms-24-06301"><label>25.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Turano</surname><given-names>E.</given-names></name>
+<name><surname>Busetto</surname><given-names>G.</given-names></name>
+<name><surname>Marconi</surname><given-names>S.</given-names></name>
+<name><surname>Guzzo</surname><given-names>F.</given-names></name>
+<name><surname>Farinazzo</surname><given-names>A.</given-names></name>
+<name><surname>Commisso</surname><given-names>M.</given-names></name>
+<name><surname>Bistaffa</surname><given-names>E.</given-names></name>
+<name><surname>Angiari</surname><given-names>S.</given-names></name>
+<name><surname>Musumeci</surname><given-names>S.</given-names></name>
+<name><surname>Sotgiu</surname><given-names>S.</given-names></name>
+<etal/>
+</person-group><article-title>Neurotoxicity and synaptic plasticity impairment of N-acetylglucosamine polymers: Implications for Alzheimer&#x02019;s disease</article-title><source>Neurobiol. Aging</source><year>2015</year><volume>36</volume><fpage>1780</fpage><lpage>1791</lpage><pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2014.12.033</pub-id><pub-id pub-id-type="pmid">25735590</pub-id></element-citation></ref><ref id="B26-ijms-24-06301"><label>26.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Saitgareeva</surname><given-names>A.R.</given-names></name>
+<name><surname>Bulygin</surname><given-names>K.V.</given-names></name>
+<name><surname>Gareev</surname><given-names>I.F.</given-names></name>
+<name><surname>Beylerli</surname><given-names>O.A.</given-names></name>
+<name><surname>Akhmadeeva</surname><given-names>L.R.</given-names></name>
+</person-group><article-title>The role of microglia in the development of neurodegeneration</article-title><source>Neurol. Sci.</source><year>2020</year><volume>41</volume><fpage>3609</fpage><lpage>3615</lpage><pub-id pub-id-type="doi">10.1007/s10072-020-04468-5</pub-id><pub-id pub-id-type="pmid">32458252</pub-id></element-citation></ref><ref id="B27-ijms-24-06301"><label>27.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Heneka</surname><given-names>M.T.</given-names></name>
+<name><surname>Carson</surname><given-names>M.J.</given-names></name>
+<name><surname>El Khoury</surname><given-names>J.</given-names></name>
+<name><surname>Landreth</surname><given-names>G.E.</given-names></name>
+<name><surname>Brosseron</surname><given-names>F.</given-names></name>
+<name><surname>Feinstein</surname><given-names>D.L.</given-names></name>
+<name><surname>Jacobs</surname><given-names>A.H.</given-names></name>
+<name><surname>Wyss-Coray</surname><given-names>T.</given-names></name>
+<name><surname>Vitorica</surname><given-names>J.</given-names></name>
+<name><surname>Ransohoff</surname><given-names>R.M.</given-names></name>
+<etal/>
+</person-group><article-title>Neuroinflammation in Alzheimer&#x02019;s disease</article-title><source>Lancet Neurol.</source><year>2015</year><volume>14</volume><fpage>388</fpage><lpage>405</lpage><pub-id pub-id-type="doi">10.1016/S1474-4422(15)70016-5</pub-id><pub-id pub-id-type="pmid">25792098</pub-id></element-citation></ref><ref id="B28-ijms-24-06301"><label>28.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Villar-Piqu&#x000e9;</surname><given-names>A.</given-names></name>
+<name><surname>Schmitz</surname><given-names>M.</given-names></name>
+<name><surname>Hermann</surname><given-names>P.</given-names></name>
+<name><surname>Goebel</surname><given-names>S.</given-names></name>
+<name><surname>Bunck</surname><given-names>T.</given-names></name>
+<name><surname>Varges</surname><given-names>D.</given-names></name>
+<name><surname>Ferrer</surname><given-names>I.</given-names></name>
+<name><surname>Riggert</surname><given-names>J.</given-names></name>
+<name><surname>Llorens</surname><given-names>F.</given-names></name>
+<name><surname>Zerr</surname><given-names>I.</given-names></name>
+</person-group><article-title>Plasma YKL-40 in the spectrum of neurodegenerative dementia</article-title><source>J. Neuroinflamm.</source><year>2019</year><volume>16</volume><fpage>145</fpage><pub-id pub-id-type="doi">10.1186/s12974-019-1531-3</pub-id></element-citation></ref><ref id="B29-ijms-24-06301"><label>29.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Boche</surname><given-names>D.</given-names></name>
+<name><surname>Perry</surname><given-names>V.H.</given-names></name>
+<name><surname>Nicoll</surname><given-names>J.A.</given-names></name>
+</person-group><article-title>Review: Activation patterns of microglia and their identification in the human brain</article-title><source>Neuropathol. Appl. Neurobiol.</source><year>2013</year><volume>39</volume><fpage>3</fpage><lpage>18</lpage><pub-id pub-id-type="doi">10.1111/nan.12011</pub-id><pub-id pub-id-type="pmid">23252647</pub-id></element-citation></ref><ref id="B30-ijms-24-06301"><label>30.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tang</surname><given-names>Y.</given-names></name>
+<name><surname>Le</surname><given-names>W.</given-names></name>
+</person-group><article-title>Differential Roles of M1 and M2 Microglia in Neurodegenerative Diseases</article-title><source>Mol. Neurobiol.</source><year>2016</year><volume>53</volume><fpage>1181</fpage><lpage>1194</lpage><pub-id pub-id-type="doi">10.1007/s12035-014-9070-5</pub-id><pub-id pub-id-type="pmid">25598354</pub-id></element-citation></ref><ref id="B31-ijms-24-06301"><label>31.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Orihuela</surname><given-names>R.</given-names></name>
+<name><surname>McPherson</surname><given-names>C.A.</given-names></name>
+<name><surname>Harry</surname><given-names>G.J.</given-names></name>
+</person-group><article-title>Microglial M1/M2 polarization and metabolic states</article-title><source>Br. J. Pharmacol.</source><year>2016</year><volume>173</volume><fpage>649</fpage><lpage>665</lpage><pub-id pub-id-type="doi">10.1111/bph.13139</pub-id><pub-id pub-id-type="pmid">25800044</pub-id></element-citation></ref><ref id="B32-ijms-24-06301"><label>32.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pepe</surname><given-names>G.</given-names></name>
+<name><surname>Calderazzi</surname><given-names>G.</given-names></name>
+<name><surname>De Maglie</surname><given-names>M.</given-names></name>
+<name><surname>Villa</surname><given-names>A.M.</given-names></name>
+<name><surname>Vegeto</surname><given-names>E.</given-names></name>
+</person-group><article-title>Heterogeneous induction of microglia M2a phenotype by central administration of interleukin-4</article-title><source>J. Neuroinflamm.</source><year>2014</year><volume>11</volume><fpage>211</fpage><pub-id pub-id-type="doi">10.1186/s12974-014-0211-6</pub-id></element-citation></ref><ref id="B33-ijms-24-06301"><label>33.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Russo</surname><given-names>C.</given-names></name>
+<name><surname>Valle</surname><given-names>M.S.</given-names></name>
+<name><surname>Russo</surname><given-names>A.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>The Interplay between Ghrelin and Microglia in Neuroinflammation: Implications for Obesity and Neurodegenerative Diseases</article-title><source>Int. J. Mol. Sci.</source><year>2022</year><volume>23</volume><elocation-id>13432</elocation-id><pub-id pub-id-type="doi">10.3390/ijms232113432</pub-id><pub-id pub-id-type="pmid">36362220</pub-id></element-citation></ref><ref id="B34-ijms-24-06301"><label>34.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+<name><surname>Di Rosa</surname><given-names>M.</given-names></name>
+<name><surname>Zambito</surname><given-names>A.M.</given-names></name>
+<name><surname>dell&#x02019;Ombra</surname><given-names>N.</given-names></name>
+<name><surname>Nicoletti</surname><given-names>F.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>M.</given-names></name>
+</person-group><article-title>Chitotriosidase gene expression in Kupffer cells from patients with non-alcoholic fatty liver disease</article-title><source>Gut</source><year>2006</year><volume>55</volume><fpage>1313</fpage><lpage>1320</lpage><pub-id pub-id-type="doi">10.1136/gut.2005.075697</pub-id><pub-id pub-id-type="pmid">16825325</pub-id></element-citation></ref><ref id="B35-ijms-24-06301"><label>35.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Watabe-Rudolph</surname><given-names>M.</given-names></name>
+<name><surname>Song</surname><given-names>Z.</given-names></name>
+<name><surname>Lausser</surname><given-names>L.</given-names></name>
+<name><surname>Schnack</surname><given-names>C.</given-names></name>
+<name><surname>Begus-Nahrmann</surname><given-names>Y.</given-names></name>
+<name><surname>Scheithauer</surname><given-names>M.O.</given-names></name>
+<name><surname>Rettinger</surname><given-names>G.</given-names></name>
+<name><surname>Otto</surname><given-names>M.</given-names></name>
+<name><surname>Tumani</surname><given-names>H.</given-names></name>
+<name><surname>Thal</surname><given-names>D.R.</given-names></name>
+<etal/>
+</person-group><article-title>Chitinase enzyme activity in CSF is a powerful biomarker of Alzheimer disease</article-title><source>Neurology</source><year>2012</year><volume>78</volume><fpage>569</fpage><lpage>577</lpage><pub-id pub-id-type="doi">10.1212/WNL.0b013e318247caa1</pub-id><pub-id pub-id-type="pmid">22323746</pub-id></element-citation></ref><ref id="B36-ijms-24-06301"><label>36.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ros&#x000e9;n</surname><given-names>C.</given-names></name>
+<name><surname>Andersson</surname><given-names>C.H.</given-names></name>
+<name><surname>Andreasson</surname><given-names>U.</given-names></name>
+<name><surname>Molinuevo</surname><given-names>J.L.</given-names></name>
+<name><surname>Bjerke</surname><given-names>M.</given-names></name>
+<name><surname>Rami</surname><given-names>L.</given-names></name>
+<name><surname>Llad&#x000f3;</surname><given-names>A.</given-names></name>
+<name><surname>Blennow</surname><given-names>K.</given-names></name>
+<name><surname>Zetterberg</surname><given-names>H.</given-names></name>
+</person-group><article-title>Increased Levels of Chitotriosidase and YKL-40 in Cerebrospinal Fluid from Patients with Alzheimer&#x02019;s Disease</article-title><source>Dement. Geriatr. Cogn. Dis. Extra</source><year>2014</year><volume>4</volume><fpage>297</fpage><lpage>304</lpage><pub-id pub-id-type="doi">10.1159/000362164</pub-id><pub-id pub-id-type="pmid">25254036</pub-id></element-citation></ref><ref id="B37-ijms-24-06301"><label>37.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Casal</surname><given-names>J.A.</given-names></name>
+<name><surname>Robles</surname><given-names>A.</given-names></name>
+<name><surname>Tutor</surname><given-names>J.C.</given-names></name>
+</person-group><article-title>Serum markers of monocyte/macrophage activation in patients with Alzheimer&#x02019;s disease and other types of dementia</article-title><source>Clin. Biochem.</source><year>2003</year><volume>36</volume><fpage>553</fpage><lpage>556</lpage><pub-id pub-id-type="doi">10.1016/S0009-9120(03)00093-6</pub-id><pub-id pub-id-type="pmid">14563449</pub-id></element-citation></ref><ref id="B38-ijms-24-06301"><label>38.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mattsson</surname><given-names>N.</given-names></name>
+<name><surname>Tabatabaei</surname><given-names>S.</given-names></name>
+<name><surname>Johansson</surname><given-names>P.</given-names></name>
+<name><surname>Hansson</surname><given-names>O.</given-names></name>
+<name><surname>Andreasson</surname><given-names>U.</given-names></name>
+<name><surname>M&#x000e5;nsson</surname><given-names>J.E.</given-names></name>
+<name><surname>Johansson</surname><given-names>J.O.</given-names></name>
+<name><surname>Olsson</surname><given-names>B.</given-names></name>
+<name><surname>Wallin</surname><given-names>A.</given-names></name>
+<name><surname>Svensson</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>Cerebrospinal fluid microglial markers in Alzheimer&#x02019;s disease: Elevated chitotriosidase activity but lack of diagnostic utility</article-title><source>Neuromolecular. Med.</source><year>2011</year><volume>13</volume><fpage>151</fpage><lpage>159</lpage><pub-id pub-id-type="doi">10.1007/s12017-011-8147-9</pub-id><pub-id pub-id-type="pmid">21567187</pub-id></element-citation></ref><ref id="B39-ijms-24-06301"><label>39.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>X.</given-names></name>
+<name><surname>Yu</surname><given-names>W.</given-names></name>
+<name><surname>Wu</surname><given-names>L.</given-names></name>
+<name><surname>Yang</surname><given-names>W.</given-names></name>
+<name><surname>L&#x000fc;</surname><given-names>Y.</given-names></name>
+</person-group><article-title>Chitotriosidase attenuates brain inflammation via HDAC3/NF-&#x003ba;B pathway in D-galactose and aluminum-induced rat model with cognitive impairments</article-title><source>Neurosci. Res.</source><year>2021</year><volume>172</volume><fpage>73</fpage><lpage>79</lpage><pub-id pub-id-type="doi">10.1016/j.neures.2021.05.014</pub-id><pub-id pub-id-type="pmid">34111442</pub-id></element-citation></ref><ref id="B40-ijms-24-06301"><label>40.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Johansen</surname><given-names>J.S.</given-names></name>
+</person-group><article-title>Studies on serum YKL-40 as a biomarker in diseases with inflammation; tissue remodelling; fibroses and cancer</article-title><source>Dan. Med. Bull.</source><year>2006</year><volume>53</volume><fpage>172</fpage><lpage>209</lpage><pub-id pub-id-type="pmid">17087877</pub-id></element-citation></ref><ref id="B41-ijms-24-06301"><label>41.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rehli</surname><given-names>M.</given-names></name>
+<name><surname>Krause</surname><given-names>S.W.</given-names></name>
+<name><surname>Andreesen</surname><given-names>R.</given-names></name>
+</person-group><article-title>Molecular characterization of the gene for human cartilage gp-39 (CHI3L1); a member of the chitinase protein family and marker for late stages of macrophage differentiation</article-title><source>Genomics</source><year>1997</year><volume>43</volume><fpage>221</fpage><lpage>225</lpage><pub-id pub-id-type="doi">10.1006/geno.1997.4778</pub-id><pub-id pub-id-type="pmid">9244440</pub-id></element-citation></ref><ref id="B42-ijms-24-06301"><label>42.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Di Rosa</surname><given-names>M.</given-names></name>
+<name><surname>Tibullo</surname><given-names>D.</given-names></name>
+<name><surname>Vecchio</surname><given-names>M.</given-names></name>
+<name><surname>Nunnari</surname><given-names>G.</given-names></name>
+<name><surname>Saccone</surname><given-names>S.</given-names></name>
+<name><surname>Di Raimondo</surname><given-names>F.</given-names></name>
+<name><surname>Malaguarnera</surname><given-names>L.</given-names></name>
+</person-group><article-title>Determination of chitinases family during osteoclastogenesis</article-title><source>Bone</source><year>2014</year><volume>61</volume><fpage>55</fpage><lpage>63</lpage><pub-id pub-id-type="doi">10.1016/j.bone.2014.01.005</pub-id><pub-id pub-id-type="pmid">24440516</pub-id></element-citation></ref><ref id="B43-ijms-24-06301"><label>43.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Libreros</surname><given-names>S.</given-names></name>
+<name><surname>Garcia-Areas</surname><given-names>R.</given-names></name>
+<name><surname>Shibata</surname><given-names>Y.</given-names></name>
+<name><surname>Carrio</surname><given-names>R.</given-names></name>
+<name><surname>Torroella-Kouri</surname><given-names>M.</given-names></name>
+<name><surname>Iragavarapu-Charyulu</surname><given-names>V.</given-names></name>
+</person-group><article-title>Induction of proinflammatory mediators by CHI3L1 is reduced by chitin treatment: Decreased tumor metastasis in a breast cancer model</article-title><source>Int. J. Cancer</source><year>2012</year><volume>131</volume><fpage>377</fpage><lpage>386</lpage><pub-id pub-id-type="doi">10.1002/ijc.26379</pub-id><pub-id pub-id-type="pmid">21866546</pub-id></element-citation></ref><ref id="B44-ijms-24-06301"><label>44.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Choi</surname><given-names>J.</given-names></name>
+<name><surname>Lee</surname><given-names>H.W.</given-names></name>
+<name><surname>Suk</surname><given-names>K.</given-names></name>
+</person-group><article-title>Plasma level of chitinase 3-like 1 protein increases in patients with early Alzheimer&#x02019;s disease</article-title><source>J. Neurol.</source><year>2011</year><volume>258</volume><fpage>2181</fpage><lpage>2185</lpage><pub-id pub-id-type="doi">10.1007/s00415-011-6087-9</pub-id><pub-id pub-id-type="pmid">21562723</pub-id></element-citation></ref><ref id="B45-ijms-24-06301"><label>45.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rehli</surname><given-names>M.</given-names></name>
+<name><surname>Niller</surname><given-names>H.H.</given-names></name>
+<name><surname>Ammon</surname><given-names>C.</given-names></name>
+<name><surname>Langmann</surname><given-names>S.</given-names></name>
+<name><surname>Schwarzfischer</surname><given-names>L.</given-names></name>
+<name><surname>Andreesen</surname><given-names>R.</given-names></name>
+<name><surname>Krause</surname><given-names>S.W.</given-names></name>
+</person-group><article-title>Transcriptional regulation of CHI3L1; a marker gene for late stages of macrophage differentiation</article-title><source>J. Biol. Chem.</source><year>2003</year><volume>278</volume><fpage>44058</fpage><lpage>44067</lpage><pub-id pub-id-type="doi">10.1074/jbc.M306792200</pub-id><pub-id pub-id-type="pmid">12933821</pub-id></element-citation></ref><ref id="B46-ijms-24-06301"><label>46.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Escartin</surname><given-names>C.</given-names></name>
+<name><surname>Galea</surname><given-names>E.</given-names></name>
+<name><surname>Lakatos</surname><given-names>A.</given-names></name>
+<name><surname>O&#x02019;Callaghan</surname><given-names>J.P.</given-names></name>
+<name><surname>Petzold</surname><given-names>G.C.</given-names></name>
+<name><surname>Serrano-Pozo</surname><given-names>A.</given-names></name>
+<name><surname>Steinh&#x000e4;user</surname><given-names>C.</given-names></name>
+<name><surname>Volterra</surname><given-names>A.</given-names></name>
+<name><surname>Carmignoto</surname><given-names>G.</given-names></name>
+<name><surname>Agarwal</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group><article-title>Reactive astrocyte nomenclature; definitions; and future directions</article-title><source>Nat. Neurosci.</source><year>2021</year><volume>24</volume><fpage>312</fpage><lpage>325</lpage><pub-id pub-id-type="doi">10.1038/s41593-020-00783-4</pub-id><pub-id pub-id-type="pmid">33589835</pub-id></element-citation></ref><ref id="B47-ijms-24-06301"><label>47.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Carter</surname><given-names>S.F.</given-names></name>
+<name><surname>Herholz</surname><given-names>K.</given-names></name>
+<name><surname>Rosa-Neto</surname><given-names>P.</given-names></name>
+<name><surname>Pellerin</surname><given-names>L.</given-names></name>
+<name><surname>Nordberg</surname><given-names>A.</given-names></name>
+<name><surname>Zimmer</surname><given-names>E.R.</given-names></name>
+</person-group><article-title>Astrocyte biomarkers in Alzheimer&#x02019;s disease</article-title><source>Trends Mol. Med.</source><year>2019</year><volume>25</volume><fpage>77</fpage><lpage>95</lpage><pub-id pub-id-type="doi">10.1016/j.molmed.2018.11.006</pub-id><pub-id pub-id-type="pmid">30611668</pub-id></element-citation></ref><ref id="B48-ijms-24-06301"><label>48.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bellaver</surname><given-names>B.</given-names></name>
+<name><surname>Ferrari-Souza</surname><given-names>J.P.</given-names></name>
+<name><surname>da Ros</surname><given-names>L.U.</given-names></name>
+<name><surname>Carter</surname><given-names>S.F.</given-names></name>
+<name><surname>Rodriguez-Vieitez</surname><given-names>E.</given-names></name>
+<name><surname>Nordberg</surname><given-names>A.</given-names></name>
+<name><surname>Pellerin</surname><given-names>L.</given-names></name>
+<name><surname>Rosa-Neto</surname><given-names>P.</given-names></name>
+<name><surname>Leffa</surname><given-names>D.T.</given-names></name>
+<name><surname>Zimmer</surname><given-names>E.R.</given-names></name>
+</person-group><article-title>Astrocyte biomarkers in Alzheimer disease: A systematic review and meta-analysis</article-title><source>Neurology</source><year>2021</year><volume>96</volume><fpage>e2944</fpage><lpage>e2955</lpage><pub-id pub-id-type="doi">10.1212/WNL.0000000000012109</pub-id></element-citation></ref><ref id="B49-ijms-24-06301"><label>49.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Antonell</surname><given-names>A.</given-names></name>
+<name><surname>Mansilla</surname><given-names>A.</given-names></name>
+<name><surname>Rami</surname><given-names>L.</given-names></name>
+<name><surname>Llado</surname><given-names>A.</given-names></name>
+<name><surname>Iranzo</surname><given-names>A.</given-names></name>
+<name><surname>Olives</surname><given-names>J.</given-names></name>
+<name><surname>Balasa</surname><given-names>M.</given-names></name>
+<name><surname>S&#x000e1;nchez-Valle</surname><given-names>R.</given-names></name>
+<name><surname>Molinuevo</surname><given-names>J.L.</given-names></name>
+</person-group><article-title>Cerebrospinal fluid level of YKL-40 protein in preclinical and prodromal Alzheimer&#x02019;s disease</article-title><source>J. Alzheimers Dis.</source><year>2014</year><volume>42</volume><fpage>901</fpage><lpage>908</lpage><pub-id pub-id-type="doi">10.3233/JAD-140624</pub-id><pub-id pub-id-type="pmid">25024322</pub-id></element-citation></ref><ref id="B50-ijms-24-06301"><label>50.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gispert</surname><given-names>J.D.</given-names></name>
+<name><surname>Mont&#x000e9;</surname><given-names>G.C.</given-names></name>
+<name><surname>Falcon</surname><given-names>C.</given-names></name>
+<name><surname>Tucholka</surname><given-names>A.</given-names></name>
+<name><surname>Rojas</surname><given-names>S.</given-names></name>
+<name><surname>S&#x000e1;nchez-Valle</surname><given-names>R.</given-names></name>
+<name><surname>Antonell</surname><given-names>A.</given-names></name>
+<name><surname>Llad&#x000f3;</surname><given-names>A.</given-names></name>
+<name><surname>Rami</surname><given-names>L.</given-names></name>
+<name><surname>Molinuevo</surname><given-names>J.L.</given-names></name>
+</person-group><article-title>CSF YL40 and pTau181 are related to different cerebral morphometric patterns in early AD</article-title><source>Neurobiol. Aging</source><year>2016</year><volume>38</volume><fpage>47</fpage><lpage>55</lpage><pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2015.10.022</pub-id><pub-id pub-id-type="pmid">26827642</pub-id></element-citation></ref><ref id="B51-ijms-24-06301"><label>51.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Janelidze</surname><given-names>S.</given-names></name>
+<name><surname>Hertze</surname><given-names>J.</given-names></name>
+<name><surname>Zetterberg</surname><given-names>H.</given-names></name>
+<name><surname>Landqvist Wald&#x000f6;</surname><given-names>M.</given-names></name>
+<name><surname>Santillo</surname><given-names>A.</given-names></name>
+<name><surname>Blennow</surname><given-names>K.</given-names></name>
+<name><surname>Hansson</surname><given-names>O.</given-names></name>
+</person-group><article-title>Cerebrospinal fluid neurogranin and YKL-40 as biomarkers of Alzheimer&#x02019;s disease</article-title><source>Ann. Clin. Transl. Neurol.</source><year>2015</year><volume>3</volume><fpage>12</fpage><lpage>20</lpage><pub-id pub-id-type="doi">10.1002/acn3.266</pub-id><pub-id pub-id-type="pmid">26783546</pub-id></element-citation></ref><ref id="B52-ijms-24-06301"><label>52.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kester</surname><given-names>M.I.</given-names></name>
+<name><surname>Teunissen</surname><given-names>C.E.</given-names></name>
+<name><surname>Sutphen</surname><given-names>C.</given-names></name>
+<name><surname>Herries</surname><given-names>E.M.</given-names></name>
+<name><surname>Ladenson</surname><given-names>J.H.</given-names></name>
+<name><surname>Xiong</surname><given-names>C.</given-names></name>
+<name><surname>Scheltens</surname><given-names>P.</given-names></name>
+<name><surname>van der Flier</surname><given-names>W.M.</given-names></name>
+<name><surname>Morris</surname><given-names>J.C.</given-names></name>
+<name><surname>Holtzman</surname><given-names>D.M.</given-names></name>
+<etal/>
+</person-group><article-title>Cerebrospinal fluid VILIP-1 and YKL-40, candidate biomarkers to diagnose, predict and monitor Alzheimer&#x02019;s disease in a memory clinic cohort</article-title><source>Alzheimers Res. Ther.</source><year>2015</year><volume>7</volume><fpage>59</fpage><pub-id pub-id-type="doi">10.1186/s13195-015-0142-1</pub-id><pub-id pub-id-type="pmid">26383836</pub-id></element-citation></ref><ref id="B53-ijms-24-06301"><label>53.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Olsson</surname><given-names>B.</given-names></name>
+<name><surname>Hertze</surname><given-names>J.</given-names></name>
+<name><surname>Lautner</surname><given-names>R.</given-names></name>
+<name><surname>Zetterberg</surname><given-names>H.</given-names></name>
+<name><surname>N&#x000e4;gga</surname><given-names>K.</given-names></name>
+<name><surname>H&#x000f6;glund</surname><given-names>K.</given-names></name>
+<name><surname>Basun</surname><given-names>H.</given-names></name>
+<name><surname>Annas</surname><given-names>P.</given-names></name>
+<name><surname>Lannfelt</surname><given-names>L.</given-names></name>
+<name><surname>Andreasen</surname><given-names>N.</given-names></name>
+<etal/>
+</person-group><article-title>Microglial markers are elevated in the prodromal phase of Alzheimer&#x02019;s disease and vascular dementia</article-title><source>J. Alzheimers Dis.</source><year>2013</year><volume>33</volume><fpage>45</fpage><lpage>53</lpage><pub-id pub-id-type="doi">10.3233/JAD-2012-120787</pub-id><pub-id pub-id-type="pmid">22890100</pub-id></element-citation></ref><ref id="B54-ijms-24-06301"><label>54.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sutphen</surname><given-names>C.L.</given-names></name>
+<name><surname>Jasielec</surname><given-names>M.S.</given-names></name>
+<name><surname>Shah</surname><given-names>A.R.</given-names></name>
+<name><surname>Macy</surname><given-names>E.M.</given-names></name>
+<name><surname>Xiong</surname><given-names>C.</given-names></name>
+<name><surname>Vlassenko</surname><given-names>A.G.</given-names></name>
+<name><surname>Benzinger</surname><given-names>T.L.</given-names></name>
+<name><surname>Stoops</surname><given-names>E.E.</given-names></name>
+<name><surname>Vanderstichele</surname><given-names>H.M.</given-names></name>
+<name><surname>Brix</surname><given-names>B.</given-names></name>
+<etal/>
+</person-group><article-title>Longitudinal Cerebrospinal Fluid Biomarker Changes in Preclinical Alzheimer Disease During Middle Age</article-title><source>JAMA Neurol.</source><year>2015</year><volume>72</volume><fpage>1029</fpage><lpage>1042</lpage><pub-id pub-id-type="doi">10.1001/jamaneurol.2015.1285</pub-id><pub-id pub-id-type="pmid">26147946</pub-id></element-citation></ref><ref id="B55-ijms-24-06301"><label>55.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Alcolea</surname><given-names>D.</given-names></name>
+<name><surname>Vilaplana</surname><given-names>E.</given-names></name>
+<name><surname>Pegueroles</surname><given-names>J.</given-names></name>
+<name><surname>Montal</surname><given-names>V.</given-names></name>
+<name><surname>S&#x000e1;nchez-Juan</surname><given-names>P.</given-names></name>
+<name><surname>Gonz&#x000e1;lez-Su&#x000e1;rez</surname><given-names>A.</given-names></name>
+<name><surname>Pozueta</surname><given-names>A.</given-names></name>
+<name><surname>Rodr&#x000ed;guez-Rodr&#x000ed;guez</surname><given-names>E.</given-names></name>
+<name><surname>Bartr&#x000e9;s-Faz</surname><given-names>D.</given-names></name>
+<name><surname>Vidal-Pi&#x000f1;eiro</surname><given-names>D.</given-names></name>
+<etal/>
+</person-group><article-title>Relationship between cortical thickness and cerebrospinal fluid YKL-40in predementia stages of Alzheimer&#x02019;s disease</article-title><source>Neurobiol. Aging</source><year>2015</year><volume>36</volume><fpage>2018</fpage><lpage>2023</lpage><pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2015.03.001</pub-id><pub-id pub-id-type="pmid">25865441</pub-id></element-citation></ref><ref id="B56-ijms-24-06301"><label>56.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dichev</surname><given-names>V.</given-names></name>
+<name><surname>Kazakova</surname><given-names>M.</given-names></name>
+<name><surname>Sarafian</surname><given-names>V.</given-names></name>
+</person-group><article-title>YKL-40 e enolasi neurone-specifica nella neurodegenerazione e neuroinfiammazione</article-title><source>Rev. Neurosci.</source><year>2020</year><volume>31</volume><fpage>539</fpage><lpage>553</lpage><pub-id pub-id-type="doi">10.1515/revneuro-2019-0100</pub-id><pub-id pub-id-type="pmid">32045356</pub-id></element-citation></ref><ref id="B57-ijms-24-06301"><label>57.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kim</surname><given-names>M.N.</given-names></name>
+<name><surname>Lee</surname><given-names>K.E.</given-names></name>
+<name><surname>Hong</surname><given-names>J.Y.</given-names></name>
+<name><surname>Heo</surname><given-names>W.I.</given-names></name>
+<name><surname>Kim</surname><given-names>K.W.</given-names></name>
+<name><surname>Kim</surname><given-names>K.E.</given-names></name>
+<name><surname>Sohn</surname><given-names>M.H.</given-names></name>
+</person-group><article-title>Involvement of the MAPK and PI3K pathways in chitinase 3-like 1-regulated hyperoxia-induced airway epithelial cell death</article-title><source>Biochem. Biophys. Res. Commun.</source><year>2012</year><volume>421</volume><fpage>790</fpage><lpage>796</lpage><pub-id pub-id-type="doi">10.1016/j.bbrc.2012.04.085</pub-id><pub-id pub-id-type="pmid">22554524</pub-id></element-citation></ref><ref id="B58-ijms-24-06301"><label>58.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Im</surname><given-names>J.H.</given-names></name>
+<name><surname>Yeo</surname><given-names>I.J.</given-names></name>
+<name><surname>Park</surname><given-names>P.H.</given-names></name>
+<name><surname>Choi</surname><given-names>D.Y.</given-names></name>
+<name><surname>Han</surname><given-names>S.B.</given-names></name>
+<name><surname>Yun</surname><given-names>J.</given-names></name>
+<name><surname>Hong</surname><given-names>J.T.</given-names></name>
+</person-group><article-title>Deletion of Chitinase-3-like 1 accelerates stroke development through enhancement of Neuroinflammation by STAT6-dependent M2 microglial inactivation in Chitinase-3-like 1 knockout mice</article-title><source>Exp. Neurol.</source><year>2020</year><volume>323</volume><fpage>113082</fpage><pub-id pub-id-type="doi">10.1016/j.expneurol.2019.113082</pub-id><pub-id pub-id-type="pmid">31669069</pub-id></element-citation></ref><ref id="B59-ijms-24-06301"><label>59.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Craig-Schapiro</surname><given-names>R.</given-names></name>
+<name><surname>Perrin</surname><given-names>R.J.</given-names></name>
+<name><surname>Roe</surname><given-names>C.M.</given-names></name>
+<name><surname>Xiong</surname><given-names>C.</given-names></name>
+<name><surname>Carter</surname><given-names>D.</given-names></name>
+<name><surname>Cairns</surname><given-names>N.J.</given-names></name>
+<name><surname>Mintun</surname><given-names>M.A.</given-names></name>
+<name><surname>Peskind</surname><given-names>E.R.</given-names></name>
+<name><surname>Li</surname><given-names>G.</given-names></name>
+<name><surname>Galasko</surname><given-names>D.R.</given-names></name>
+<etal/>
+</person-group><article-title>YKL-40: A novel prognostic fluid biomarker for preclinical Alzheimer&#x02019;s disease</article-title><source>Biol. Psychiatry</source><year>2010</year><volume>68</volume><fpage>903</fpage><lpage>912</lpage><pub-id pub-id-type="doi">10.1016/j.biopsych.2010.08.025</pub-id><pub-id pub-id-type="pmid">21035623</pub-id></element-citation></ref><ref id="B60-ijms-24-06301"><label>60.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Habib</surname><given-names>N.</given-names></name>
+<name><surname>McCabe</surname><given-names>C.</given-names></name>
+<name><surname>Medina</surname><given-names>S.</given-names></name>
+<name><surname>Varshavsky</surname><given-names>M.</given-names></name>
+<name><surname>Kitsberg</surname><given-names>D.</given-names></name>
+<name><surname>Dvir-Szternfeld</surname><given-names>R.</given-names></name>
+<name><surname>Green</surname><given-names>G.</given-names></name>
+<name><surname>Dionne</surname><given-names>D.</given-names></name>
+<name><surname>Nguyen</surname><given-names>L.</given-names></name>
+<name><surname>Marshall</surname><given-names>J.L.</given-names></name>
+<etal/>
+</person-group><article-title>Disease-associated astrocytes in Alzheimer&#x02019;s disease and aging</article-title><source>Nat. Neurosci.</source><year>2020</year><volume>23</volume><fpage>701</fpage><lpage>706</lpage><pub-id pub-id-type="doi">10.1038/s41593-020-0624-8</pub-id><pub-id pub-id-type="pmid">32341542</pub-id></element-citation></ref><ref id="B61-ijms-24-06301"><label>61.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Perez-Nievas</surname><given-names>B.G.</given-names></name>
+<name><surname>Serrano-Pozo</surname><given-names>A.</given-names></name>
+</person-group><article-title>Deciphering the Astrocyte Reaction in Alzheimer&#x02019;s Disease</article-title><source>Front. Aging Neurosci.</source><year>2018</year><volume>10</volume><fpage>114</fpage><pub-id pub-id-type="doi">10.3389/fnagi.2018.00114</pub-id><pub-id pub-id-type="pmid">29922147</pub-id></element-citation></ref><ref id="B62-ijms-24-06301"><label>62.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Querol-Vilaseca</surname><given-names>M.</given-names></name>
+<name><surname>Colom-Cadena</surname><given-names>M.</given-names></name>
+<name><surname>Pegueroles</surname><given-names>J.</given-names></name>
+<name><surname>San Mart&#x000ed;n-Paniello</surname><given-names>C.</given-names></name>
+<name><surname>Clarimon</surname><given-names>J.</given-names></name>
+<name><surname>Belbin</surname><given-names>O.</given-names></name>
+<name><surname>Fortea</surname><given-names>J.</given-names></name>
+<name><surname>Lle&#x000f3;</surname><given-names>A.</given-names></name>
+</person-group><article-title>YKL-40 (Chitinase 3-like I) is expressed in a subset of astrocytes in Alzheimer&#x02019;s disease and other tauopathies</article-title><source>J. Neuroinflamm.</source><year>2017</year><volume>14</volume><fpage>118</fpage><pub-id pub-id-type="doi">10.1186/s12974-017-0893-7</pub-id><pub-id pub-id-type="pmid">28599675</pub-id></element-citation></ref><ref id="B63-ijms-24-06301"><label>63.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ferrari-Souza</surname><given-names>J.P.</given-names></name>
+<name><surname>Ferreira</surname><given-names>P.C.L.</given-names></name>
+<name><surname>Bellaver</surname><given-names>B.</given-names></name>
+<name><surname>Tissot</surname><given-names>C.</given-names></name>
+<name><surname>Wang</surname><given-names>Y.-T.</given-names></name>
+<name><surname>Leffa</surname><given-names>D.T.</given-names></name>
+<name><surname>Brum</surname><given-names>W.S.</given-names></name>
+<name><surname>Benedet</surname><given-names>A.L.</given-names></name>
+<name><surname>Ashton</surname><given-names>N.J.</given-names></name>
+<name><surname>De Bastiani</surname><given-names>M.A.</given-names></name>
+<etal/>
+</person-group><article-title>Astrocyte biomarker signatures of amyloid-&#x003b2; and tau pathologies in Alzheimer&#x02019;s disease</article-title><source>Mol. Psychiatry</source><year>2022</year><volume>27</volume><fpage>4781</fpage><lpage>4789</lpage><pub-id pub-id-type="doi">10.1038/s41380-022-01716-2</pub-id><pub-id pub-id-type="pmid">35948658</pub-id></element-citation></ref><ref id="B64-ijms-24-06301"><label>64.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>McLarnon</surname><given-names>J.G.</given-names></name>
+</person-group><article-title>Chemokine Interleukin-8 (IL-8) in Alzheimer&#x02019;s and Other Neurodegenerative Diseases</article-title><source>J. Alzheimers Dis. Parkinsonism</source><year>2016</year><volume>6</volume><fpage>273</fpage><pub-id pub-id-type="doi">10.4172/2161-0460.1000273</pub-id></element-citation></ref><ref id="B65-ijms-24-06301"><label>65.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>K.</given-names></name>
+<name><surname>Tian</surname><given-names>L.</given-names></name>
+<name><surname>Liu</surname><given-names>L.</given-names></name>
+<name><surname>Feng</surname><given-names>Y.</given-names></name>
+<name><surname>Dong</surname><given-names>Y.-B.</given-names></name>
+<name><surname>Li</surname><given-names>B.</given-names></name>
+<name><surname>Shang</surname><given-names>D.-S.</given-names></name>
+<name><surname>Fang</surname><given-names>W.-G.</given-names></name>
+<name><surname>Cao</surname><given-names>Y.-P.</given-names></name>
+<name><surname>Chen</surname><given-names>Y.-H.</given-names></name>
+</person-group><article-title>CXCL1 contributes to &#x003b2;-amyloid-induced transendothelial migration of monocytes in Alzheimer&#x02019;s disease</article-title><source>PLoS ONE</source><year>2013</year><volume>8</volume><elocation-id>e72744</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0072744</pub-id><pub-id pub-id-type="pmid">23967336</pub-id></element-citation></ref><ref id="B66-ijms-24-06301"><label>66.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Duits</surname><given-names>F.H.</given-names></name>
+<name><surname>Hernandez-Guillamon</surname><given-names>M.</given-names></name>
+<name><surname>Montaner</surname><given-names>J.</given-names></name>
+<name><surname>Goos</surname><given-names>J.D.</given-names></name>
+<name><surname>Monta&#x000f1;ola</surname><given-names>A.</given-names></name>
+<name><surname>Wattjes</surname><given-names>M.P.</given-names></name>
+<name><surname>Barkhof</surname><given-names>F.</given-names></name>
+<name><surname>Scheltens</surname><given-names>P.</given-names></name>
+<name><surname>Teunissen</surname><given-names>C.E.</given-names></name>
+<name><surname>van der Flier</surname><given-names>W.M.</given-names></name>
+</person-group><article-title>Matrix Metalloproteinases in Alzheimer&#x02019;s Disease and Concurrent Cerebral Microbleeds</article-title><source>J. Alzheimers Dis.</source><year>2015</year><volume>48</volume><fpage>711</fpage><lpage>720</lpage><pub-id pub-id-type="doi">10.3233/JAD-143186</pub-id><pub-id pub-id-type="pmid">26402072</pub-id></element-citation></ref><ref id="B67-ijms-24-06301"><label>67.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bol&#x000f3;s</surname><given-names>M.</given-names></name>
+<name><surname>Llorens-Mart&#x000ed;n</surname><given-names>M.</given-names></name>
+<name><surname>Perea</surname><given-names>J.R.</given-names></name>
+<name><surname>Jurado-Arjona</surname><given-names>J.</given-names></name>
+<name><surname>R&#x000e1;bano</surname><given-names>A.</given-names></name>
+<name><surname>Hern&#x000e1;ndez</surname><given-names>F.</given-names></name>
+<name><surname>Avila</surname><given-names>J.</given-names></name>
+</person-group><article-title>Absence of CX3CR1 impairs the internalization of Tau by microglia</article-title><source>Mol. Neurodegener.</source><year>2017</year><volume>12</volume><fpage>59</fpage><pub-id pub-id-type="doi">10.1186/s13024-017-0200-1</pub-id><pub-id pub-id-type="pmid">28810892</pub-id></element-citation></ref><ref id="B68-ijms-24-06301"><label>68.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>X.</given-names></name>
+<name><surname>Alafuzoff</surname><given-names>I.</given-names></name>
+<name><surname>Soininen</surname><given-names>H.</given-names></name>
+<name><surname>Winblad</surname><given-names>B.</given-names></name>
+<name><surname>Pei</surname><given-names>J.J.</given-names></name>
+</person-group><article-title>Levels of mTOR and its downstream targets 4E-BP1; eEF2; and eEF2 kinase in relationships with tau in Alzheimer&#x02019;s disease brain</article-title><source>FEBS J.</source><year>2005</year><volume>272</volume><fpage>4211</fpage><lpage>4220</lpage><pub-id pub-id-type="doi">10.1111/j.1742-4658.2005.04833.x</pub-id><pub-id pub-id-type="pmid">16098202</pub-id></element-citation></ref><ref id="B69-ijms-24-06301"><label>69.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Murphy</surname><given-names>G.M.</given-names><suffix>Jr.</suffix></name>
+<name><surname>Zhao</surname><given-names>F.</given-names></name>
+<name><surname>Yang</surname><given-names>L.</given-names></name>
+<name><surname>Cordell</surname><given-names>B.</given-names></name>
+</person-group><article-title>Expression of macrophage colony-stimulating factor receptor is increased in the AbetaPP(V717F) transgenic mouse model of Alzheimer&#x02019;s disease</article-title><source>Am. J. Pathol.</source><year>2000</year><volume>157</volume><fpage>895</fpage><lpage>904</lpage><pub-id pub-id-type="doi">10.1016/S0002-9440(10)64603-2</pub-id><pub-id pub-id-type="pmid">10980129</pub-id></element-citation></ref><ref id="B70-ijms-24-06301"><label>70.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>Y.</given-names></name>
+<name><surname>Chen</surname><given-names>Z.</given-names></name>
+<name><surname>Wang</surname><given-names>Q.</given-names></name>
+<name><surname>Lv</surname><given-names>X.</given-names></name>
+<name><surname>Cheng</surname><given-names>Z.</given-names></name>
+<name><surname>Wu</surname><given-names>Y.</given-names></name>
+<name><surname>Tang</surname><given-names>F.</given-names></name>
+<name><surname>Shen</surname><given-names>Y.</given-names></name>
+<name><surname>Gao</surname><given-names>F.</given-names></name>
+</person-group><article-title>Identification of hub proteins in cerebrospinal fluid as potential biomarkers of Alzheimer&#x02019;s disease by integrated bioinformatics</article-title><source>J. Neurol.</source><year>2023</year><volume>270</volume><fpage>1487</fpage><lpage>1500</lpage><comment>
+<italic toggle="yes">Epub ahead of print</italic>
+</comment><pub-id pub-id-type="doi">10.1007/s00415-022-11476-2</pub-id><pub-id pub-id-type="pmid">36396814</pub-id></element-citation></ref><ref id="B71-ijms-24-06301"><label>71.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Alarc&#x000f3;n</surname><given-names>T.A.</given-names></name>
+<name><surname>Presti-Silva</surname><given-names>S.M.</given-names></name>
+<name><surname>Sim&#x000f5;es</surname><given-names>A.P.T.</given-names></name>
+<name><surname>Ribeiro</surname><given-names>F.M.</given-names></name>
+<name><surname>Pires</surname><given-names>R.G.W.</given-names></name>
+</person-group><article-title>Molecular mechanisms underlying the neuroprotection of environmental enrichment in Parkinson&#x02019;s disease</article-title><source>Neural Regen Res.</source><year>2023</year><volume>18</volume><fpage>1450</fpage><lpage>1456</lpage><pub-id pub-id-type="pmid">36571341</pub-id></element-citation></ref><ref id="B72-ijms-24-06301"><label>72.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sezgin</surname><given-names>M.</given-names></name>
+<name><surname>Bilgic</surname><given-names>B.</given-names></name>
+<name><surname>Tinaz</surname><given-names>S.</given-names></name>
+<name><surname>Emre</surname><given-names>M.</given-names></name>
+</person-group><article-title>Parkinson&#x02019;s Disease Dementia and Lewy Body Disease</article-title><source>Semin. Neurol.</source><year>2019</year><volume>39</volume><fpage>274</fpage><lpage>282</lpage><pub-id pub-id-type="doi">10.1055/s-0039-1678579</pub-id><pub-id pub-id-type="pmid">30925619</pub-id></element-citation></ref><ref id="B73-ijms-24-06301"><label>73.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Meade</surname><given-names>R.M.</given-names></name>
+<name><surname>Fairlie</surname><given-names>D.P.</given-names></name>
+<name><surname>Mason</surname><given-names>J.M.</given-names></name>
+</person-group><article-title>Alpha-synuclein structure and Parkinson&#x02019;s disease&#x02014;Lessons and emerging principles</article-title><source>Mol. Neurodegener.</source><year>2019</year><volume>14</volume><fpage>29</fpage><pub-id pub-id-type="doi">10.1186/s13024-019-0329-1</pub-id><pub-id pub-id-type="pmid">31331359</pub-id></element-citation></ref><ref id="B74-ijms-24-06301"><label>74.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Heywood</surname><given-names>W.E.</given-names></name>
+<name><surname>Galimberti</surname><given-names>D.</given-names></name>
+<name><surname>Bliss</surname><given-names>E.</given-names></name>
+<name><surname>Sirka</surname><given-names>E.</given-names></name>
+<name><surname>Paterson</surname><given-names>R.W.</given-names></name>
+<name><surname>Magdalinou</surname><given-names>N.K.</given-names></name>
+<name><surname>Carecchio</surname><given-names>M.</given-names></name>
+<name><surname>Reid</surname><given-names>E.</given-names></name>
+<name><surname>Heslegrave</surname><given-names>A.</given-names></name>
+<name><surname>Fenoglio</surname><given-names>C.</given-names></name>
+<etal/>
+</person-group><article-title>Identification of novel CSF biomarkers for neurodegeneration and their validation by a high- throughput multiplexed targeted proteomic assay</article-title><source>Mol. Neurodegener.</source><year>2015</year><volume>10</volume><fpage>64</fpage><pub-id pub-id-type="doi">10.1186/s13024-015-0059-y</pub-id><pub-id pub-id-type="pmid">26627638</pub-id></element-citation></ref><ref id="B75-ijms-24-06301"><label>75.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Irwin</surname><given-names>D.J.</given-names></name>
+<name><surname>Lee</surname><given-names>V.M.</given-names></name>
+<name><surname>Trojanowski</surname><given-names>J.Q.</given-names></name>
+</person-group><article-title>Parkinson&#x02019;s disease dementia: Convergence of &#x003b1;-synuclein; tau and amyloid-&#x003b2; pathologies</article-title><source>Nat. Rev. Neurosci.</source><year>2013</year><volume>14</volume><fpage>626</fpage><lpage>636</lpage><pub-id pub-id-type="doi">10.1038/nrn3549</pub-id><pub-id pub-id-type="pmid">23900411</pub-id></element-citation></ref><ref id="B76-ijms-24-06301"><label>76.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Surendranathan</surname><given-names>A.</given-names></name>
+<name><surname>Rowe</surname><given-names>J.B.</given-names></name>
+<name><surname>O&#x02019;Brien</surname><given-names>J.T.</given-names></name>
+</person-group><article-title>Neuroinflammation in Lewy body dementia</article-title><source>Parkinsonism Relat. Disord.</source><year>2015</year><volume>21</volume><fpage>1398</fpage><lpage>1406</lpage><pub-id pub-id-type="doi">10.1016/j.parkreldis.2015.10.009</pub-id><pub-id pub-id-type="pmid">26493111</pub-id></element-citation></ref><ref id="B77-ijms-24-06301"><label>77.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Br&#x000fc;ck</surname><given-names>D.</given-names></name>
+<name><surname>Wenning</surname><given-names>G.K.</given-names></name>
+<name><surname>Stefanova</surname><given-names>N.</given-names></name>
+<name><surname>Fellner</surname><given-names>L.</given-names></name>
+</person-group><article-title>Glia and alpha-synuclein in neurodegeneration: A complex interaction</article-title><source>Neurobiol. Dis.</source><year>2016</year><volume>85</volume><fpage>262</fpage><lpage>274</lpage><pub-id pub-id-type="doi">10.1016/j.nbd.2015.03.003</pub-id><pub-id pub-id-type="pmid">25766679</pub-id></element-citation></ref><ref id="B78-ijms-24-06301"><label>78.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lv</surname><given-names>Q.K.</given-names></name>
+<name><surname>Tao</surname><given-names>K.X.</given-names></name>
+<name><surname>Wang</surname><given-names>X.B.</given-names></name>
+<name><surname>Yao</surname><given-names>X.Y.</given-names></name>
+<name><surname>Pang</surname><given-names>M.Z.</given-names></name>
+<name><surname>Liu</surname><given-names>J.Y.</given-names></name>
+<name><surname>Wang</surname><given-names>F.</given-names></name>
+<name><surname>Liu</surname><given-names>C.F.</given-names></name>
+</person-group><article-title>Role of &#x003b1;-synuclein in microglia: Autophagy and phagocytosis balance neuroinflammation in Parkinson&#x02019;s disease</article-title><source>Inflamm. Res.</source><year>2023</year><volume>72</volume><fpage>443</fpage><lpage>462</lpage><comment>
+<italic toggle="yes">Epub ahead of print</italic>
+</comment><pub-id pub-id-type="doi">10.1007/s00011-022-01676-x</pub-id><pub-id pub-id-type="pmid">36598534</pub-id></element-citation></ref><ref id="B79-ijms-24-06301"><label>79.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bartl</surname><given-names>M.</given-names></name>
+<name><surname>Dakna</surname><given-names>M.</given-names></name>
+<name><surname>Galasko</surname><given-names>D.</given-names></name>
+<name><surname>Hutten</surname><given-names>S.J.</given-names></name>
+<name><surname>Foroud</surname><given-names>T.</given-names></name>
+<name><surname>Quan</surname><given-names>M.</given-names></name>
+<name><surname>Marek</surname><given-names>K.</given-names></name>
+<name><surname>Siderowf</surname><given-names>A.</given-names></name>
+<name><surname>Franz</surname><given-names>J.</given-names></name>
+<name><surname>Trenkwalder</surname><given-names>C.</given-names></name>
+<etal/>
+</person-group><article-title>Parkinson&#x02019;s Progression Markers Initiative. Biomarkers of neurodegeneration and glial activation validated in Alzheimer&#x02019;s disease assessed in longitudinal cerebrospinal fluid samples of Parkinson&#x02019;s disease</article-title><source>PLoS ONE</source><year>2021</year><volume>16</volume><elocation-id>e0257372</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0257372</pub-id><pub-id pub-id-type="pmid">34618817</pub-id></element-citation></ref><ref id="B80-ijms-24-06301"><label>80.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bouvier</surname><given-names>D.S.</given-names></name>
+<name><surname>Fixemer</surname><given-names>S.</given-names></name>
+<name><surname>Heurtaux</surname><given-names>T.</given-names></name>
+<name><surname>Jeannelle</surname><given-names>F.</given-names></name>
+<name><surname>Frauenknecht</surname><given-names>K.B.M.</given-names></name>
+<name><surname>Mittelbronn</surname><given-names>M.</given-names></name>
+</person-group><article-title>The Multifaceted Neurotoxicity of Astrocytes in Ageing and Age-Related Neurodegenerative Diseases: A Translational Perspective</article-title><source>Front. Physiol.</source><year>2022</year><volume>13</volume><fpage>814889</fpage><pub-id pub-id-type="doi">10.3389/fphys.2022.814889</pub-id><pub-id pub-id-type="pmid">35370777</pub-id></element-citation></ref><ref id="B81-ijms-24-06301"><label>81.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Farina</surname><given-names>C.</given-names></name>
+<name><surname>Aloisi</surname><given-names>F.</given-names></name>
+<name><surname>Meinl</surname><given-names>E.</given-names></name>
+</person-group><article-title>Astrocytes are active players in cerebral innate immunity</article-title><source>Trends. Immunol.</source><year>2007</year><volume>28</volume><fpage>138</fpage><lpage>145</lpage><pub-id pub-id-type="doi">10.1016/j.it.2007.01.005</pub-id><pub-id pub-id-type="pmid">17276138</pub-id></element-citation></ref><ref id="B82-ijms-24-06301"><label>82.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>H.J.</given-names></name>
+<name><surname>Suk</surname><given-names>J.E.</given-names></name>
+<name><surname>Patrick</surname><given-names>C.</given-names></name>
+<name><surname>Bae</surname><given-names>E.J.</given-names></name>
+<name><surname>Cho</surname><given-names>J.H.</given-names></name>
+<name><surname>Rho</surname><given-names>S.</given-names></name>
+<name><surname>Hwang</surname><given-names>D.</given-names></name>
+<name><surname>Masliah</surname><given-names>E.</given-names></name>
+<name><surname>Lee</surname><given-names>S.J.</given-names></name>
+</person-group><article-title>Direct transfer of alpha-synuclein from neuron to astroglia causes inflammatory responses in synucleinopathies</article-title><source>J. Biol. Chem.</source><year>2010</year><volume>285</volume><fpage>9262</fpage><lpage>9272</lpage><pub-id pub-id-type="doi">10.1074/jbc.M109.081125</pub-id><pub-id pub-id-type="pmid">20071342</pub-id></element-citation></ref><ref id="B83-ijms-24-06301"><label>83.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fellner</surname><given-names>L.</given-names></name>
+<name><surname>Jellinger</surname><given-names>K.A.</given-names></name>
+<name><surname>Wenning</surname><given-names>G.K.</given-names></name>
+<name><surname>Stefanova</surname><given-names>N.</given-names></name>
+</person-group><article-title>Glial dysfunction in the pathogenesis of &#x003b1;-synucleinopathies: Emerging concepts</article-title><source>Acta Neuropathol.</source><year>2011</year><volume>121</volume><fpage>675</fpage><lpage>693</lpage><pub-id pub-id-type="doi">10.1007/s00401-011-0833-z</pub-id><pub-id pub-id-type="pmid">21562886</pub-id></element-citation></ref><ref id="B84-ijms-24-06301"><label>84.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Klegeris</surname><given-names>A.</given-names></name>
+<name><surname>Pelech</surname><given-names>S.</given-names></name>
+<name><surname>Giasson</surname><given-names>B.I.</given-names></name>
+<name><surname>Maguire</surname><given-names>J.</given-names></name>
+<name><surname>Zhang</surname><given-names>H.</given-names></name>
+<name><surname>McGeer</surname><given-names>E.G.</given-names></name>
+<name><surname>McGeer</surname><given-names>P.L.</given-names></name>
+</person-group><article-title>Alpha-synuclein activates stress signaling protein kinases in THP-1 cells and microglia</article-title><source>Neurobiol. Aging</source><year>2008</year><volume>29</volume><fpage>739</fpage><lpage>752</lpage><pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2006.11.013</pub-id><pub-id pub-id-type="pmid">17166628</pub-id></element-citation></ref><ref id="B85-ijms-24-06301"><label>85.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dettmer</surname><given-names>U.</given-names></name>
+<name><surname>Selkoe</surname><given-names>D.</given-names></name>
+<name><surname>Bartels</surname><given-names>T.</given-names></name>
+</person-group><article-title>New insights into cellular &#x003b1;-synuclein homeostasis in health and disease</article-title><source>Curr. Opin. Neurobiol.</source><year>2016</year><volume>36</volume><fpage>15</fpage><lpage>22</lpage><pub-id pub-id-type="doi">10.1016/j.conb.2015.07.007</pub-id><pub-id pub-id-type="pmid">26282834</pub-id></element-citation></ref><ref id="B86-ijms-24-06301"><label>86.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lu</surname><given-names>S.Z.</given-names></name>
+<name><surname>Guo</surname><given-names>Y.S.</given-names></name>
+<name><surname>Liang</surname><given-names>P.Z.</given-names></name>
+<name><surname>Zhang</surname><given-names>S.Z.</given-names></name>
+<name><surname>Yin</surname><given-names>S.</given-names></name>
+<name><surname>Yin</surname><given-names>Y.Q.</given-names></name>
+<name><surname>Wang</surname><given-names>X.M.</given-names></name>
+<name><surname>Ding</surname><given-names>F.</given-names></name>
+<name><surname>Gu</surname><given-names>X.S.</given-names></name>
+<name><surname>Zhou</surname><given-names>J.W.</given-names></name>
+</person-group><article-title>Suppression of astrocytic autophagy by &#x003b1;B-crystallin contributes to &#x003b1;-synuclein inclusion formation</article-title><source>Transl. Neurodegener.</source><year>2019</year><volume>8</volume><fpage>3</fpage><pub-id pub-id-type="doi">10.1186/s40035-018-0143-7</pub-id><pub-id pub-id-type="pmid">30675347</pub-id></element-citation></ref><ref id="B87-ijms-24-06301"><label>87.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Morenas-Rodr&#x000ed;guez</surname><given-names>E.</given-names></name>
+<name><surname>Alcolea</surname><given-names>D.</given-names></name>
+<name><surname>Su&#x000e1;rez-Calvet</surname><given-names>M.</given-names></name>
+<name><surname>Mu&#x000f1;oz-Llahuna</surname><given-names>L.</given-names></name>
+<name><surname>Vilaplana</surname><given-names>E.</given-names></name>
+<name><surname>Sala</surname><given-names>I.</given-names></name>
+<name><surname>Subirana</surname><given-names>A.</given-names></name>
+<name><surname>Querol-Vilaseca</surname><given-names>M.</given-names></name>
+<name><surname>Carmona-Iragui</surname><given-names>M.</given-names></name>
+<name><surname>Ill&#x000e1;n-Gala</surname><given-names>I.</given-names></name>
+<etal/>
+</person-group><article-title>Different pattern of CSF glial markers between dementia with Lewy bodies and Alzheimer&#x02019;s disease</article-title><source>Sci. Rep.</source><year>2019</year><volume>9</volume><fpage>7803</fpage><pub-id pub-id-type="doi">10.1038/s41598-019-44173-8</pub-id><pub-id pub-id-type="pmid">31127154</pub-id></element-citation></ref><ref id="B88-ijms-24-06301"><label>88.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wennstr&#x000f6;m</surname><given-names>M.</given-names></name>
+<name><surname>Surova</surname><given-names>Y.</given-names></name>
+<name><surname>Hall</surname><given-names>S.</given-names></name>
+<name><surname>Nilsson</surname><given-names>C.</given-names></name>
+<name><surname>Minthon</surname><given-names>L.</given-names></name>
+<name><surname>Hansson</surname><given-names>O.</given-names></name>
+<name><surname>Nielsen</surname><given-names>H.M.</given-names></name>
+</person-group><article-title>The Inflammatory Marker YKL-40 Is Elevated in Cerebrospinal Fluid from Patients with Alzheimer&#x02019;s but Not Parkinson&#x02019;s Disease or Dementia with Lewy Bodies</article-title><source>PLoS ONE</source><year>2015</year><volume>10</volume><elocation-id>e0135458</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0135458</pub-id><pub-id pub-id-type="pmid">26270969</pub-id></element-citation></ref><ref id="B89-ijms-24-06301"><label>89.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lindstr&#x000f6;m</surname><given-names>V.</given-names></name>
+<name><surname>Gustafsson</surname><given-names>G.</given-names></name>
+<name><surname>Sanders</surname><given-names>L.H.</given-names></name>
+<name><surname>Howlett</surname><given-names>E.H.</given-names></name>
+<name><surname>Sigvardson</surname><given-names>J.</given-names></name>
+<name><surname>Kasrayan</surname><given-names>A.</given-names></name>
+<name><surname>Ingelsson</surname><given-names>M.</given-names></name>
+<name><surname>Bergstr&#x000f6;m</surname><given-names>J.</given-names></name>
+<name><surname>Erlandsson</surname><given-names>A.</given-names></name>
+</person-group><article-title>Extensive uptake of &#x003b1;-synuclein oligomers in astrocytes results in sustained intracellular deposits and mitochondrial damage</article-title><source>Mol. Cell. Neurosci.</source><year>2017</year><volume>82</volume><fpage>143</fpage><lpage>156</lpage><pub-id pub-id-type="doi">10.1016/j.mcn.2017.04.009</pub-id><pub-id pub-id-type="pmid">28450268</pub-id></element-citation></ref><ref id="B90-ijms-24-06301"><label>90.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wattmo</surname><given-names>C.</given-names></name>
+<name><surname>Blennow</surname><given-names>K.</given-names></name>
+<name><surname>Hansson</surname><given-names>O.</given-names></name>
+</person-group><article-title>Cerebro-spinal fluid biomarker levels: Phosphorylated tau (T) and total tau (N) as markers for rate of progression in Alzheimer&#x02019;s disease</article-title><source>BMC Neurol.</source><year>2020</year><volume>20</volume><elocation-id>10</elocation-id><pub-id pub-id-type="doi">10.1186/s12883-019-1591-0</pub-id><pub-id pub-id-type="pmid">31918679</pub-id></element-citation></ref><ref id="B91-ijms-24-06301"><label>91.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Al-Chalabi</surname><given-names>A.</given-names></name>
+<name><surname>Hardiman</surname><given-names>O.</given-names></name>
+<name><surname>Kiernan</surname><given-names>M.C.</given-names></name>
+<name><surname>Chi&#x000f2;</surname><given-names>A.</given-names></name>
+<name><surname>Rix-Brooks</surname><given-names>B.</given-names></name>
+<name><surname>van den Berg</surname><given-names>L.H.</given-names></name>
+</person-group><article-title>Amyotrophic lateral sclerosis: Moving towards a new classification system</article-title><source>Lancet Neurol.</source><year>2016</year><volume>15</volume><fpage>1182</fpage><lpage>1194</lpage><pub-id pub-id-type="doi">10.1016/S1474-4422(16)30199-5</pub-id><pub-id pub-id-type="pmid">27647646</pub-id></element-citation></ref><ref id="B92-ijms-24-06301"><label>92.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Burrell</surname><given-names>J.R.</given-names></name>
+<name><surname>Halliday</surname><given-names>G.M.</given-names></name>
+<name><surname>Kril</surname><given-names>J.J.</given-names></name>
+<name><surname>Ittner</surname><given-names>L.M.</given-names></name>
+<name><surname>G&#x000f6;tz</surname><given-names>J.</given-names></name>
+<name><surname>Kiernan</surname><given-names>M.C.</given-names></name>
+<name><surname>Hodges</surname><given-names>J.R.</given-names></name>
+</person-group><article-title>The frontotemporal dementia-motor neuron disease continuum</article-title><source>Lancet</source><year>2016</year><volume>388</volume><fpage>919</fpage><lpage>931</lpage><pub-id pub-id-type="doi">10.1016/S0140-6736(16)00737-6</pub-id><pub-id pub-id-type="pmid">26987909</pub-id></element-citation></ref><ref id="B93-ijms-24-06301"><label>93.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ryan</surname><given-names>M.</given-names></name>
+<name><surname>Heverin</surname><given-names>M.</given-names></name>
+<name><surname>McLaughlin</surname><given-names>R.L.</given-names></name>
+<name><surname>Hardiman</surname><given-names>O.</given-names></name>
+</person-group><article-title>Lifetime Risk and Heritability of Amyotrophic Lateral Sclerosis</article-title><source>JAMA Neurol.</source><year>2019</year><volume>76</volume><fpage>1367</fpage><lpage>1374</lpage><pub-id pub-id-type="doi">10.1001/jamaneurol.2019.2044</pub-id><pub-id pub-id-type="pmid">31329211</pub-id></element-citation></ref><ref id="B94-ijms-24-06301"><label>94.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Al-Chalabi</surname><given-names>A.</given-names></name>
+<name><surname>Hardiman</surname><given-names>O.</given-names></name>
+</person-group><article-title>The epidemiology of ALS: A conspiracy of genes; environment and time</article-title><source>Nat. Rev. Neurol.</source><year>2013</year><volume>9</volume><fpage>617</fpage><lpage>628</lpage><pub-id pub-id-type="doi">10.1038/nrneurol.2013.203</pub-id><pub-id pub-id-type="pmid">24126629</pub-id></element-citation></ref><ref id="B95-ijms-24-06301"><label>95.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>De Boer</surname><given-names>E.M.J.</given-names></name>
+<name><surname>Orie</surname><given-names>V.K.</given-names></name>
+<name><surname>Williams</surname><given-names>T.</given-names></name>
+<name><surname>Baker</surname><given-names>M.R.</given-names></name>
+<name><surname>De Oliveira</surname><given-names>H.M.</given-names></name>
+<name><surname>Polvikoski</surname><given-names>T.</given-names></name>
+<name><surname>Silsby</surname><given-names>M.</given-names></name>
+<name><surname>Menon</surname><given-names>P.</given-names></name>
+<name><surname>van den Bos</surname><given-names>M.</given-names></name>
+<name><surname>Halliday</surname><given-names>G.M.</given-names></name>
+<etal/>
+</person-group><article-title>TDP-43 proteinopathies: A new wave of neurodegenerative diseases</article-title><source>J. Neurol. Neurosurg. Psichiatria</source><year>2020</year><volume>92</volume><fpage>86</fpage><lpage>95</lpage><pub-id pub-id-type="doi">10.1136/jnnp-2020-322983</pub-id></element-citation></ref><ref id="B96-ijms-24-06301"><label>96.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tan</surname><given-names>R.H.</given-names></name>
+<name><surname>Ke</surname><given-names>Y.D.</given-names></name>
+<name><surname>Ittner</surname><given-names>L.M.</given-names></name>
+<name><surname>Halliday</surname><given-names>G.M.</given-names></name>
+</person-group><article-title>ALS/FTLD: Experimental models and reality</article-title><source>Acta Neuropathol.</source><year>2017</year><volume>133</volume><fpage>177</fpage><lpage>196</lpage><pub-id pub-id-type="doi">10.1007/s00401-016-1666-6</pub-id><pub-id pub-id-type="pmid">28058507</pub-id></element-citation></ref><ref id="B97-ijms-24-06301"><label>97.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Swarup</surname><given-names>V.</given-names></name>
+<name><surname>Phaneuf</surname><given-names>D.</given-names></name>
+<name><surname>Bareil</surname><given-names>C.</given-names></name>
+<name><surname>Robertson</surname><given-names>J.</given-names></name>
+<name><surname>Rouleau</surname><given-names>G.A.</given-names></name>
+<name><surname>Kriz</surname><given-names>J.</given-names></name>
+<name><surname>Julien</surname><given-names>J.P.</given-names></name>
+</person-group><article-title>Pathological hallmarks of amyotrophic lateral sclerosis/frontotemporal lobar degeneration in transgenic mice produced with TDP-43 genomic fragments</article-title><source>Brain</source><year>2011</year><volume>134</volume><issue-part>Pt 9</issue-part><fpage>2610</fpage><lpage>2626</lpage><pub-id pub-id-type="doi">10.1093/brain/awr159</pub-id><pub-id pub-id-type="pmid">21752789</pub-id></element-citation></ref><ref id="B98-ijms-24-06301"><label>98.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Huang</surname><given-names>C.</given-names></name>
+<name><surname>Zhou</surname><given-names>H.</given-names></name>
+<name><surname>Tong</surname><given-names>J.</given-names></name>
+<name><surname>Chen</surname><given-names>H.</given-names></name>
+<name><surname>Liu</surname><given-names>Y.J.</given-names></name>
+<name><surname>Wang</surname><given-names>D.</given-names></name>
+<name><surname>Wei</surname><given-names>X.</given-names></name>
+<name><surname>Xia</surname><given-names>X.G.</given-names></name>
+</person-group><article-title>FUS transgenic rats develop the phenotypes of amyotrophic lateral sclerosis and frontotemporal lobar degeneration</article-title><source>PLoS Genet.</source><year>2011</year><volume>7</volume><elocation-id>e1002011</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pgen.1002011</pub-id><pub-id pub-id-type="pmid">21408206</pub-id></element-citation></ref><ref id="B99-ijms-24-06301"><label>99.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Uchida</surname><given-names>A.</given-names></name>
+<name><surname>Sasaguri</surname><given-names>H.</given-names></name>
+<name><surname>Kimura</surname><given-names>N.</given-names></name>
+<name><surname>Tajiri</surname><given-names>M.</given-names></name>
+<name><surname>Ohkubo</surname><given-names>T.</given-names></name>
+<name><surname>Ono</surname><given-names>F.</given-names></name>
+<name><surname>Sakaue</surname><given-names>F.</given-names></name>
+<name><surname>Kanai</surname><given-names>K.</given-names></name>
+<name><surname>Hirai</surname><given-names>T.</given-names></name>
+<name><surname>Sano</surname><given-names>T.</given-names></name>
+<etal/>
+</person-group><article-title>Non-human primate model of amyotrophic lateral sclerosis with cytoplasmic mislocalization of TDP-43</article-title><source>Brain</source><year>2012</year><volume>135</volume><issue-part>Pt 3</issue-part><fpage>833</fpage><lpage>846</lpage><pub-id pub-id-type="doi">10.1093/brain/awr348</pub-id><pub-id pub-id-type="pmid">22252998</pub-id></element-citation></ref><ref id="B100-ijms-24-06301"><label>100.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bilican</surname><given-names>B.</given-names></name>
+<name><surname>Serio</surname><given-names>A.</given-names></name>
+<name><surname>Barmada</surname><given-names>S.J.</given-names></name>
+<name><surname>Nishimura</surname><given-names>A.L.</given-names></name>
+<name><surname>Sullivan</surname><given-names>G.J.</given-names></name>
+<name><surname>Carrasco</surname><given-names>M.</given-names></name>
+<name><surname>Phatnani</surname><given-names>H.P.</given-names></name>
+<name><surname>Puddifoot</surname><given-names>C.A.</given-names></name>
+<name><surname>Story</surname><given-names>D.</given-names></name>
+<name><surname>Fletcher</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>Mutant induced pluripotent stem cell lines recapitulate aspects of TDP-43 proteinopathies and reveal cell-specific vulnerability</article-title><source>Proc. Natl. Acad. Sci. USA</source><year>2012</year><volume>109</volume><fpage>5803</fpage><lpage>5808</lpage><pub-id pub-id-type="doi">10.1073/pnas.1202922109</pub-id><pub-id pub-id-type="pmid">22451909</pub-id></element-citation></ref><ref id="B101-ijms-24-06301"><label>101.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Neumann</surname><given-names>M.</given-names></name>
+<name><surname>Sampathu</surname><given-names>D.M.</given-names></name>
+<name><surname>Kwong</surname><given-names>L.K.</given-names></name>
+<name><surname>Truax</surname><given-names>A.C.</given-names></name>
+<name><surname>Micsenyi</surname><given-names>M.C.</given-names></name>
+<name><surname>Chou</surname><given-names>T.T.</given-names></name>
+<name><surname>Bruce</surname><given-names>J.</given-names></name>
+<name><surname>Schuck</surname><given-names>T.</given-names></name>
+<name><surname>Grossman</surname><given-names>M.</given-names></name>
+<name><surname>Clark</surname><given-names>C.M.</given-names></name>
+<etal/>
+</person-group><article-title>Ubiquitinated TDP-43 in frontotemporal lobar degeneration and amyotrophic lateral sclerosis</article-title><source>Science</source><year>2006</year><volume>314</volume><fpage>130</fpage><lpage>133</lpage><pub-id pub-id-type="doi">10.1126/science.1134108</pub-id><pub-id pub-id-type="pmid">17023659</pub-id></element-citation></ref><ref id="B102-ijms-24-06301"><label>102.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>L.S.</given-names></name>
+<name><surname>Cheng</surname><given-names>W.C.</given-names></name>
+<name><surname>Shen</surname><given-names>C.K.</given-names></name>
+</person-group><article-title>Targeted depletion of TDP-43 expression in the spinal cord motor neurons leads to the development of amyotrophic lateral sclerosis-like phenotypes in mice</article-title><source>J. Biol. Chem.</source><year>2012</year><volume>287</volume><fpage>27335</fpage><lpage>27344</lpage><pub-id pub-id-type="doi">10.1074/jbc.M112.359000</pub-id><pub-id pub-id-type="pmid">22718760</pub-id></element-citation></ref><ref id="B103-ijms-24-06301"><label>103.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bi</surname><given-names>F.</given-names></name>
+<name><surname>Huang</surname><given-names>C.</given-names></name>
+<name><surname>Tong</surname><given-names>J.</given-names></name>
+<name><surname>Qiu</surname><given-names>G.</given-names></name>
+<name><surname>Huang</surname><given-names>B.</given-names></name>
+<name><surname>Wu</surname><given-names>Q.</given-names></name>
+<name><surname>Li</surname><given-names>F.</given-names></name>
+<name><surname>Xu</surname><given-names>Z.</given-names></name>
+<name><surname>Bowser</surname><given-names>R.</given-names></name>
+<name><surname>Xia</surname><given-names>X.-G.</given-names></name>
+<etal/>
+</person-group><article-title>Reactive astrocytes secrete lcn2 to promote neuron death</article-title><source>Proc. Natl. Acad. Sci. USA</source><year>2013</year><volume>110</volume><fpage>4069</fpage><lpage>4074</lpage><pub-id pub-id-type="doi">10.1073/pnas.1218497110</pub-id><pub-id pub-id-type="pmid">23431168</pub-id></element-citation></ref><ref id="B104-ijms-24-06301"><label>104.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Suzuki</surname><given-names>N.</given-names></name>
+<name><surname>Nishiyama</surname><given-names>A.</given-names></name>
+<name><surname>Warita</surname><given-names>H.</given-names></name>
+<name><surname>Aoki</surname><given-names>M.</given-names></name>
+</person-group><article-title>Genetics of amyotrophic lateral sclerosis: Seeking therapeutic targets in the era of gene therapy</article-title><source>J. Hum. Genet.</source><year>2023</year><volume>68</volume><fpage>131</fpage><lpage>152</lpage><pub-id pub-id-type="doi">10.1038/s10038-022-01055-8</pub-id><pub-id pub-id-type="pmid">35691950</pub-id></element-citation></ref><ref id="B105-ijms-24-06301"><label>105.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tong</surname><given-names>J.</given-names></name>
+<name><surname>Huang</surname><given-names>C.</given-names></name>
+<name><surname>Bi</surname><given-names>F.</given-names></name>
+<name><surname>Wu</surname><given-names>Q.</given-names></name>
+<name><surname>Huang</surname><given-names>B.</given-names></name>
+<name><surname>Liu</surname><given-names>X.</given-names></name>
+<name><surname>Li</surname><given-names>F.</given-names></name>
+<name><surname>Zhou</surname><given-names>H.</given-names></name>
+<name><surname>Xia</surname><given-names>X.-G.</given-names></name>
+</person-group><article-title>Expression of ALS-linked TDP-43 mutant in astrocytes causes non-cell-autonomous motor neuron death in rats</article-title><source>EMBO J.</source><year>2013</year><volume>32</volume><fpage>1917</fpage><lpage>1926</lpage><pub-id pub-id-type="doi">10.1038/emboj.2013.122</pub-id><pub-id pub-id-type="pmid">23714777</pub-id></element-citation></ref><ref id="B106-ijms-24-06301"><label>106.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Beers</surname><given-names>D.R.</given-names></name>
+<name><surname>Appel</surname><given-names>S.H.</given-names></name>
+</person-group><article-title>Immune dysregulation in amyotrophic lateral sclerosis: Mechanisms and emerging therapies</article-title><source>Lancet Neurol.</source><year>2019</year><volume>18</volume><fpage>211</fpage><lpage>220</lpage><pub-id pub-id-type="doi">10.1016/S1474-4422(18)30394-6</pub-id><pub-id pub-id-type="pmid">30663610</pub-id></element-citation></ref><ref id="B107-ijms-24-06301"><label>107.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gille</surname><given-names>B.</given-names></name>
+<name><surname>De Schaepdryver</surname><given-names>M.</given-names></name>
+<name><surname>Dedeene</surname><given-names>L.</given-names></name>
+<name><surname>Goossens</surname><given-names>J.</given-names></name>
+<name><surname>Claeys</surname><given-names>K.</given-names></name>
+<name><surname>Bosch</surname><given-names>L.V.D.</given-names></name>
+<name><surname>Tournoy</surname><given-names>J.</given-names></name>
+<name><surname>Van Damme</surname><given-names>P.</given-names></name>
+<name><surname>Poesen</surname><given-names>K.</given-names></name>
+</person-group><article-title>Inflammatory markers in cerebrospinal fluid: Independent prognostic biomarkers in amyotrophic lateral sclerosis?</article-title><source>J. Neurol. Neurosurg. Psychiatry</source><year>2019</year><volume>90</volume><fpage>1338</fpage><lpage>1346</lpage><pub-id pub-id-type="doi">10.1136/jnnp-2018-319586</pub-id><pub-id pub-id-type="pmid">31175169</pub-id></element-citation></ref><ref id="B108-ijms-24-06301"><label>108.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Costa</surname><given-names>J.</given-names></name>
+<name><surname>Gromicho</surname><given-names>M.</given-names></name>
+<name><surname>Pronto-Laborinhom</surname><given-names>A.</given-names></name>
+<name><surname>Almeida</surname><given-names>C.</given-names></name>
+<name><surname>Gomes</surname><given-names>R.A.</given-names></name>
+<name><surname>Guerreiro</surname><given-names>A.C.L.</given-names></name>
+<name><surname>Oliva</surname><given-names>A.</given-names></name>
+<name><surname>Pinto</surname><given-names>S.</given-names></name>
+<name><surname>de Carvalho</surname><given-names>M.</given-names></name>
+</person-group><article-title>Cerebrospinal Fluid Chitinases as Biomarker for Amyotrophic Lateral Sclerosis</article-title><source>Diagnostics</source><year>2021</year><volume>11</volume><elocation-id>1210</elocation-id><pub-id pub-id-type="doi">10.3390/diagnostics11071210</pub-id><pub-id pub-id-type="pmid">34359293</pub-id></element-citation></ref><ref id="B109-ijms-24-06301"><label>109.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gray</surname><given-names>E.</given-names></name>
+<name><surname>Thompson</surname><given-names>A.G.</given-names></name>
+<name><surname>Wuu</surname><given-names>J.</given-names></name>
+<name><surname>Pelt</surname><given-names>J.</given-names></name>
+<name><surname>Talbot</surname><given-names>K.</given-names></name>
+<name><surname>Benatar</surname><given-names>M.</given-names></name>
+<name><surname>Turner</surname><given-names>M.R.</given-names></name>
+</person-group><article-title>CSF chitinases before and after symptom onset in amyotrophic lateral sclerosis</article-title><source>Ann. Clin. Transl. Neurol.</source><year>2020</year><volume>7</volume><fpage>1296</fpage><lpage>1306</lpage><pub-id pub-id-type="doi">10.1002/acn3.51114</pub-id><pub-id pub-id-type="pmid">32666680</pub-id></element-citation></ref><ref id="B110-ijms-24-06301"><label>110.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Steinacker</surname><given-names>P.</given-names></name>
+<name><surname>Feneberg</surname><given-names>E.</given-names></name>
+<name><surname>Halbgebauer</surname><given-names>S.</given-names></name>
+<name><surname>Witzel</surname><given-names>S.</given-names></name>
+<name><surname>Verde</surname><given-names>F.</given-names></name>
+<name><surname>Oeckl</surname><given-names>P.</given-names></name>
+<name><surname>Van Damme</surname><given-names>P.</given-names></name>
+<name><surname>Gaur</surname><given-names>N.</given-names></name>
+<name><surname>Gray</surname><given-names>E.</given-names></name>
+<name><surname>Grosskreutz</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group><article-title>Chitotriosidase as biomarker for early stage amyotrophic lateral sclerosis: A multicenter study</article-title><source>Amyotroph. Lateral. Scler. Frontotemporal. Degener.</source><year>2021</year><volume>22</volume><fpage>276</fpage><lpage>286</lpage><pub-id pub-id-type="doi">10.1080/21678421.2020.1861023</pub-id><pub-id pub-id-type="pmid">33576252</pub-id></element-citation></ref><ref id="B111-ijms-24-06301"><label>111.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Oeckl</surname><given-names>P.</given-names></name>
+<name><surname>Weydt</surname><given-names>P.</given-names></name>
+<name><surname>Steinacker</surname><given-names>P.</given-names></name>
+<name><surname>Anderl-Straub</surname><given-names>S.</given-names></name>
+<name><surname>Nordin</surname><given-names>F.</given-names></name>
+<name><surname>E Volk</surname><given-names>A.</given-names></name>
+<name><surname>Diehl-Schmid</surname><given-names>J.</given-names></name>
+<name><surname>Andersen</surname><given-names>P.M.</given-names></name>
+<name><surname>Kornhuber</surname><given-names>J.</given-names></name>
+<name><surname>Danek</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group><article-title>Different neuroinflammatory profile in amyotrophic lateral sclerosis and frontotemporal dementia is linked to the clinical phase</article-title><source>J. Neurol. Neurosurg. Psychiatry</source><year>2019</year><volume>90</volume><fpage>4</fpage><lpage>10</lpage><pub-id pub-id-type="doi">10.1136/jnnp-2018-318868</pub-id><pub-id pub-id-type="pmid">30224549</pub-id></element-citation></ref><ref id="B112-ijms-24-06301"><label>112.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Vu</surname><given-names>L.</given-names></name>
+<name><surname>An</surname><given-names>J.</given-names></name>
+<name><surname>Kovalik</surname><given-names>T.</given-names></name>
+<name><surname>Gendron</surname><given-names>T.</given-names></name>
+<name><surname>Petrucelli</surname><given-names>L.</given-names></name>
+<name><surname>Bowser</surname><given-names>R.</given-names></name>
+</person-group><article-title>Cross-sectional and longitudinal measures of chitinase proteins in amyotrophic lateral sclerosis and expression of CHI3L1 in activated astrocytes</article-title><source>J. Neurol. Neurosurg. Psychiatry</source><year>2020</year><volume>91</volume><fpage>350</fpage><lpage>358</lpage><pub-id pub-id-type="doi">10.1136/jnnp-2019-321916</pub-id><pub-id pub-id-type="pmid">31937582</pub-id></element-citation></ref><ref id="B113-ijms-24-06301"><label>113.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hol</surname><given-names>E.M.</given-names></name>
+<name><surname>Pekny</surname><given-names>M.</given-names></name>
+</person-group><article-title>Glial fibrillary acidic protein (GFAP) and the astrocyte intermediate filament system in diseases of the central nervous system</article-title><source>Curr. Opin. Cell Biol.</source><year>2015</year><volume>32</volume><fpage>121</fpage><lpage>130</lpage><pub-id pub-id-type="doi">10.1016/j.ceb.2015.02.004</pub-id><pub-id pub-id-type="pmid">25726916</pub-id></element-citation></ref><ref id="B114-ijms-24-06301"><label>114.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Schneider</surname><given-names>R.</given-names></name>
+<name><surname>Bellenberg</surname><given-names>B.</given-names></name>
+<name><surname>Gisevius</surname><given-names>B.</given-names></name>
+<name><surname>Hirschberg</surname><given-names>S.</given-names></name>
+<name><surname>Sankowski</surname><given-names>R.</given-names></name>
+<name><surname>Prinz</surname><given-names>M.</given-names></name>
+<name><surname>Gold</surname><given-names>R.</given-names></name>
+<name><surname>Lukas</surname><given-names>C.</given-names></name>
+<name><surname>Haghikia</surname><given-names>A.</given-names></name>
+</person-group><article-title>Chitinase 3-like 1 and neurofilament light chain in CSF and CNS atrophy in MS</article-title><source>Neurol. Neuroimmunol. Neuroinflamm.</source><year>2020</year><volume>8</volume><fpage>e906</fpage><pub-id pub-id-type="doi">10.1212/NXI.0000000000000906</pub-id><pub-id pub-id-type="pmid">33172960</pub-id></element-citation></ref><ref id="B115-ijms-24-06301"><label>115.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gaur</surname><given-names>N.</given-names></name>
+<name><surname>Perner</surname><given-names>C.</given-names></name>
+<name><surname>Witte</surname><given-names>O.W.</given-names></name>
+<name><surname>Grosskreutz</surname><given-names>J.</given-names></name>
+</person-group><article-title>The Chitinases as Biomarkers for Amyotrophic Lateral Sclerosis: Signals from the CNS and Beyond</article-title><source>Front. Neurol.</source><year>2020</year><volume>11</volume><fpage>377</fpage><pub-id pub-id-type="doi">10.3389/fneur.2020.00377</pub-id><pub-id pub-id-type="pmid">32536900</pub-id></element-citation></ref><ref id="B116-ijms-24-06301"><label>116.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hendrickx</surname><given-names>D.A.E.</given-names></name>
+<name><surname>van Eden</surname><given-names>C.G.</given-names></name>
+<name><surname>Schuurman</surname><given-names>K.G.</given-names></name>
+<name><surname>Hamann</surname><given-names>J.</given-names></name>
+<name><surname>Huitinga</surname><given-names>I.</given-names></name>
+</person-group><article-title>Staining of HLA-DR, Iba1 and CD68 in human microglia reveals partially overlapping expression depending on cellular morphology and pathology</article-title><source>J. Neuroimmunol.</source><year>2017</year><volume>309</volume><fpage>12</fpage><lpage>22</lpage><pub-id pub-id-type="doi">10.1016/j.jneuroim.2017.04.007</pub-id><pub-id pub-id-type="pmid">28601280</pub-id></element-citation></ref><ref id="B117-ijms-24-06301"><label>117.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Cossburn</surname><given-names>M.D.</given-names></name>
+<name><surname>Harding</surname><given-names>K.</given-names></name>
+<name><surname>Ingram</surname><given-names>G.</given-names></name>
+<name><surname>El-Shanawany</surname><given-names>T.</given-names></name>
+<name><surname>Heaps</surname><given-names>A.</given-names></name>
+<name><surname>Pickersgill</surname><given-names>T.P.</given-names></name>
+<name><surname>Jolles</surname><given-names>S.</given-names></name>
+<name><surname>Robertson</surname><given-names>N.P.</given-names></name>
+</person-group><article-title>Clinical relevance of differential lymphocyte recovery after alemtuzumab therapy for multiple sclerosis</article-title><source>Neurology</source><year>2013</year><volume>80</volume><fpage>55</fpage><lpage>61</lpage><pub-id pub-id-type="doi">10.1212/WNL.0b013e31827b5927</pub-id><pub-id pub-id-type="pmid">23243077</pub-id></element-citation></ref><ref id="B118-ijms-24-06301"><label>118.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ziemssen</surname><given-names>T.</given-names></name>
+<name><surname>Medin</surname><given-names>J.</given-names></name>
+<name><surname>Couto</surname><given-names>C.A.</given-names></name>
+<name><surname>Mitchell</surname><given-names>C.R.</given-names></name>
+</person-group><article-title>Multiple sclerosis in the real world: A systematic review of fingolimod as a case study</article-title><source>Autoimmun. Rev.</source><year>2017</year><volume>16</volume><fpage>355</fpage><lpage>376</lpage><pub-id pub-id-type="doi">10.1016/j.autrev.2017.02.007</pub-id><pub-id pub-id-type="pmid">28212923</pub-id></element-citation></ref><ref id="B119-ijms-24-06301"><label>119.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>H&#x000f8;jsgaard Chow</surname><given-names>H.</given-names></name>
+<name><surname>Schreiber</surname><given-names>K.</given-names></name>
+<name><surname>Magyari</surname><given-names>M.</given-names></name>
+<name><surname>Ammitzb&#x000f8;ll</surname><given-names>C.</given-names></name>
+<name><surname>B&#x000f6;rnsen</surname><given-names>L.</given-names></name>
+<name><surname>Romme Christensen</surname><given-names>J.</given-names></name>
+<name><surname>Ratzer</surname><given-names>R.</given-names></name>
+<name><surname>Soelberg S&#x000f8;rensen</surname><given-names>P.</given-names></name>
+<name><surname>Sellebjerg</surname><given-names>F.</given-names></name>
+</person-group><article-title>Progressive multiple sclerosis; cognitive function; and quality of life</article-title><source>Brain Behav.</source><year>2018</year><volume>8</volume><fpage>e00875</fpage><pub-id pub-id-type="doi">10.1002/brb3.875</pub-id><pub-id pub-id-type="pmid">29484253</pub-id></element-citation></ref><ref id="B120-ijms-24-06301"><label>120.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Cashion</surname><given-names>J.M.</given-names></name>
+<name><surname>Young</surname><given-names>K.M.</given-names></name>
+<name><surname>Sutherland</surname><given-names>B.A.</given-names></name>
+</person-group><article-title>How does neurovascular unit dysfunction contribute to multiple sclerosis?</article-title><source>Neurobiol. Dis.</source><year>2023</year><volume>178</volume><fpage>106028</fpage><pub-id pub-id-type="doi">10.1016/j.nbd.2023.106028</pub-id><pub-id pub-id-type="pmid">36736923</pub-id></element-citation></ref><ref id="B121-ijms-24-06301"><label>121.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Degelman</surname><given-names>M.L.</given-names></name>
+<name><surname>Herman</surname><given-names>K.M.</given-names></name>
+</person-group><article-title>Smoking and multiple sclerosis: A systematic review and meta-analysis using the Bradford Hill criteria for causation</article-title><source>Mult. Scler. Relat. Disord.</source><year>2017</year><volume>17</volume><fpage>207</fpage><lpage>216</lpage><pub-id pub-id-type="doi">10.1016/j.msard.2017.07.020</pub-id><pub-id pub-id-type="pmid">29055459</pub-id></element-citation></ref><ref id="B122-ijms-24-06301"><label>122.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Huang</surname><given-names>J.</given-names></name>
+<name><surname>Kockum</surname><given-names>I.</given-names></name>
+<name><surname>Stridh</surname><given-names>P.</given-names></name>
+</person-group><article-title>Trends in the environmental risks associated with earlier onset in multiple sclerosis</article-title><source>Mult. Scler. Relat. Disord.</source><year>2022</year><volume>68</volume><fpage>104250</fpage><pub-id pub-id-type="doi">10.1016/j.msard.2022.104250</pub-id><pub-id pub-id-type="pmid">36544313</pub-id></element-citation></ref><ref id="B123-ijms-24-06301"><label>123.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bjornevik</surname><given-names>K.</given-names></name>
+<name><surname>M&#x000fc;nz</surname><given-names>C.</given-names></name>
+<name><surname>Cohen</surname><given-names>J.I.</given-names></name>
+<name><surname>Ascherio</surname><given-names>A.</given-names></name>
+</person-group><article-title>Epstein-Barr virus as a leading cause of multiple sclerosis: Mechanisms and implications</article-title><source>Nat. Rev. Neurol.</source><year>2023</year><volume>19</volume><fpage>160</fpage><lpage>171</lpage><pub-id pub-id-type="doi">10.1038/s41582-023-00775-5</pub-id><pub-id pub-id-type="pmid">36759741</pub-id></element-citation></ref><ref id="B124-ijms-24-06301"><label>124.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lassmann</surname><given-names>H.</given-names></name>
+</person-group><article-title>Pathogenic Mechanisms Associated with Different Clinical Courses of Multiple Sclerosis</article-title><source>Front. Immunol.</source><year>2019</year><volume>9</volume><fpage>3116</fpage><pub-id pub-id-type="doi">10.3389/fimmu.2018.03116</pub-id><pub-id pub-id-type="pmid">30687321</pub-id></element-citation></ref><ref id="B125-ijms-24-06301"><label>125.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Zrzavy</surname><given-names>T.</given-names></name>
+<name><surname>Hametner</surname><given-names>S.</given-names></name>
+<name><surname>Wimmer</surname><given-names>I.</given-names></name>
+<name><surname>Butovsky</surname><given-names>O.</given-names></name>
+<name><surname>Weiner</surname><given-names>H.L.</given-names></name>
+<name><surname>Lassmann</surname><given-names>H.</given-names></name>
+</person-group><article-title>Loss of &#x02018;homeostatic&#x02019; microglia and patterns of their activation in active multiple sclerosis</article-title><source>Brain</source><year>2017</year><volume>140</volume><fpage>1900</fpage><lpage>1913</lpage><pub-id pub-id-type="doi">10.1093/brain/awx113</pub-id><pub-id pub-id-type="pmid">28541408</pub-id></element-citation></ref><ref id="B126-ijms-24-06301"><label>126.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ponath</surname><given-names>G.</given-names></name>
+<name><surname>Park</surname><given-names>C.</given-names></name>
+<name><surname>Pitt</surname><given-names>D.</given-names></name>
+</person-group><article-title>The Role of Astrocytes in Multiple Sclerosis</article-title><source>Front. Immunol.</source><year>2018</year><volume>9</volume><fpage>217</fpage><pub-id pub-id-type="doi">10.3389/fimmu.2018.00217</pub-id><pub-id pub-id-type="pmid">29515568</pub-id></element-citation></ref><ref id="B127-ijms-24-06301"><label>127.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Baxter</surname><given-names>P.S.</given-names></name>
+<name><surname>Dando</surname><given-names>O.</given-names></name>
+<name><surname>Emelianova</surname><given-names>K.</given-names></name>
+<name><surname>He</surname><given-names>X.</given-names></name>
+<name><surname>McKay</surname><given-names>S.</given-names></name>
+<name><surname>Hardingham</surname><given-names>G.E.</given-names></name>
+<name><surname>Qiu</surname><given-names>J.</given-names></name>
+</person-group><article-title>Microglial identity and inflammatory responses are controlled by the combined effects of neurons and astrocytes</article-title><source>Cell. Rep.</source><year>2021</year><volume>34</volume><fpage>108882</fpage><pub-id pub-id-type="doi">10.1016/j.celrep.2021.108882</pub-id><pub-id pub-id-type="pmid">33761343</pub-id></element-citation></ref><ref id="B128-ijms-24-06301"><label>128.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bonneh-Barkay</surname><given-names>D.</given-names></name>
+<name><surname>Wang</surname><given-names>G.</given-names></name>
+<name><surname>Starkey</surname><given-names>A.</given-names></name>
+<name><surname>Hamilton</surname><given-names>R.L.</given-names></name>
+<name><surname>Wiley</surname><given-names>C.A.</given-names></name>
+</person-group><article-title>In vivo CHI3L1 (YKL-40) expression in astrocytes in acute and chronic neurological diseases</article-title><source>J. Neuroinflamm.</source><year>2010</year><volume>7</volume><fpage>34</fpage><pub-id pub-id-type="doi">10.1186/1742-2094-7-34</pub-id><pub-id pub-id-type="pmid">20540736</pub-id></element-citation></ref><ref id="B129-ijms-24-06301"><label>129.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Comabella</surname><given-names>M.</given-names></name>
+<name><surname>Fern&#x000e1;ndez</surname><given-names>M.</given-names></name>
+<name><surname>Martin</surname><given-names>R.</given-names></name>
+<name><surname>Rivera-Vallv&#x000e9;</surname><given-names>S.</given-names></name>
+<name><surname>Borr&#x000e0;s</surname><given-names>E.</given-names></name>
+<name><surname>Chiva</surname><given-names>C.</given-names></name>
+<name><surname>Juli&#x000e0;</surname><given-names>E.</given-names></name>
+<name><surname>Rovira</surname><given-names>A.</given-names></name>
+<name><surname>Cant&#x000f3;</surname><given-names>E.</given-names></name>
+<name><surname>Alvarez-Cerme&#x000f1;o</surname><given-names>J.C.</given-names></name>
+<etal/>
+</person-group><article-title>Cerebrospinal fluid chitinase 3-like 1 levels are associated with conversion to multiple sclerosis</article-title><source>Brain</source><year>2010</year><volume>133</volume><issue-part>Pt 4</issue-part><fpage>1082</fpage><lpage>1093</lpage><pub-id pub-id-type="doi">10.1093/brain/awq035</pub-id><pub-id pub-id-type="pmid">20237129</pub-id></element-citation></ref><ref id="B130-ijms-24-06301"><label>130.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hinsinger</surname><given-names>G.</given-names></name>
+<name><surname>Gal&#x000e9;otti</surname><given-names>N.</given-names></name>
+<name><surname>Nabholz</surname><given-names>N.</given-names></name>
+<name><surname>Urbach</surname><given-names>S.</given-names></name>
+<name><surname>Rigau</surname><given-names>V.</given-names></name>
+<name><surname>Demattei</surname><given-names>C.</given-names></name>
+<name><surname>Lehmann</surname><given-names>S.</given-names></name>
+<name><surname>Camu</surname><given-names>W.</given-names></name>
+<name><surname>Labauge</surname><given-names>P.</given-names></name>
+<name><surname>Castelnovo</surname><given-names>G.</given-names></name>
+<etal/>
+</person-group><article-title>Chitinase 3-like proteins as diagnostic and prognostic biomarkers of multiple sclerosis</article-title><source>Mult. Scler.</source><year>2015</year><volume>21</volume><fpage>1251</fpage><lpage>1261</lpage><pub-id pub-id-type="doi">10.1177/1352458514561906</pub-id><pub-id pub-id-type="pmid">25698171</pub-id></element-citation></ref><ref id="B131-ijms-24-06301"><label>131.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>De Fino</surname><given-names>C.</given-names></name>
+<name><surname>Lucchini</surname><given-names>M.</given-names></name>
+<name><surname>Lucchetti</surname><given-names>D.</given-names></name>
+<name><surname>Nociti</surname><given-names>V.</given-names></name>
+<name><surname>Losavio</surname><given-names>F.</given-names></name>
+<name><surname>Bianco</surname><given-names>A.</given-names></name>
+<name><surname>Colella</surname><given-names>F.</given-names></name>
+<name><surname>Ricciardi-Tenore</surname><given-names>C.</given-names></name>
+<name><surname>Sgambato</surname><given-names>A.</given-names></name>
+<name><surname>Mirabella</surname><given-names>M.</given-names></name>
+</person-group><article-title>The predictive value of CSF multiple assay in multiple sclerosis: A single center experience</article-title><source>Mult. Scler. Relat. Disord.</source><year>2019</year><volume>35</volume><fpage>176</fpage><lpage>181</lpage><pub-id pub-id-type="doi">10.1016/j.msard.2019.07.030</pub-id><pub-id pub-id-type="pmid">31394405</pub-id></element-citation></ref><ref id="B132-ijms-24-06301"><label>132.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Samaha</surname><given-names>D.Y.</given-names></name>
+<name><surname>Zeitoun</surname><given-names>Y.A.</given-names></name>
+<name><surname>Fouad</surname><given-names>N.T.</given-names></name>
+<name><surname>Abdel Aziz</surname><given-names>A.A.</given-names></name>
+<name><surname>Saad</surname><given-names>M.A.</given-names></name>
+</person-group><article-title>Oligoclonal band versus chitinase-3-like protein-1 in CSF of newly diagnosed relapsing remitting multiple sclerosis</article-title><source>Egypt J. Immunol.</source><year>2023</year><volume>30</volume><fpage>42</fpage><lpage>48</lpage><pub-id pub-id-type="doi">10.55133/eji.300105</pub-id><pub-id pub-id-type="pmid">36591957</pub-id></element-citation></ref><ref id="B133-ijms-24-06301"><label>133.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Oldoni</surname><given-names>E.</given-names></name>
+<name><surname>Smets</surname><given-names>I.</given-names></name>
+<name><surname>Mallants</surname><given-names>K.</given-names></name>
+<name><surname>Vandebergh</surname><given-names>M.</given-names></name>
+<name><surname>Van Horebeek</surname><given-names>L.</given-names></name>
+<name><surname>Poesen</surname><given-names>K.</given-names></name>
+<name><surname>Dupont</surname><given-names>P.</given-names></name>
+<name><surname>Dubois</surname><given-names>B.</given-names></name>
+<name><surname>Goris</surname><given-names>A.</given-names></name>
+</person-group><article-title>CHIT1 at Diagnosis Reflects Long-Term Multiple Sclerosis Disease Activity</article-title><source>Ann. Neurol.</source><year>2020</year><volume>87</volume><fpage>633</fpage><lpage>645</lpage><pub-id pub-id-type="doi">10.1002/ana.25691</pub-id><pub-id pub-id-type="pmid">31997416</pub-id></element-citation></ref><ref id="B134-ijms-24-06301"><label>134.</label><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Novakova</surname><given-names>L.</given-names></name>
+<name><surname>Axelsson</surname><given-names>M.</given-names></name>
+<name><surname>Khademi</surname><given-names>M.</given-names></name>
+<name><surname>Zetterberg</surname><given-names>H.</given-names></name>
+<name><surname>Blennow</surname><given-names>K.</given-names></name>
+<name><surname>Malmestr&#x000f6;m</surname><given-names>C.</given-names></name>
+<name><surname>Piehl</surname><given-names>F.</given-names></name>
+<name><surname>Olsson</surname><given-names>T.</given-names></name>
+<name><surname>Lycke</surname><given-names>J.</given-names></name>
+</person-group><article-title>Cerebrospinal fluid biomarkers as a measure of disease activity and treatment efficacy in relapsing-remitting multiple sclerosis</article-title><source>J. Neurochem.</source><year>2017</year><volume>141</volume><fpage>296</fpage><lpage>304</lpage><pub-id pub-id-type="doi">10.1111/jnc.13881</pub-id><pub-id pub-id-type="pmid">27787906</pub-id></element-citation></ref></ref-list></back><floats-group><fig position="float" id="ijms-24-06301-f001"><label>Figure 1</label><caption><p>Chitin has both pro-inflammatory and anti-inflammatory effects on the basis of its molecular size: BC (&#x0003e;70 &#x000b5;m) is inert to the inflammatory response; SC (&#x0003c;40 &#x000b5;m) exerts an anti-inflammatory response via IL-10 production. IL-10, binding with its own receptors IL-10R1 and IL-10R2, triggers the JAK/STAT signaling pathway, resulting in pro-inflammatory cytokine and phagocytosis inhibition; IC (40&#x02013;70 &#x000b5;m) induces pro-inflammatory responses via TLR2- and NF-&#x003ba;B-dependent pathways for IFN-&#x003b3;, TNF-&#x003b1;, IL1, IL2, and IL12 production. Microglial cells engulfing chitin debris, GlcNAc polymers, and A&#x003b2; induce NLRP3 inflammasome activation and neurotoxicity. CHIT-1 and CHIA are the most important active enzymes able to degrade chitin polymers. CHIT-1 modulates neuroinflammation via the HDAC3/NF-&#x003ba;B p65 pathway contributing to AD progression. Microglia polarize in M1 and M2, displaying pro-inflammatory and anti-inflammatory phenotypes, respectively. The M1-polarized phenotype promotes neuronal damage, whereas the M2-polarized phenotype is immunosuppressive and neuroprotective. M2a-like microglia induce CHI3L1, IL13, and CD206. CHI3L1 modulates IL-4R&#x003b1; expression and STAT6 phosphorylation, affecting M2 polarization. CHI3L1 is expressed in microglia, infiltrating macrophages and astrocytes. The expression of CHI3L1 is induced by pro-inflammatory cytokines, including IL-6, IFN-&#x003b3;, IL-1&#x003b2;, and TNF-&#x003b1;. Its regulation by IL-6 and TNF-&#x003b1; needs NF-&#x003ba;B activation. CHI3L1 is induced by inflammatory proteins, such as MMP-10, CX3CL1, and 4E-BP1, and therefore, its activity facilitates AD neuroinflammation. Blue arrows represent induction; red arrows represent inhibition. Abbreviation= BC, IC, SC: big, intermediate, small, chitin; IL: interleukin; TLR2: Toll&#x02013;like receptor 2; NF-&#x003ba;B: nuclear factor kappa-light-chain-enhancer of activated B cells; IFN-&#x003b3;: interferon-gamma; TNF-&#x003b1;: tumor necrosis factor-&#x003b1;; GlcNAc: &#x003b2;-1,4-linked <italic toggle="yes">N</italic>-acetylglucosamine; A&#x003b2;: beta-amyloid protein; NLRP3: NLR Family Pyrin Domain Containing 3; CHIT-1: Chitotriosidase; CHIA: chitinase acid; AD: Alzheimer&#x02019;s disease; CHI3L1: chitinase-3-like protein 1; MMP: marrow matrix metalloproteinase; CXCL: Chemokine family; 4E-BP1: eukaryotic translation initiation factor 4E-binding protein 1.</p></caption><graphic xlink:href="ijms-24-06301-g001" position="float"/></fig><fig position="float" id="ijms-24-06301-f002"><label>Figure 2</label><caption><p>Schematic representation of the chronological profiles of Chitinases in AD, PD, ALS, and progression. Abbreviation = AD: Alzheimer&#x02019;s disease; PD: Parkinson&#x02019;s disease; ALS: amyotrophic lateral sclerosis; MS: multiple sclerosis; CSF: cerebrospinal fluid; CHI3L1: chitinase-3-like protein 1; CHI3L2: chitinase-3-like 2; MCI: mild cognitive impairment; CIS: clinically isolated syndrome; DLB: dementia with Lewy bodies; prodDLB: prodromal dementia with Lewy bodies.</p></caption><graphic xlink:href="ijms-24-06301-g002" position="float"/></fig></floats-group></article>

@@ -12,18 +12,6 @@ import no.uib.PMCExplorer.GUI.MultipleArticles;
 public class PMCExplorer {
 
     public static void main(String[] args) { 
-        
-        setLookAndFeel();
-        
-        new MultipleArticles().setVisible(true);
-    }
-    
-    
-    
-    
-    
-    private static void setLookAndFeel(){
-        
         try {
             for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
         if ("Nimbus".equals(info.getName())) {
@@ -33,7 +21,9 @@ public class PMCExplorer {
         } catch (Exception e) {
             try {
                 UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            } catch (Exception ignored) {}}
+            } catch (Exception ignored) {}}      
         
+        
+        new MultipleArticles().setVisible(true);
     }
 }

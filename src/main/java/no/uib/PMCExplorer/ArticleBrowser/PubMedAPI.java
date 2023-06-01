@@ -9,6 +9,7 @@ import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.util.ArrayList;
 import java.util.List;
+import no.uib.PMCExplorer.PMCExplorer;
 import static no.uib.PMCExplorer.Parser.ArticleParser.parseXmlUrl;
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
@@ -31,6 +32,7 @@ public class PubMedAPI {
     Elements pubMedIds;
     List<String> pmcIdList = new ArrayList<>();
     List<String> doi = new ArrayList<>();
+    
     public PubMedAPI(String keyWords, int start, int end){
         performPubMedSearch(keyWords, start, end);
         
@@ -103,11 +105,12 @@ public class PubMedAPI {
     private void downloadArticles(){
         for (String id : pmcIdList){
             try{
+                System.out.println(id);
                 downloadArticle(id);
             }
             
             catch (IOException e){
-                System.out.println(e.getMessage());
+                System.out.println("Failed to download article.");
                 
             }
         }
@@ -124,30 +127,38 @@ public class PubMedAPI {
     public void downloadArticle(String pubMedCentralid) throws IOException{
         
         
-        File directory = new File("src/main/resources/downloads/" + pubMedCentralid);
+        File directory = new File(PMCExplorer.Downloads_Folder_Url + "/" + pubMedCentralid);
         
         if (!directory.exists()){
             directory.mkdir(); 
-            new File("src/main/resources/downloads/" + pubMedCentralid + "/Article_Notes.txt").createNewFile();
+            
+            new File(PMCExplorer.Downloads_Folder_Url + "/" + pubMedCentralid + "/Article_Notes.txt").createNewFile();
+            
+            System.out.println("Notes file sucsessfully created.");
+            
             
             
             String search = "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?"
                     + "tool=DataExtractorUIB&email=maberggrav@gmail.com&id=" + pubMedCentralid;
+            
+            
             Document doc = Jsoup.connect(search).parser(Parser.xmlParser()).get();
+            
             String href = doc.select("link[href]").first().attr("href").replace("ftp://", "https://");
             URL url = new URL(href);
             ReadableByteChannel readableByteChannel = Channels.newChannel(url.openStream());
             
-            FileOutputStream fileOutputStream = new FileOutputStream("src/main/resources/downloads/"+pubMedCentralid + "/" + pubMedCentralid + ".tar.gz");
+            FileOutputStream fileOutputStream = new FileOutputStream(PMCExplorer.Downloads_Folder_Url + "/" + pubMedCentralid + "/" + pubMedCentralid + ".tar.gz");
             fileOutputStream.getChannel().transferFrom(readableByteChannel, 0, Long.MAX_VALUE);
             
-            File tarGzFile = new File("src/main/resources/downloads/"+pubMedCentralid + "/" + pubMedCentralid + ".tar.gz"); 
+            File tarGzFile = new File(PMCExplorer.Downloads_Folder_Url + "/" + pubMedCentralid + "/" + pubMedCentralid + ".tar.gz"); 
+            
             TarArchiveInputStream inputStream = new TarArchiveInputStream(new GzipCompressorInputStream(new FileInputStream(tarGzFile)));
             
             
             TarArchiveEntry entry = null; 
             while ((entry =inputStream.getNextTarEntry()) != null){
-                File destPath = new File("src/main/resources/downloads/"+pubMedCentralid,entry.getName());
+                File destPath = new File(PMCExplorer.Downloads_Folder_Url + "/"+pubMedCentralid,entry.getName());
                 
                 if (entry.isDirectory()){
                     destPath.mkdir();
@@ -158,6 +169,7 @@ public class PubMedAPI {
                     fileOutputStream.close();
                 }
             }
+            System.out.println("Sucessfull download");
             inputStream.close();
         
             

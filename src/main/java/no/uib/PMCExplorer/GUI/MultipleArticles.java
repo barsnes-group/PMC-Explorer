@@ -3,6 +3,10 @@ package no.uib.PMCExplorer.GUI;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.SwingConstants;
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -13,6 +17,7 @@ import no.uib.PMCExplorer.ArticleBrowser.ArticleBrowser;
 import no.uib.PMCExplorer.JTableRenderers.TableButtonEditor;
 import no.uib.PMCExplorer.JTableRenderers.TableButtonRenderer;
 import no.uib.PMCExplorer.JTableRenderers.TableColorRenderer;
+import no.uib.PMCExplorer.PMCExplorer;
 import no.uib.jsparklines.renderers.JSparklinesHeatMapTableCellRenderer;
 import no.uib.jsparklines.renderers.util.GradientColorCoding;
 
@@ -368,7 +373,7 @@ public class MultipleArticles extends javax.swing.JFrame {
         String[] columnNames = {"Nr","Notes","Author","Title","Year","PMC-id", "Status","Frequencies","View Article"};
         DefaultTableModel tableModel = new DefaultTableModel(urlMatrix,columnNames){
             @Override
-        public boolean isCellEditable(int row, int column) {return (column ==1) || (column == 8);}};
+        public boolean isCellEditable(int row, int column) {return (column ==1) || (column == 5) || (column == 8);}};
 
             tableModel.addTableModelListener(
                 e -> {
@@ -380,7 +385,7 @@ public class MultipleArticles extends javax.swing.JFrame {
                         
                         if (column == 1){
                             if (Desktop.isDesktopSupported()){
-                                File notesFile = new File("src/main/resources/downloads/" + chosenArticle + "/Article_Notes.txt");
+                                File notesFile = new File(PMCExplorer.Downloads_Folder_Url + "/" + chosenArticle + "/Article_Notes.txt");
                                 try {
                                     Desktop.getDesktop().edit(notesFile);
                                 } catch (IOException ex) {
@@ -388,6 +393,18 @@ public class MultipleArticles extends javax.swing.JFrame {
                                 }
                             }
                             
+                        }
+                        
+                        if (column == 5){
+                            String doi = articleBrowser.getArticle(row).getDoi();
+                            if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+                                try {
+                                    Desktop.getDesktop().browse(new URI(doi));
+                                } catch (Exception ex) {
+                                    ex.getMessage();
+                                    
+                                }
+}
                         }
 
                         if (column == 8){

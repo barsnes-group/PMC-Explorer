@@ -16,9 +16,9 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <include>data</include>
-                    <include>downloads</include>
+                    <include>stopwords.csv</include>
                 </includes>
+                <filtering>false</filtering>
             </resource>
         </resources>
         <plugins>

@@ -4,6 +4,8 @@ package no.uib.PMCExplorer.Parser;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Arrays;
+import no.uib.PMCExplorer.PMCExplorer;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.parser.Parser;
@@ -26,7 +28,7 @@ public class ArticleParser {
      */
     public static ParsedElements parsePubMedArticle(String pmcId,String[] keyWords){
         
-        File articleDirectory = new File("src/main/resources/downloads/" + pmcId +"/" + pmcId);
+        File articleDirectory = new File(PMCExplorer.Downloads_Folder_Url + "/" + pmcId +"/" + pmcId);
         
         File[] articleXml = articleDirectory.listFiles((File dir, String name) -> (name.endsWith(".nxml") || name.endsWith(".xml")));
         
@@ -47,7 +49,7 @@ public class ArticleParser {
             return Jsoup.connect(url).parser(Parser.xmlParser()).get();
         } 
         catch (IOException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Parsing exception: Could not connect to API");
             return null;
            
         }  

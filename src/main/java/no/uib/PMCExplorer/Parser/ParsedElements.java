@@ -51,6 +51,16 @@ public class ParsedElements {
     }
     
     /**
+     * Get article Doi.
+     * 
+     * @return - Article doi / url (String)
+     */
+    public String getDoi(){
+        
+        String doi = "www.doi.org/" + xmlElements.select("front article-id[pub-id-type=\"doi\"]").first().text();
+        return doi;
+    }
+    /**
      * Get all elements after initial filtering.
      * 
      * @return - Filtered xml elements

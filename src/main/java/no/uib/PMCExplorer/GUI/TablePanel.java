@@ -1,6 +1,7 @@
 
 package no.uib.PMCExplorer.GUI;
 
+import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.io.BufferedWriter;
@@ -8,6 +9,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -24,6 +27,7 @@ import javax.swing.border.TitledBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 import no.uib.PMCExplorer.JTableRenderers.TableSelectionListener;
+import no.uib.PMCExplorer.PMCExplorer;
 import no.uib.PMCExplorer.Parser.TableParser;
 import org.jsoup.select.Elements;
 
@@ -34,11 +38,13 @@ import org.jsoup.select.Elements;
 public class TablePanel {
         TableParser tableParser;
         JPanel tablePanel;
+        String pmcId;
     
     
-        public TablePanel(JTabbedPane tabbedPane, Elements tables){
+        public TablePanel(JTabbedPane tabbedPane, Elements tables, String pmcId){
         
-        tableParser = new TableParser(tables);
+        this.pmcId = pmcId;
+        this.tableParser = new TableParser(tables);
         
         
         tabbedPane.addTab("TABLES",initializePanel());
@@ -147,16 +153,22 @@ public class TablePanel {
     }
     
     public void saveTableSubset(JTable table, int [] selectedColumns){
-        JFileChooser chooser = new JFileChooser();
-        int returnVal = chooser.showOpenDialog(null);
-        if (returnVal == JFileChooser.APPROVE_OPTION){
-            File file = chooser.getSelectedFile();
-            
+        File notesFile = new File(PMCExplorer.Downloads_Folder_Url + pmcId + "/Article_Notes.txt");
             try {
-                writeToFile(file, table, selectedColumns);
+                writeToFile(notesFile, table, selectedColumns);
             } catch (IOException ex) {
+                System.out.println(ex.getMessage());
             }
-        } 
+            
+        if (Desktop.isDesktopSupported()){
+            try {
+                Desktop.getDesktop().edit(notesFile);
+            } catch (IOException ex) {
+                System.out.println(ex.getMessage());
+            }
+        }
+        
+        
     }
         
     public void writeToFile(File file,JTable table, int [] selectedColumns) throws IOException{

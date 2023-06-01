@@ -5,6 +5,7 @@ import java.awt.Frame;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import no.uib.PMCExplorer.PMCExplorer;
 import static no.uib.PMCExplorer.Parser.ArticleParser.parsePubMedArticle;
 import no.uib.PMCExplorer.Parser.ParsedElements;
 
@@ -164,7 +165,7 @@ public class SingleArticle extends javax.swing.JFrame {
     private void notesButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notesButtonActionPerformed
         // TODO add your handling code here:
         if (Desktop.isDesktopSupported()){
-            File notesFile = new File("src/main/resources/downloads/" + inputPmcId + "/Article_Notes.txt");
+            File notesFile = new File(PMCExplorer.Downloads_Folder_Url + "/" + inputPmcId + "/Article_Notes.txt");
             try {
                 Desktop.getDesktop().edit(notesFile);
                 } catch (IOException ex) {
@@ -218,7 +219,7 @@ public class SingleArticle extends javax.swing.JFrame {
             new TextPanel(tabbedPane, articleElements.getAbstract(),"ABSTRACT");
             new TextPanel(tabbedPane, articleElements.getBody(), "BODY");
             new TextPanel(tabbedPane, articleElements.getRelevantSentences(), "SENTENCES");
-            new TablePanel(tabbedPane, articleElements.getTables());
+            new TablePanel(tabbedPane, articleElements.getTables(),inputPmcId);
             
             
         }

@@ -1,8 +1,9 @@
 package no.uib.PMCExplorer.TextNode;
 
 import java.awt.Color;
-import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -91,15 +92,10 @@ public class TextNode {
      * 
      */
     private void importStopWords(){
-        File file = new File("src/main/resources/data/stopWords.csv");
-        try {
-            Scanner myReader = new Scanner(file);
-            while (myReader.hasNextLine()){
-                stopWords.add(myReader.nextLine());
-            }
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        InputStream file = getClass().getClassLoader().getResourceAsStream("stopwords.csv");
+        Scanner myReader = new Scanner(file);
+        while (myReader.hasNextLine()){
+            stopWords.add(myReader.nextLine());
         }
     }
     

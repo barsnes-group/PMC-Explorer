@@ -1,5 +1,7 @@
-package no.uib.PMCExplorer.GUI;
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
 
+package no.uib.PMCExplorer.GUI;
 import java.awt.Desktop;
 import java.awt.Frame;
 import java.io.File;
@@ -8,6 +10,8 @@ import java.util.Arrays;
 import no.uib.PMCExplorer.PMCExplorer;
 import static no.uib.PMCExplorer.Parser.ArticleParser.parsePubMedArticle;
 import no.uib.PMCExplorer.Parser.ParsedElements;
+
+// -------------------------------------------------------------------------------------------------------------------- //
 
 /**
  * Class responsible for creating the single article inspection GUI. 
@@ -198,8 +202,8 @@ public class SingleArticle extends javax.swing.JFrame {
     
     
     /**
-     * Method responsible for initializing the TextPanel objects that will present the different article components
- in the TabbedPane.
+     * Method responsible for initializing the TextPanel objects that 
+     * will present the different article components in the tabbedPane.
      * 
      */
     public void openPanels(){
@@ -207,12 +211,17 @@ public class SingleArticle extends javax.swing.JFrame {
         if (!keywordArea.getText().equals("")){
             tabbedPane.removeAll();
             
-            String[] updatedKeyWords = keywordArea.getText().replaceAll("'", "’").split(",");
-            updatedKeyWords = Arrays.stream(updatedKeyWords).map(String::trim).toArray(String[] :: new);
             
             
-            if (!Arrays.equals(updatedKeyWords, articleElements.getKeyWords())){
-                this.articleElements = parsePubMedArticle(inputPmcId,updatedKeyWords);
+            
+            String[] singleKeyWords = Arrays.stream(keywordArea.getText().replaceAll("'", "’").split(",|\\+"))
+                    .map(String::trim).toArray(String[] :: new);
+            
+            String[] combinedKeyWords = Arrays.stream(keywordArea.getText().replaceAll("'", "’").split(","))
+                    .map(String::trim).toArray(String[] :: new);
+            
+            if (!Arrays.equals(singleKeyWords, articleElements.getKeyWords())){
+                this.articleElements = parsePubMedArticle(inputPmcId,singleKeyWords,combinedKeyWords);
             }
             
             

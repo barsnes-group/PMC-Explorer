@@ -1,10 +1,17 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
+
 package no.uib.PMCExplorer.JTableRenderers;
 import javax.swing.*;
 import javax.swing.table.TableCellRenderer;
 import java.awt.*;
+
+// -------------------------------------------------------------------------------------------------------------------- //
 /**
- *
- * @author maber
+ * Render colors inside tablecells.
+ * 
+ * 
+ * @author Markus Berggrav
  */
 
 public class TableColorRenderer extends JLabel implements TableCellRenderer {

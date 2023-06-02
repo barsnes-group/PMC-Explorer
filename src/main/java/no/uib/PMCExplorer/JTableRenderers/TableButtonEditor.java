@@ -1,11 +1,21 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
 
 package no.uib.PMCExplorer.JTableRenderers;
-
 import javax.swing.*;
 import javax.swing.table.TableCellEditor;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+// -------------------------------------------------------------------------------------------------------------------- //
+
+/**
+ * Custom editor for buttons inside table cells.
+ * 
+ * 
+ * @author Markus Berggrav
+ */
 
 public class TableButtonEditor extends AbstractCellEditor implements TableCellEditor,ActionListener {
     private JButton button;

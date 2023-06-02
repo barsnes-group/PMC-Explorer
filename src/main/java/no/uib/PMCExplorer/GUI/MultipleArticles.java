@@ -1,12 +1,12 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
+
 package no.uib.PMCExplorer.GUI;
 
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.SwingConstants;
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -20,6 +20,7 @@ import no.uib.PMCExplorer.JTableRenderers.TableColorRenderer;
 import no.uib.PMCExplorer.PMCExplorer;
 import no.uib.jsparklines.renderers.JSparklinesHeatMapTableCellRenderer;
 import no.uib.jsparklines.renderers.util.GradientColorCoding;
+// -------------------------------------------------------------------------------------------------------------------- //
 
 /**
  * Class responsible for displaying multiple articles in a table format.
@@ -239,12 +240,13 @@ public class MultipleArticles extends javax.swing.JFrame {
      * @param evt - actionevent
      */
     private void runButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_runButtonActionPerformed
-        progressBar.setVisible(true);
         this.start = 0;
         this.end = 20;
         articleRange.setText(String.valueOf(start) + "/" + String.valueOf(end));
+        progressBar.setVisible(true);
         createTable();
-        progressBar.setVisible(false);
+        progressBar.setVisible(false); 
+        
     }//GEN-LAST:event_runButtonActionPerformed
 
     /**
@@ -267,36 +269,35 @@ public class MultipleArticles extends javax.swing.JFrame {
     }//GEN-LAST:event_pubMedRadioButtonActionPerformed
 
     /**
+     * Inspect previous 20 articles in the PubMed database
      * 
-     * 
-     * @param evt 
+     * @param evt - actionevent
      */
     private void previousButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_previousButtonActionPerformed
         // TODO add your handling code here:
         if (start - 20 >= 0){
             start -= 20;
             end -= 20;
-            progressBar.setVisible(true);
             articleRange.setText(String.valueOf(start) + "/" + String.valueOf(end));
-            createTable();
-            progressBar.setVisible(false);
             
-        }
+            progressBar.setVisible(true);
+            createTable();
+            progressBar.setVisible(false); }
     }//GEN-LAST:event_previousButtonActionPerformed
 
+    /**
+     * Inspect next 20 articles in the PubMed database.
+     * 
+     * @param evt - actionevent
+     */
     private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
         // TODO add your handling code here:
         if (start >= 0){
             start += 20;
             end += 20;
             progressBar.setVisible(true);
-            articleRange.setText(String.valueOf(start) + "/" + String.valueOf(end));
             createTable();
-            progressBar.setVisible(false);
-            
-        }
-        
-        
+            progressBar.setVisible(false); }
     }//GEN-LAST:event_nextButtonActionPerformed
 
     /**
@@ -305,10 +306,8 @@ public class MultipleArticles extends javax.swing.JFrame {
     public static void main(String args[]) {
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new MultipleArticles().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new MultipleArticles().setVisible(true);
         });
     }
 
@@ -376,7 +375,7 @@ public class MultipleArticles extends javax.swing.JFrame {
         public boolean isCellEditable(int row, int column) {return (column ==1) || (column == 5) || (column == 8);}};
 
             tableModel.addTableModelListener(
-                e -> {
+                (var e) -> {
                     if (e.getType() == TableModelEvent.UPDATE){
                         int row = e.getFirstRow();
                         int column = e.getColumn();

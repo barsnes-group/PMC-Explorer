@@ -1,3 +1,6 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
+
 package no.uib.PMCExplorer.GUI;
 
 import java.awt.Color;
@@ -23,6 +26,9 @@ import no.uib.PMCExplorer.TextNode.TextNode;
 import no.uib.jsparklines.renderers.JSparklinesBarChartTableCellRenderer;
 import org.jfree.chart.plot.PlotOrientation;
 
+// -------------------------------------------------------------------------------------------------------------------- //
+
+
 /**
  * Class responsible for creating a panel with an input article segment and two frequency tables.
  * This panel is added to the tabbedpane created in the class SingleArticle().
@@ -35,19 +41,19 @@ public class TextPanel extends javax.swing.JPanel {
     TextNode textNode;
     Color[] highlightColors = {
             new Color(140,255,50),
-            new Color(171,255,50),
             new Color(212,255,50),
-            new Color(233,255,50),
-            new Color(253,255,50)};
+            new Color(253,255,50),
+            new Color(0,255,217),
+            new Color(255,102,102)};
     int colorIndex = 0;
     
     
     /**
-     * Creates new form NewJPanel
+     * Constructor.
      *
-     * @param tabbedPane
-     * @param textNode
-     * @param windowTitle
+     * @param tabbedPane - Input tabbedpane where the text tab will be stored
+     * @param textNode - The textnode containing the text and text statistics.
+     * @param windowTitle - The title of the current text segment ("Abstract", "Body", "Sentences").
      */
     public TextPanel(JTabbedPane tabbedPane, TextNode textNode, String windowTitle) {
         this.textNode = textNode;
@@ -77,6 +83,8 @@ public class TextPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(182, 208, 226));
 
+        editorScrollPane.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
         editorPane.setEditable(false);
         editorPane.setEditorKit(JEditorPane.createEditorKitForContentType("text/html"));
         editorPane.setContentType("text/html");
@@ -87,6 +95,7 @@ public class TextPanel extends javax.swing.JPanel {
                 editorPaneHyperlinkUpdate(evt);
             }
         });
+        editorPane.setCaretPosition(0);
         editorScrollPane.setViewportView(editorPane);
 
         keyWordFrequencyTable.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
@@ -152,7 +161,7 @@ public class TextPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     /**
-     * Method for handling yperlinks in the editorPane.
+     * Method for handling hyperlinks in the editorPane.
      * @param evt - actionevent.
      */
     private void editorPaneHyperlinkUpdate(javax.swing.event.HyperlinkEvent evt) {//GEN-FIRST:event_editorPaneHyperlinkUpdate
@@ -268,14 +277,14 @@ public class TextPanel extends javax.swing.JPanel {
                 if (column == 1){
                     if ((Boolean) model1.getValueAt(row, column)){
                         model1.setValueAt(color, row, 4);
+                        colorIndex += 1;
+                        if (colorIndex == 3){
+                            colorIndex = 0;
+                        }
                     }
                     else{
                         color = Color.white;
                         model1.setValueAt(Color.white, row, 4);
-                        colorIndex += 1;
-                        if (colorIndex == 4){
-                            colorIndex = 0;
-                        }
                     }
                 }
                 if (column == 4){

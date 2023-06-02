@@ -1,3 +1,6 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
+
 package no.uib.PMCExplorer.ArticleBrowser;
 
 import java.io.File;
@@ -20,6 +23,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.parser.Parser;
 import org.jsoup.select.Elements;
+
+// -------------------------------------------------------------------------------------------------------------------- //
+
 
 /**
  * Class responsible for connecting to the PubMed database through their API. 
@@ -104,37 +110,42 @@ public class PubMedAPI {
      */
     private void downloadArticles(){
         for (String id : pmcIdList){
+            File directory = new File(PMCExplorer.Downloads_Folder_Url + "/" + id);
             try{
                 System.out.println(id);
-                downloadArticle(id);
+                
+                downloadArticle(directory,id);
             }
             
             catch (IOException e){
-                System.out.println("Failed to download article.");
+                new File(PMCExplorer.Downloads_Folder_Url + "/" + id + "/" + "/Article_Notes.txt").delete();
+                directory.delete();
+                System.out.println("Troubles connecting to the PubMed Central API. "
+                        + "Reason may be system overload. Wait and try again. ");
+                return;
                 
             }
         }
     }
     
     /**
-     * Method responsible for downloading the tar,gzipped file of the article.
-     * The file is located in the PubMed Central online ftp database.
+     * Method responsible for downloading the tar,gzipped file of the article.The file is located in the PubMed Central online ftp database.
      * API used: The PMC FTP Service
      * 
+     * @param directory - directory where the article-files will be installed.
      * @param pubMedCentralid - PubMedCentral ID of the article that will be downloaded.
      * @throws IOException 
      */
-    public void downloadArticle(String pubMedCentralid) throws IOException{
+    public void downloadArticle(File directory,String pubMedCentralid) throws IOException{
         
         
-        File directory = new File(PMCExplorer.Downloads_Folder_Url + "/" + pubMedCentralid);
+        
         
         if (!directory.exists()){
             directory.mkdir(); 
             
             new File(PMCExplorer.Downloads_Folder_Url + "/" + pubMedCentralid + "/Article_Notes.txt").createNewFile();
             
-            System.out.println("Notes file sucsessfully created.");
             
             
             
@@ -153,32 +164,35 @@ public class PubMedAPI {
             
             File tarGzFile = new File(PMCExplorer.Downloads_Folder_Url + "/" + pubMedCentralid + "/" + pubMedCentralid + ".tar.gz"); 
             
-            TarArchiveInputStream inputStream = new TarArchiveInputStream(new GzipCompressorInputStream(new FileInputStream(tarGzFile)));
-            
-            
-            TarArchiveEntry entry = null; 
-            while ((entry =inputStream.getNextTarEntry()) != null){
-                File destPath = new File(PMCExplorer.Downloads_Folder_Url + "/"+pubMedCentralid,entry.getName());
-                
-                if (entry.isDirectory()){
-                    destPath.mkdir();
+            try (TarArchiveInputStream inputStream = new TarArchiveInputStream(new GzipCompressorInputStream(new FileInputStream(tarGzFile)))) {
+                TarArchiveEntry entry = null;
+                while ((entry = inputStream.getNextTarEntry()) != null){
+                    File destPath = new File(PMCExplorer.Downloads_Folder_Url + "/"+pubMedCentralid,entry.getName());
+                    
+                    if (entry.isDirectory()){
+                        destPath.mkdir();
+                    }
+                    else{
+                        fileOutputStream = new FileOutputStream(destPath);
+                        IOUtils.copy(inputStream, fileOutputStream);
+                        fileOutputStream.close();
+                    }
                 }
-                else{
-                    fileOutputStream = new FileOutputStream(destPath);
-                    IOUtils.copy(inputStream, fileOutputStream);
-                    fileOutputStream.close();
-                }
+                System.out.println("Sucessfull download");
             }
-            System.out.println("Sucessfull download");
-            inputStream.close();
         
             
             
         } 
     }
     
-   public List<String> getPmcIdList(){
+    /**
+     * Get list downloaded list of PubMed Central ID's.
+     * 
+     * @return List of retrieved PubMed Central ID's
+     */
+    public List<String> getPmcIdList(){
        return pmcIdList;
-   }
+    }
     
 }

@@ -1,10 +1,16 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
+
 package no.uib.PMCExplorer.JTableRenderers;
 import javax.swing.*;
 import java.awt.*;
 
+// -------------------------------------------------------------------------------------------------------------------- //
+
 /**
- *
- * @author maber
+ * Custom renderer for painting background colors of a JComboBox.
+ * 
+ * @author Markus Berggrav
  */
 public class ComboBoxRenderer extends JButton implements ListCellRenderer  {
     public ComboBoxRenderer(){
@@ -17,6 +23,7 @@ public class ComboBoxRenderer extends JButton implements ListCellRenderer  {
         
         setBackground((Color) value);
         setForeground((Color) value);
+        setBorder(null);
         setText(" ");
       
         return this;

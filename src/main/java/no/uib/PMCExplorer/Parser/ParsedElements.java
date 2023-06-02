@@ -1,12 +1,17 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// Import libraries:
 
 package no.uib.PMCExplorer.Parser;
 import java.io.File;
 import java.text.BreakIterator;
+import no.uib.PMCExplorer.PMCExplorer;
 import no.uib.PMCExplorer.TextNode.TextNode;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+// -------------------------------------------------------------------------------------------------------------------- //
 
 /**
  *
@@ -19,6 +24,7 @@ public class ParsedElements {
     String pmcId;
     Elements xmlElements;
     String[] keyWords;
+    String[] combinedKeywords; 
     Boolean containsSentences;
     
     
@@ -28,12 +34,14 @@ public class ParsedElements {
      * @param pmcId - Pubmed Central ID of the article
      * @param doc - Parsed document
      * @param keyWords - Keywords that are used as input in the GUI. 
+     * @param combinedKeywords 
      */
     
-    public ParsedElements(String pmcId, Document doc, String[] keyWords){
+    public ParsedElements(String pmcId, Document doc, String[] keyWords,String[] combinedKeywords){
         this.pmcId = pmcId;
         this.xmlElements = doc.select("front,body");
         this.keyWords = keyWords; 
+        this.combinedKeywords = combinedKeywords;
         
     }
     
@@ -167,7 +175,7 @@ public class ParsedElements {
      */
     public String displayImage(Element element){
         String fileName = element.attr("xlink:href");
-        File imgFile = new File("src/main/resources/downloads/" + pmcId +"/" + pmcId + "/" + fileName + ".jpg");
+        File imgFile = new File(PMCExplorer.Downloads_Folder_Url + "/" + pmcId +"/" + pmcId + "/" + fileName + ".jpg");
         
         if (imgFile.exists()){
             String newElement = "<p> <img src=\"file:" + imgFile.getAbsolutePath() + "\"" + "width = \"500\"" +"/> </p>";
@@ -206,7 +214,7 @@ public class ParsedElements {
                 case "h2" -> html.append("<h2>").append(e.ownText()).append("</h2>");
                 case "p" -> {
                     containsSentences = false;
-                    String relevantSentences = retrieveRelevantSentences(e.text(), keyWords);
+                    String relevantSentences = retrieveRelevantSentences(e.text(), combinedKeywords);
                    
                     if (containsSentences){
                         html.append(relevantSentences);}

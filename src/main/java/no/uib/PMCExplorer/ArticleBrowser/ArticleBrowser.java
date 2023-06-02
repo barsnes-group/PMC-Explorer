@@ -1,3 +1,6 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
+
 package no.uib.PMCExplorer.ArticleBrowser;
 
 import java.awt.Color;
@@ -12,6 +15,8 @@ import no.uib.PMCExplorer.Parser.ParsedElements;
 import no.uib.PMCExplorer.TextNode.TextNode;
 import no.uib.jsparklines.data.JSparklinesDataSeries;
 
+// -------------------------------------------------------------------------------------------------------------------- //
+
 /**
  * This class will collect the meta-data of articles either through PubMed or
  * local files.
@@ -21,7 +26,8 @@ import no.uib.jsparklines.data.JSparklinesDataSeries;
 public class ArticleBrowser {
 
     String keyWordString;
-    String[] keyWords;
+    String[] keyWords; // All keywords separated by "," or "+".
+    String[] combinedKeywords; // Keywords separated by ",". Combined keywords using "+" are needed when extracting sentences
     List<String> pmcIdList = new ArrayList<>();
     List<ParsedElements> articles = new ArrayList<>();
 
@@ -33,7 +39,7 @@ public class ArticleBrowser {
     public ArticleBrowser(String keyWordString) {
         this.keyWordString = keyWordString;
         this.keyWords = Arrays.stream(keyWordString.replaceAll("'", "’").split(",")).map(String::trim).toArray(String[]::new);
-
+        this.combinedKeywords = Arrays.stream(keyWordString.replaceAll("'", "’").split(",|\\+")).map(String::trim).toArray(String[]::new);
     }
 
     /**
@@ -60,6 +66,8 @@ public class ArticleBrowser {
      * Method responsible for gathering meta-data from articles retrieved
      * through PubMed.
      *
+     * @param start - start index of the retrieved records
+     * @param end - end index of the retrieved records
      * @return - 2-dimensjonal matrix consisting of articles and their meta-data
      */
     public Object[][] browsePubmedArticles(int start, int end) {
@@ -73,14 +81,14 @@ public class ArticleBrowser {
     /**
      * Creating the meta-data matrix of an input list of pubmed IDs.
      *
-     * @param pmcIds
-     * @return
+     * @param pmcIds - list of PudMed Central ID's
+     * @return - twodimentional data matrix
      */
     public Object[][] createMetaDataMatrix(List<String> pmcIds) {
         Object[][] urlMatrix = new Object[pmcIds.size()][9];
 
         for (int x = 0; x < pmcIds.size(); x++) {
-            ParsedElements article = parsePubMedArticle(pmcIds.get(x), keyWords);
+            ParsedElements article = parsePubMedArticle(pmcIds.get(x), keyWords,combinedKeywords);
             TextNode body = article.getBody();
             articles.add(article);
 

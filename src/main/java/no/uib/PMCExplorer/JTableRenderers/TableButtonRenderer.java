@@ -1,13 +1,19 @@
-package no.uib.PMCExplorer.JTableRenderers;
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
 
-/**
- *
- * @author maber
- */
+package no.uib.PMCExplorer.JTableRenderers;
 import javax.swing.*;
 import javax.swing.table.TableCellRenderer;
 import java.awt.*;
 
+// -------------------------------------------------------------------------------------------------------------------- //
+
+/**
+ * Render buttons inside tablecells.
+ * 
+ * 
+ * @author Markus Berggrav
+ */
 public class TableButtonRenderer extends JButton implements TableCellRenderer {
     public TableButtonRenderer(){
 

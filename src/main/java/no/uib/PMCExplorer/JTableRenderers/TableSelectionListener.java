@@ -1,3 +1,5 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
 
 package no.uib.PMCExplorer.JTableRenderers;
 
@@ -6,10 +8,12 @@ import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+// -------------------------------------------------------------------------------------------------------------------- //
 
 /**
- *
- * @author maber
+ * Listen for changes in selected columns of a table and update the textarea which shows the selected indices.
+ * 
+ * @author Markus Berggrav
  */
 public class TableSelectionListener implements ListSelectionListener {
     JTable table;

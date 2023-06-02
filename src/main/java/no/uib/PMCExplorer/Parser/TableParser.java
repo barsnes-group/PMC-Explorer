@@ -1,9 +1,14 @@
+// -------------------------------------------------------------------------------------------------------------------- //
+// import libraries: 
+
 package no.uib.PMCExplorer.Parser;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+// -------------------------------------------------------------------------------------------------------------------- //
 
 /**
  * Class responsible for extracting and storing data from XML-tables.

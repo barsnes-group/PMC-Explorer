@@ -1,5 +1,5 @@
 // -------------------------------------------------------------------------------------------------------------------- //
-// import packages 
+// import libraries
 
 package no.uib.PMCExplorer.TextNode;
 import java.awt.Color;

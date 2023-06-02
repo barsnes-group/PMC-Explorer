@@ -1,8 +1,6 @@
 package no.uib.PMCExplorer.TextNode;
 
 import java.awt.Color;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -40,7 +38,10 @@ public class TextNode {
      */
     public TextNode(Elements textElements,String[] keyWords){
        this.text = textElements.outerHtml();
+       
+       
        this.keyWords = keyWords;
+       
        this.textElements = textElements;
        
         importStopWords();

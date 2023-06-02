@@ -278,7 +278,7 @@ public class TextPanel extends javax.swing.JPanel {
                     if ((Boolean) model1.getValueAt(row, column)){
                         model1.setValueAt(color, row, 4);
                         colorIndex += 1;
-                        if (colorIndex == 3){
+                        if (colorIndex == 4){
                             colorIndex = 0;
                         }
                     }

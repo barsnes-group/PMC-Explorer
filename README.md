@@ -33,13 +33,13 @@ the articles will be downloaded in this folder.
 
 
 
-### Executing program
+## Executing program
 
 Next, a step by step guide to using the tool will be provided:
 
 -------------------------------------------------------------------------------------------------------------------
 
-** Downloading and exploring articles **
+### Downloading and exploring articles
 
 
 **3)** When first initializing the tool there will be no local articles to inspect. To download 
@@ -66,26 +66,26 @@ more frequent the keyword is in the article.
 
 "Inspect Article" -> This will take you to the inspection part of the prototype. 
 
-**6** After downloading the articles, the user can change the query to see how the choice of keywords impact 
+**6)** After downloading the articles, the user can change the query to see how the choice of keywords impact 
 the relevancy of the articles. This can be done by marking the button "Browse local files" and clicking "RUN". 
 
-**7** To further inspect an article click the "Inspect Article" button in the row of the article you wish to
+**7)** To further inspect an article click the "Inspect Article" button in the row of the article you wish to
 inspect. This will open a new window:
 
 -------------------------------------------------------------------------------------------------------------------
 
-** Inspecting an article **
+### Inspecting an article
 
-**8** When inspecting an article the text is split into four tabs. The first tab displays the 
+**8)** When inspecting an article the text is split into four tabs. The first tab displays the 
 abstract of the article, the second displays the body, the third displays the relevant sentences and the fourth
 displays the tables.
 
-**9** When Regarding the "SENTENCES" tab there is one point to mention. This tab contains only the sentences of
+**9)** When Regarding the "SENTENCES" tab there is one point to mention. This tab contains only the sentences of
 the text which include one of the input keywords. By default these keywords are separated by ",". However, by using
 the operator "+" between multiple words this will display the sentences which include all of the words that are
 chained together with this operator. 
 
-**10** For each text panel there will appear two associated tables:
+**10)** For each text panel there will appear two associated tables:
 One table displaying the keyword frequencies and one table displaying the most frequent words of the text segment.
 These tables can give an overview of how frequent the input keywords are in comparison with the most frequent
 words of the text. The words in both tables can be selected, resulting in the words beeing highlihted in the text.
@@ -93,7 +93,7 @@ By default the keywords are highlighted in four different colors. It is possible
 highlight color of a word/keyword in the table. 
 
 
-**11** In the table panel the tables that are provided as part of the text will be listed. Here a user can 
+**11)** In the table panel the tables that are provided as part of the text will be listed. Here a user can 
 inspect and extract data from the tables. By holding "ctrl" and selecting table columns will open the 
 possibility of storing the selected columns. By clicking "SAVE", the selected columns will be saved in the 
 article's own txt file. 
@@ -113,4 +113,4 @@ Markus Almendral Berggrav
 
 * 1.0
     * Initial Release - 01/06/2023 (1. of June 2023)
-    ' Final adjustments and README - 02/06/2023 (2. of June 2023)
+    * Final adjustments and README - 02/06/2023 (2. of June 2023)

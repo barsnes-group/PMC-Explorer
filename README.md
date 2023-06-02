@@ -24,7 +24,7 @@ ii) Inspecting an article and see why the article was determined as relevant.
 
 ## Getting Started
 
-**1)** Locate and download the jar file. 
+**1)** Locate and [download](https://github.com/barsnes-group/PMCExplorer/releases/tag/Release) the jar file. 
 
 **2)** After downloading the jar file check where it is located on your computer. This is 
 important because when running the tool a new folder called "PMC_Explorer_Downloads" will
